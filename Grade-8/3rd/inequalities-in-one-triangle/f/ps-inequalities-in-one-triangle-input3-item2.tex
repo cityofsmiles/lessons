@@ -1,0 +1,13 @@
+\begin{tikzpicture}
+
+\def\len2{1.2*\lenA}
+
+\draw[line width=0.3mm, rotate=90] (0,0) coordinate (d)  -- (40:\len2) coordinate (e) node[midway, anchor=north east, inner sep=0.07*\leninnersep, rotate=0] (15) {$ 15$} -- (-10:0.8*\len2) coordinate (f) node[midway, anchor=south, inner sep=0.07*\leninnersep, rotate=0] (11) {$ 11$} -- cycle node[midway, anchor=west, inner sep=0.07*\leninnersep, rotate=0] (4) {$ 8$}; 
+
+\node[anchor=north, inner sep=0.07*\leninnersep, rotate=0] (d-label) at (d) {$ D$}; 
+
+\node[anchor=south east, inner sep=0.07*\leninnersep, rotate=0] (e-label) at (e) {$ E$}; 
+
+\node[anchor=south, inner sep=0.07*\leninnersep, rotate=0] (f-label) at (f) {$ F$}; 
+
+\end{tikzpicture} 

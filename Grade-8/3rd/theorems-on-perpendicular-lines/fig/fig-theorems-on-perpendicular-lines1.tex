@@ -1,0 +1,16 @@
+\begin{tikzpicture}
+
+\coordinate (O) at (0,0);
+
+\node[anchor=south east, inner sep=2pt, rotate=0] (O-label) at (O) {$O$}; 
+
+\foreach \ang/\label/\dir in {0/D/south,45/F/north west,90/A/west,180/C/south,225/E/north west,270/B/west} {
+
+\coordinate (\label) at ($(O) + (\ang:2cm)$); 
+
+\draw[line width=0.3mm, ->, >={Latex[round]}] (O) -- (\label);  
+
+\node[anchor=\dir, inner sep=2pt, rotate=0] (label-\label) at ($(O)+ (\ang:1.6cm)$) {$\label$};
+}
+
+\end{tikzpicture} 

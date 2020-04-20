@@ -1,0 +1,30 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}%, remember picture, overlay
+]
+
+\node[draw, circle, minimum size=2*\radB,inner sep=0pt, line width=0.5mm, outer sep=0] (q) at (0,0) {};
+
+\node(q.dot)[dot] at (q.center) {};
+
+\node(q.label) at ($(q)+(190:0.22*\radB)$) {$  Q$};
+
+\coordinate (t) at ($(q) + (0:2.2*\radB)$); 
+
+\node(t.label) at ($(t)+(0:0.22*\radB)$) {$  T$};
+
+\node[dot] (i) at ($(q)+(230:\radB)$) {};
+
+\node(i.label) at ($(i)+(230:0.22*\radB)$) {$  I$};
+
+\node[dot] (k) at (tangent cs:node=q, point={(t)}, solution=1) {};
+
+\node(k.label) at ($(k)+(90:0.22*\radB)$) {$  K$};
+
+\node[dot] (o) at (tangent cs:node=q, point={(t)}, solution=2) {};
+
+\node(o.label) at ($(o)+(280:0.22*\radB)$) {$  O$};
+
+\draw[line width=0.3mm, <->, >={Latex[round]}] ($(k)!-\radB!(t)$) -- (t) -- ($(o)!-\radB!(t)$);
+
+\draw[line width=0.3mm] (k) -- (o) ;
+
+\end{tikzpicture}  

@@ -1,0 +1,30 @@
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-10/posters/aristotle && pdflatex aristotle.tex && termux-open aristotle.pdf
+
+% convert -density 600 aristotle.pdf -quality 100 -verbose aristotle.png 
+%  
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-10/posters/aristotle && convert -density 600 aristotle.pdf -crop 1269x1320 -quality 100 -verbose aristotle%02d.png
+
+\input{../poster-preamble} 
+\usepackage[paperheight=11in, paperwidth=4.23in, margin=1mm]{geometry}
+
+\renewcommand*\rmdefault{pzc} 
+
+\def\framecolor{yellow!70!black!70!}
+
+\def\bordercolor{green!20!black!90!}
+
+\def\bgpic{/storage/emulated/0/Tasker/Wall/pic007.jpg}
+
+
+\begin{document}
+
+\input{../poster-format-landscape-long} 
+
+\centering
+\noindent{\fontsize{65}{79}\selectfont {\hspace*{-0.4em}``Educating the mind without educating the heart is no \\education \\at all."
+
+\vspace*{1ex} 
+
+-- Aristotle }}
+
+\end{document}

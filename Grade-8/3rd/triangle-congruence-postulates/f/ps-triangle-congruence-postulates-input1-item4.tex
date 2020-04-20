@@ -1,0 +1,33 @@
+\begin{tikzpicture}
+
+\coordinate (h) at (0,0); 
+
+\coordinate (r) at ($(h) + (-90:1.6*\lenA)$); 
+
+\coordinate (t) at ($(r) + (-30:1.2*\lenA)$); 
+
+\coordinate (u) at ($(r) + (210:1.2*\lenA)$); 
+
+\node(r-label) at ($(r)+(-90:0.33*\lenA)$) {$ R$}; 
+
+\node(t-label) at ($(t)+(-30:0.33*\lenA)$) {$ T$}; 
+
+\node(h-label) at ($(h)+(90:0.33*\lenA)$) {$ H$}; 
+
+\node(u-label) at ($(u)+(210:0.33*\lenA)$) {$ U$}; 
+
+\draw[line width=0.3mm] (h)--(t) --(r) --(u) -- cycle (h) --(r) ; 
+
+\pic [draw, line width=0.3mm, angle radius=0.3*\lenA] {angle=u--h--r}; 
+
+\pic [draw, line width=0.3mm, angle radius=0.3*\lenA] {angle=r--h--t}; 
+
+\pic [draw, line width=0.3mm, angle radius=0.3*\lenA] {angle=r--u--h}; 
+
+\pic [draw, line width=0.3mm, angle radius=0.36*\lenA] {angle=r--u--h}; 
+
+\pic [draw, line width=0.3mm, angle radius=0.3*\lenA] {angle=h--t--r}; 
+
+\pic [draw, line width=0.3mm, angle radius=0.36*\lenA] {angle=h--t--r}; 
+
+\end{tikzpicture} 

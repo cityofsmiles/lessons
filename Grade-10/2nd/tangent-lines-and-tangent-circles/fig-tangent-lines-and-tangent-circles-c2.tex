@@ -1,0 +1,21 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}]
+
+\node[draw,circle,minimum size=2*\myrad, inner sep=0pt, line width=0.5mm, outer sep=0] (o) at (0,0) [] {};
+
+\node(o-dot)[dot] at (o.center) {};
+
+\coordinate (ext) at ($(o.center)+(200:2*\myrad) $); 
+
+\node(o-label) at ($(o.center)+(18:0.23*\myrad)$) {$  O$};
+
+\node(42-label) at ($(ext)+(25:0.6*\myrad)$) {$  42\degree$};
+
+\draw[line width=0.3mm] ($(tangent cs:node=o, point={(ext)}, solution=2)!2!0:(o.center)$) -- (ext) -- (tangent cs:node=o, point={(ext)}, solution=2) -- (o.center) ; 
+
+\draw[line width=0.3mm] (o.center) -- ($(tangent cs:node=o, point={(ext)}, solution=2)!2!0:(o.center)$) ; 
+
+\node(x-label) at ($(tangent cs:node=o, point={(ext)}, solution=2)!2!0:(o.center) + (163:0.5*\myrad) $) {$  x$};
+
+
+\end{tikzpicture}
+

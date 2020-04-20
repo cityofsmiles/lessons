@@ -1,0 +1,47 @@
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-10/3rd/factorial-notation && count-checks sol-factorial-notation.tex && count-checks sol-factorial-notation.tex && pdflatex sol-factorial-notation.tex && divide 2x2 sol-factorial-notation.pdf 
+
+
+\documentclass[handout]{beamer} 
+
+\usepackage{pgfpages} 
+\mode<handout>{%
+\pgfpagesuselayout{4 on 1}[
+%letterpaper, 
+legalpaper, %landscape, 
+border shrink=1mm] 
+%\setbeameroption{show notes} 
+}
+
+\input{/storage/emulated/0/Documents/documents/latex/1920/common-preamble-2019} 
+
+%\newcommand{\vertadjust}{\vspace*{-1.5in}} % for letterpaper
+%\newcommand{\vertadjustb}{\vspace*{-1.5in}} % for letterpaper
+\newcommand{\vertadjust}{\vspace*{-2.5in}} % for legalpaper
+\newcommand{\vertadjustb}{\vspace*{-2.5in}} % for legalpaper
+
+
+\begin{document} 
+\vertadjust
+\begin{frame} %1
+\input{sol-factorial-notation-input1} 
+\end{frame}
+
+\vertadjust
+\begin{frame} %2
+\input{sol-factorial-notation-input1} 
+\end{frame}
+
+%\vspace*{-2.7in} %legalpaper
+\vertadjust
+\begin{frame} %3
+\input{sol-factorial-notation-input1} 
+\end{frame}
+
+%\vspace*{-2.7in} %legalpaper
+\vertadjust
+\begin{frame} %4
+\input{sol-factorial-notation-input1} 
+\end{frame}
+
+\end{document}
+

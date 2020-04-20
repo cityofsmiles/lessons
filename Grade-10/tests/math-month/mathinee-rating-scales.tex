@@ -1,0 +1,331 @@
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-10/tests/math-month/ && pdflatex mathinee-rating-scales.tex && termux-open mathinee-rating-scales.pdf
+
+\documentclass[11pt]{article}
+\usepackage[letterpaper, portrait, margin=0.5in]{geometry}
+
+%\input{common-preamble-2019} 
+\input{/storage/emulated/0/Documents/documents/latex/1920/common-preamble-2019} 
+
+\pagenumbering{gobble}
+
+\newcommand{\judgename}{
+\vspace*{2ex}
+\begin{center}
+\underline{\hspace{6cm}} \\
+Judge's Name and Signature 
+\end{center} 
+}
+
+\newcommand{\ratingtable}{
+\begin{center}
+\vspace*{-2ex}
+\scalebox{1}{
+\noindent\begin{minipage}{\textwidth}
+{\begin{tabularx}{\textwidth}{*{8}{|Y}|}
+\hline 
+\multirow{4}{*}{\thead{Contestant}} & \multicolumn{5}{c|}{\thead{Category}} & \multirow{4}{*}{\thead{Total}} & \multirow{4}{*}{\thead{Rank}} \\
+\cline{2-6}
+ & \thead{Poise \&\tabularnewline Projection\tabularnewline (30\%)} & \thead{Aesthetics\tabularnewline (25\%)} &\thead{Suitability \tabularnewline of Attire\tabularnewline(20\%)} & \thead{Stage\tabularnewline Presence \tabularnewline(15\%)} & \thead{Audience\tabularnewline Impact\tabularnewline (10\%)} & & \\
+\hline 
+1 & & & & & & & \\
+\hline 
+2 & & & & & & & \\
+\hline 
+3 & & & & & & & \\
+\hline 
+4 & & & & & & & \\
+\hline 
+5 & & & & & & & \\
+\hline  
+6 & & & & & & & \\
+\hline 
+7 & & & & & & & \\
+\hline 
+8 & & & & & & & \\
+\hline 
+9 & & & & & & & \\
+\hline 
+10 & & & & & & & \\
+\hline 
+11 & & & & & & & \\
+\hline 
+12 & & & & & & & \\
+\hline 
+\end{tabularx}}
+\end{minipage}}
+\end{center} 
+}
+
+\newcommand{\consotable}{
+\begin{center}
+\vspace*{-2ex}
+\scalebox{1}{
+\noindent\begin{minipage}{\textwidth}
+{\begin{tabularx}{\textwidth}{*{7}{|Y}|}
+\hline 
+\thead{Contestant} & \thead{Judge 1\tabularnewline Ranking} & \thead{Judge 2\tabularnewline Ranking} & \thead{Judge 3\tabularnewline Ranking} &\thead{Judge 4\tabularnewline Ranking} & \thead{Judge 5\tabularnewline Ranking} & \thead{Sum of\tabularnewline Ranks} \\
+\hline 
+1 & & & & & & \\
+\hline 
+2 & & & & & & \\
+\hline 
+3 & & & & & & \\
+\hline 
+4 & & & & & & \\
+\hline 
+5 & & & & & & \\
+\hline  
+6 & & & & & & \\
+\hline 
+7 & & & & & & \\
+\hline 
+8 & & & & & & \\
+\hline 
+9 & & & & & & \\
+\hline 
+10 & & & & & & \\
+\hline 
+11 & & & & & & \\
+\hline 
+12 & & & & & & \\
+\hline 
+\end{tabularx}}
+\end{minipage}}
+\end{center} 
+}
+
+\begin{document} 
+
+\begin{center}
+\textbf{Rating Sheet for Introduction and Pickup Line}
+\end{center} 
+
+\begin{center}
+\vspace*{-2ex}
+\scalebox{1}{
+\noindent\begin{minipage}{\textwidth}
+{\begin{tabularx}{\textwidth}{*{8}{|Y}|}
+\hline 
+\multirow{6}{*}{\thead{Contestant}} & \multicolumn{5}{c|}{\thead{Category}} & \multirow{6}{*}{\thead{Total \tabularnewline Points}} & \multirow{6}{*}{\thead{Rank}} \\
+\cline{2-6}
+ & \thead{Confidence \tabularnewline \& Poise\tabularnewline (30 Points)} & \thead{Uniqueness\tabularnewline \& Style \tabularnewline(25 Points)} &\thead{Pickup \tabularnewline Line\tabularnewline(20 Points)} & \thead{Stage\tabularnewline Presence \tabularnewline(15 Points)} & \thead{Overall \tabularnewline Impression\tabularnewline (10 Points)} & & \\
+\hline 
+1 & & & & & & & \\
+\hline 
+2 & & & & & & & \\
+\hline 
+3 & & & & & & & \\
+\hline 
+4 & & & & & & & \\
+\hline 
+5 & & & & & & & \\
+\hline  
+6 & & & & & & & \\
+\hline 
+7 & & & & & & & \\
+\hline 
+8 & & & & & & & \\
+\hline 
+9 & & & & & & & \\
+\hline 
+10 & & & & & & & \\
+\hline 
+11 & & & & & & & \\
+\hline 
+12 & & & & & & & \\
+\hline 
+\end{tabularx}}
+\end{minipage}}
+\end{center} 
+
+%\judgename
+
+\begin{center}
+\textbf{Rating Sheet for Casual Wear Competition}
+\end{center} 
+
+\ratingtable
+\judgename
+
+\newpage 
+
+\begin{center}
+\textbf{Rating Sheet for Sports Wear Competition}
+\end{center} 
+
+\ratingtable
+%\judgename
+
+\begin{center}
+\textbf{Rating Sheet for Formal Wear Competition}
+\end{center} 
+
+\ratingtable
+\judgename
+
+\newpage
+
+
+\begin{center}
+\textbf{Rating Sheet for Question and Answer Portion}
+\end{center} 
+
+\begin{center}
+\vspace*{-2ex}
+\scalebox{1}{
+\noindent\begin{minipage}{\textwidth}
+{\begin{tabularx}{\textwidth}{*{6}{|Y}|}
+\hline 
+\multirow{4}{*}{\thead{Contestant}} & \multicolumn{3}{c|}{\thead{Category}} & \multirow{4}{*}{\thead{Total}} & \multirow{4}{*}{\thead{Rank}} \\
+\cline{2-4}
+ & \thead{Creativity of  \tabularnewline Answer \tabularnewline (40 Points)} & \thead{Confidence \tabularnewline (30 Points)} &\thead{Clarity \tabularnewline of Thoughts \tabularnewline(30 Points)} & & \\
+\hline 
+1 & & & & & \\
+\hline 
+2 & & & & & \\
+\hline 
+3 & & & & & \\
+\hline 
+4 & & & & & \\
+\hline 
+5 & & & & & \\
+\hline  
+6 & & & & & \\
+\hline 
+7 & & & & & \\
+\hline 
+8 & & & & & \\
+\hline 
+9 & & & & & \\
+\hline 
+10 & & & & & \\
+\hline 
+11 & & & & & \\
+\hline 
+12 & & & & & \\
+\hline 
+\end{tabularx}}
+\end{minipage}}
+\end{center} 
+
+\judgename
+
+\newpage 
+
+\begin{center}
+\textbf{Consolidation of Ranks for Introduction and Pickup Line}
+\end{center} 
+
+\consotable
+%\judgename
+
+\begin{center}
+\textbf{Consolidation of Ranks for Casual Wear Competition}
+\end{center} 
+
+\consotable
+\judgename
+
+\newpage 
+
+\begin{center}
+\textbf{Consolidation of Ranks for Sports Wear Competition}
+\end{center} 
+
+\consotable
+%\judgename
+
+\begin{center}
+\textbf{Consolidation of Ranks for Formal Wear Competition}
+\end{center} 
+
+\consotable
+\judgename
+
+\newpage 
+
+\begin{center}
+\textbf{Consolidation of Ranks for Determining the Idol 5}
+\end{center} 
+
+\begin{center}
+\vspace*{-2ex}
+\scalebox{1}{
+\noindent\begin{minipage}{\textwidth}
+{\begin{tabularx}{\textwidth}{*{8}{|Y}|}
+\hline 
+\thead{Contestant} & \thead{Talent \tabularnewline Rank Sum} & \thead{Intro \& \tabularnewline Pickup \tabularnewline Rank Sum} & \thead{Casual \tabularnewline Wear\tabularnewline Rank Sum} & \thead{Sports \tabularnewline Wear\tabularnewline Rank Sum} &\thead{Formal \tabularnewline Wear\tabularnewline Rank Sum} & \thead{Total \tabularnewline Rank Sum} & \thead{Final \tabularnewline Rank} \\
+\hline 
+1 & 21 & & & & & & \\
+\hline 
+2 & 11.5 & & & & & & \\
+\hline 
+3 & 23 & & & & & & \\
+\hline 
+4 & 26 & & & & & & \\
+\hline 
+5 & 20 & & & & & & \\
+\hline  
+6 & 8.5 & & & & & & \\
+\hline 
+7 & 3 & & & & & & \\
+\hline 
+8 & 14 & & & & & & \\
+\hline 
+9 & 33 & & & & & & \\
+\hline 
+10 & 33 & & & & & & \\
+\hline 
+11 & 33 & & & & & & \\
+\hline 
+12 & 8 & & & & & & \\
+\hline 
+\end{tabularx}}
+\end{minipage}}
+\end{center} 
+
+%\judgename
+
+\begin{center}
+\textbf{Consolidation of Ranks for Question and Answer Portion}
+\end{center} 
+
+\begin{center}
+\vspace*{-2ex}
+\scalebox{1}{
+\noindent\begin{minipage}{\textwidth}
+{\begin{tabularx}{\textwidth}{*{8}{|Y}|}
+\hline 
+\thead{Contestant} & \thead{Judge 1\tabularnewline Ranking} & \thead{Judge 2\tabularnewline Ranking} & \thead{Judge 3\tabularnewline Ranking} &\thead{Judge 4\tabularnewline Ranking} & \thead{Judge 5\tabularnewline Ranking} & \thead{Sum of\tabularnewline Ranks} & \thead{Final \tabularnewline Rank} \\
+\hline 
+1 & & & & & & & \\
+\hline 
+2 & & & & & & & \\
+\hline 
+3 & & & & & & & \\
+\hline 
+4 & & & & & & & \\
+\hline 
+5 & & & & & & & \\
+\hline  
+6 & & & & & & & \\
+\hline 
+7 & & & & & & & \\
+\hline 
+8 & & & & & & & \\
+\hline 
+9 & & & & & & & \\
+\hline 
+10 & & & & & & & \\
+\hline 
+11 & & & & & & & \\
+\hline 
+12 & & & & & & & \\
+\hline 
+\end{tabularx}}
+\end{minipage}}
+\end{center} 
+
+\judgename
+
+\end{document} 

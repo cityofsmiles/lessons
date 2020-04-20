@@ -1,0 +1,71 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, 
+nodot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=0pt}, 
+baseline = (current bounding box.west)
+] 
+
+\node(i)[dot] at (0,0) {};
+
+\draw[name path=circ, line width=0.5mm] (i) circle (\radfig3a);
+
+\coordinate (r) at ($(i) +(-90:\radfig3a)$);
+
+\coordinate (b) at ($(i) +(-30:\radfig3a)$);
+
+\coordinate (c) at ($(i) +(210:\radfig3a)$);
+
+\coordinate (int1) at ($(i)! 0.5!(b)$);
+
+\coordinate (int2) at ($(i)! 0.5!(c)$);
+
+\coordinate (tick1) at ($(i)! 0.5!(int1)$);
+
+\coordinate (tick2) at ($(i)! 0.5!(int2)$);
+
+\node(r.label) at ($(r)+(-90:0.22*\radfig3a)$) {$  R$};
+
+\path[name path=line.guess, line width=0.3mm] ($(int1)!3!-90:(i)$) -- ($(int1)!3!90:(i)$);
+
+\fill[black, name intersections={of=line.guess and circ, name=point}];
+
+\node[nodot] (a) at (point-1){};
+
+\node(a-label) at ($(a)+(60:0.22*\radfig3a)$) {$  A$};
+
+\path[name path=line2.guess, line width=0.3mm] ($(int2)!2.5!-90:(i)$) -- ($(int2)!2.5!90:(i)$);
+
+\fill[black, name intersections={of=line2.guess and circ, name=point}];
+
+\node[nodot] (p) at (point-1){};
+
+\node(p.label) at ($(p)+(150:0.22*\radfig3a)$) {$  P$};
+
+\node(50.label) at ($(int1)+(-10:0.22*\radfig3a)$) {$  50$};
+
+\node(t.label) at ($(int1)+(100:0.22*\radfig3a)$) {$  T$};
+
+\node(y.label) at ($(int2)+(70:0.22*\radfig3a)$) {$  Y$};
+
+\draw[line width=0.3mm] (int1) -- (i) -- (int2) ;
+
+\draw[line width=0.3mm] (a) -- (r) ;
+
+\draw[line width=0.3mm] (p) --  (int2) -- (r) node [midway, xshift=0.12*\radfig3a, yshift=2pt] (x.label) {$x $}; 
+
+\begin{scope} [rotate=150]
+\draw[line width=0.3mm] (int1) rectangle ++(0.2*\radfig3a,0.2*\radfig3a) node[transform shape]{};
+\end{scope}
+
+\begin{scope} [rotate=-60]
+\draw[line width=0.3mm] (int2) rectangle ++(0.2*\radfig3a,0.2*\radfig3a) node[transform shape]{};
+\end{scope}
+
+%\begin{scope} [rotate=60]
+\tikzset{mytick/.pic={\draw[line width=0.3mm] ($(0,0)+(0,0.1*\radfig3a)$) -- ($(0,0)-(0,0.1*\radfig3a)$) ; }}
+%\end{scope}
+
+\pic[rotate=-30] at (tick1) [pic type = mytick];
+
+\pic[rotate=30] at (tick2) [pic type = mytick];
+
+\end{tikzpicture}
+

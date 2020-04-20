@@ -1,0 +1,21 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, baseline = (current bounding box.west)]
+
+\node[draw, circle, minimum size=2*\radB, inner sep=0pt, line width=0.5mm, outer sep=0] (circ) at (0,0) {};
+
+\node[dot] (circ.dot)  at (circ) {}; 
+
+\coordinate (l) at ($(circ) + (45:\radB)$); 
+
+\coordinate (e) at ($(circ) + (0:\radB)$); 
+
+
+\draw[line width=0.3mm] (l) -- (circ.center) -- (e);
+
+\node[anchor=north, inner sep=2pt, rotate=0] (9cm.label) at ($(circ.center)!0.5!(e)$) {$ \text{9 cm}$};
+
+\node[anchor=west, inner sep=2pt, rotate=0] (45.label) at (20:1.1*\radB) {$ 45 \degree $};
+
+\filldraw[fill=\figurefill, line width=0.3mm]  (0:\radB) arc (0:45:\radB) -- (circ.center) -- cycle;
+
+\end{tikzpicture}  
+

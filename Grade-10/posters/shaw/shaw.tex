@@ -1,0 +1,48 @@
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-10/posters/shaw && pdflatex shaw.tex && termux-open shaw.pdf
+
+% convert -density 600 shaw.pdf -quality 100 -verbose shaw.png 
+%  2034x6600
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-10/posters/shaw && convert -density 600 shaw.pdf -crop 1017x1320 -quality 100 -verbose shaw%02d.png
+
+\input{../poster-preamble} 
+\usepackage[paperheight=11in, paperwidth=3.39in, margin=1mm]{geometry}
+
+%\usepackage{chancery} 
+\usepackage{tgchorus} 
+
+\definecolor{armygreen}{rgb}{0.29, 0.33, 0.13}
+\definecolor{daffodil}{rgb}{1.0, 1.0, 0.19}
+\definecolor{aqua}{rgb}{0.0, 1.0, 1.0}
+
+\def\framecolor{aqua}
+
+\def\bordercolor{armygreen}
+
+\def\bgpic{/storage/emulated/0/Tasker/Wall/pic030.jpg}
+
+
+\begin{document}
+
+
+\begin{tikzpicture}[remember picture, overlay]
+	\node[anchor=north west, opacity=0.3, inner sep=0pt] (pic) at (-0.65,0.5){\includegraphics[width=3.39in, height=11in]{\bgpic}};
+	
+	\node[rectangle, draw=\bordercolor, line width=0.3in, inner sep=0pt, minimum width=\paperwidth, minimum height=\paperheight] (frame) at (current page.center) {}; 
+	
+	
+	\node at ($(current page.south west)+(45:0.7*\allmargin)$)  {\pgfornament[width=7mm, symmetry=h, color=\framecolor]{61}};
+	\node at ($(current page.south east)+(135:0.7*\allmargin)$)  {\pgfornament[width=7mm, symmetry=h, color=\framecolor]{62}};
+	\node at ($(current page.north west)+(-45:0.7*\allmargin)$)  {\pgfornament[width=7mm, color=\framecolor]{61}};
+	\node at ($(current page.north east)+(225:0.7*\allmargin)$)  {\pgfornament[width=7mm, symmetry=v, color=\framecolor]{61}};
+
+\end{tikzpicture}
+
+\centering
+\parbox{3in}{\centering\vspace*{0.4in}
+\noindent{\fontsize{45}{54}\selectfont {\hspace*{-0.1em}``A life spent making mistakes is not only more honorable, but more useful than a life spent doing nothing." 
+
+\vspace*{1ex} 
+
+-- George Bernard Shaw \\}}
+}
+\end{document}

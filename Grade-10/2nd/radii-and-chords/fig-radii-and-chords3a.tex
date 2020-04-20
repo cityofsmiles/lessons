@@ -1,0 +1,78 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, 
+nodot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=0pt}, 
+%remember picture,% overlay
+baseline = (current bounding box.west)
+]  
+
+\node(i)[dot] at (0,0) {};
+
+\draw[name path=circ, line width=0.5mm] (i) circle (\radfig3a);
+
+\coordinate (f) at ($(i) +(\radfig3a, 0)$);
+
+\coordinate (g) at ($(i) -(\radfig3a, 0)$);
+
+\coordinate (int1) at ($(i)! 0.66!(f)$);
+
+\coordinate (int2) at ($(i)! 0.66!(g)$);
+
+\coordinate (tick1) at ($(i)! 0.33!(f)$);
+
+\coordinate (tick2) at ($(i)! 0.33!(g)$);
+
+\draw[line width=0.3mm] ($(tick1)+(0,0.1*\radfig3a)$) -- ($(tick1)-(0,0.1*\radfig3a)$);
+
+\draw[line width=0.3mm] ($(tick2)+(0,0.1*\radfig3a)$) -- ($(tick2)-(0,0.1*\radfig3a)$); 
+
+\node(x.label) at ($(int1)+(30:0.13*\radfig3a)$) {$x$};
+
+\node(12-label) at ($(int2)+(150:0.22*\radfig3a)$) {$12$};
+
+\path[name path=line1.guess, line width=0.5mm] (int1) -- ($(int1)!3!90:(i)$);
+
+\fill[black, name intersections={of=line1.guess and circ, name=point}];
+
+\node[nodot] (d) at (point-1){};
+
+\node(d-label) at ($(d)+(-60:0.22*\radfig3a)$) {$\  D$};
+
+\path[name path=line2.guess, line width=0.5mm] (int1) -- ($(int1)!3!-90:(i)$);
+
+\fill[black, name intersections={of=line2.guess and circ, name=point}];
+
+\node[nodot] (c) at (point-1){};
+
+\node(c-label) at ($(c)+(60:0.22*\radfig3a)$) {$\  C$};
+
+\path[name path=line3.guess, line width=0.5mm] (int2) -- ($(int2)!3!90:(i)$);
+
+\fill[black, name intersections={of=line3.guess and circ, name=point}];
+
+\node[nodot] (a) at (point-1){};
+
+\node(a-label) at ($(a)+(120:0.22*\radfig3a)$) {$\  A$};
+
+\path[name path=line4.guess, line width=0.5mm] (int2) -- ($(int2)!3!-90:(i)$);
+
+\fill[black, name intersections={of=line4.guess and circ, name=point}];
+
+\node[nodot] (b) at (point-1){};
+
+\node(b-label) at ($(b)+(240:0.22*\radfig3a)$) {$\  B$};
+
+\draw[line width=0.5mm] (int2) -- (int1) ;
+
+\draw[line width=0.5mm] (c) -- (d) ;
+
+\draw[line width=0.5mm] (a) -- (b) ;
+
+\begin{scope} [rotate=180]
+\draw[line width=0.3mm] (int1) rectangle ++(0.22*\radfig3a,0.22*\radfig3a) node[transform shape]{};
+\end{scope}
+
+\begin{scope} [rotate=0]
+\draw[line width=0.3mm] (int2) rectangle ++(0.22*\radfig3a,0.22*\radfig3a) node[transform shape]{};
+\end{scope}
+
+\end{tikzpicture}
+

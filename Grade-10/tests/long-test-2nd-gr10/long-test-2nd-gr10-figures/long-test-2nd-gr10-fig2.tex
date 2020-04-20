@@ -1,0 +1,11 @@
+\begin{tikzpicture}[scale=\gridscale, 
+%baseline = (current bounding box.west), 
+remember picture, overlay]
+
+\begin{axis}[\myaxis] 
+
+\addplot[<->, >={Latex[round]},  ultra thick, domain=-2.5:1.5, samples=200]{x*(x+2)*(x+1)*(x-1)}node[]{};
+
+\end{axis}
+ 
+\end{tikzpicture}

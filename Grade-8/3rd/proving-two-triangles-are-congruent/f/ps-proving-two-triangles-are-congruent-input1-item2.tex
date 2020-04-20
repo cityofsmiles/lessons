@@ -1,0 +1,61 @@
+\begin{tikzpicture}
+
+\def\len2{\lenA}
+
+\coordinate (e) at (0,0);
+
+\coordinate (d) at ($(e) + (0:0.8*\len2)$); 
+
+\coordinate (c) at ($(e) + (40:0.6*\len2)$);
+
+\coordinate (a) at ($(e) + (180:0.8*\len2)$);
+
+\coordinate (b) at ($(e) -(40:0.6*\len2)$); 
+
+\draw[line width=0.3mm] (a) -- (b) -- (c) -- (d) -- cycle; 
+
+\node[anchor=east, inner sep=0.07*\leninnersep, rotate=0] (a-label) at (a) {$ A$}; 
+
+\node[anchor=north, inner sep=0.07*\leninnersep, rotate=0] (b-label) at (b) {$ B$}; 
+
+\node[anchor=south, inner sep=0.07*\leninnersep, rotate=0] (c-label) at (c) {$ C$}; 
+
+\node[anchor=west, inner sep=0.07*\leninnersep, rotate=0] (d-label) at (d) {$ D$}; 
+
+\node[anchor=north, inner sep=0.07*\leninnersep, rotate=0, xshift=3pt] (e-label) at (e) {$ E$}; 
+
+\end{tikzpicture} 
+
+
+Given: $E$ is the midpoint of segments $AD$ and $BC$. \\
+Prove: $\triangle AEB \cong \triangle DEC$\\
+Proof: 
+\begin{center}
+
+\noindent\begin{minipage}{27em}
+
+\begin{tabularx}{\textwidth}{|Y|Y|}
+\hline
+\textbf{Statements} & \textbf{Reasons}  \\
+\hline
+\end{tabularx} 
+
+\par\vskip1pt
+
+\begin{tabularx}{\textwidth}{|X|X|}
+\hline
+1. $E$ is the midpoint of segments $AD$ and $BC$. & 1.  \\
+\hline
+2. $\overline{AE} \cong \overline{DE} $ & 2.  \\
+\hline
+3. $\angle{AEB} \cong \angle{DEC}$ & 3.  \\
+\hline
+4. $\overline{BE} \cong \overline{CE} $ & 4.  \\
+\hline
+5. $\triangle AEB \cong \triangle DEC$ & 5.  \\
+\hline
+\end{tabularx} 
+\end{minipage}
+
+\end{center} 
+

@@ -1,0 +1,107 @@
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-8/2nd/domain-and-range-of-a-function && pdflatex ps-domain-and-range-of-a-function.tex && termux-open ps-domain-and-range-of-a-function.pdf
+
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-8/2nd/domain-and-range-of-a-function && clean-tex ps-domain-and-range-of-a-function-input1.tex
+
+
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-8/2nd/domain-and-range-of-a-function && convert -density 600 ps-domain-and-range-of-a-function.pdf -crop 2200x1700 -quality 100 -verbose ps-domain-and-range-of-a-function%02d.png
+
+%2480.5x3508 portrait 2x2 2550x3300
+%3508x2480.5 landscape 2x2 3300x2550 
+%1653.7x2338.7 portrait 3x3 1700x2200
+%landscape 3x3 2200x1700
+
+% cd /storage/emulated/0/Documents/documents/latex/1819/grade10/visual/4th/domain-and-range-of-a-function && while inotifywait -e close_write ps-domain-and-range-of-a-function*.tex; do touch /storage/emulated/0/Android/data/com.termux/files/launch-termux.txt && printf '1' > /storage/emulated/0/Android/data/com.termux/files/launch-termux.txt && pdflatex ps-domain-and-range-of-a-function.tex && termux-open ps-domain-and-range-of-a-function.pdf; done
+
+% cd /host-rootfs/storage/emulated/0/Documents/documents/latex/1819/grade10/visual/4th/domain-and-range-of-a-function && while inotifywait -e close_write ps-domain-and-range-of-a-function*.tex; do pdflatex ps-domain-and-range-of-a-function.tex  && printf "/storage/emulated/0/Documents/documents/latex/1819/grade10/visual/4th/domain-and-range-of-a-function/ps-domain-and-range-of-a-function.pdf" > /host-rootfs/storage/emulated/0/GNURoot/home/Scripts/file-to-launch.txt; done
+
+
+\documentclass[10pt]{article}
+\usepackage[letterpaper, landscape, right=0.25in, left=0.4in, top=0.25in, bottom=0.25in]{geometry}
+\usepackage{xcolor}
+\usepackage{anyfontsize}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{bm} 
+\usepackage{amsmath}
+%\usepackage{amsfonts,dsfont}% for \mathds 
+\usepackage{tabularx} 
+\usepackage{gensymb}
+\usepackage{multirow}
+\usepackage{graphicx, tipa}
+\usepackage{tikz}
+\usetikzlibrary{angles,quotes}
+\usepackage{pgfplots} 
+\usetikzlibrary{calc}
+\pgfplotsset{compat=newest}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{intersections}
+\usetikzlibrary{decorations.pathreplacing}
+\usepackage{flafter}
+\usepackage{amsmath,amssymb,cancel,units}
+\usepackage{microtype} % nicer output 
+\usepackage{hfoldsty} % nicer output 
+\usepackage{fixltx2e} 
+\usepackage{mathptmx}
+%\usepackage{booktabs}
+\usepackage{numprint}
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+%\usepackage{siunitx} 
+%\sisetup{detect-all}
+\usepackage{stackengine}
+ 
+\newcommand\pesos{\stackengine{-1.28ex}{P}{\stackengine{-1.2ex}{$-$}{$-$}{O}{c}{F}{F}{S}}{O}{c}{F}{T}{S}} 
+
+
+\def\radA{3.6cm}
+
+\def\radB{3.6cm}
+
+%\def\thirdrad{8cm}
+
+\pagenumbering{gobble}
+%\linespread{0.9}
+\newcommand{\vspce}{\vspace{0.75ex}}
+\newcommand{\hspce}{\hspace{0.5em}}
+\newcommand{\blank}{\underline{\hspace{2em}}}%{\rule{1em}{0.15ex}}
+\newcommand{\arc}[1]{{% 
+\setbox9=\hbox{#1}% 
+\ooalign{\resizebox{\wd9}{\height}{\texttoptiebar{\phantom{A}}}\cr#1}}}
+
+\newcolumntype{C}{ >{\centering\arraybackslash} X}
+
+
+
+
+\begin{document}
+\boldmath
+{\fontsize{37}{39}\fontfamily{pnc}\selectfont {
+
+\input{ps-domain-and-range-of-a-function-input1}
+
+%}} 
+
+\newpage
+
+%{\fontsize{38}{40}\fontfamily{pnc}\selectfont {
+
+\input{ps-domain-and-range-of-a-function-input2}
+
+\newpage
+
+%{\fontsize{38}{40}\fontfamily{pnc}\selectfont {
+
+\input{ps-domain-and-range-of-a-function-input3}
+
+}}
+
+\newpage
+
+{\fontsize{35}{38}\fontfamily{pnc}\selectfont {
+
+\input{ps-domain-and-range-of-a-function-sol}
+
+}}
+
+
+\end{document}

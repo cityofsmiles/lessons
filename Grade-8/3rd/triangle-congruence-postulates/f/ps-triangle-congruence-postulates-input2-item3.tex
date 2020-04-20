@@ -1,0 +1,28 @@
+
+\begin{tikzpicture}
+
+\coordinate (m) at (0,0); 
+
+\coordinate (a) at ($(m) - (-25:\lenA)$); 
+
+\coordinate (d) at ($(m) - (205:\lenA)$); 
+
+\coordinate (y) at ($(m) - (-90:2.4*\lenA)$); 
+
+\node(m-label) at ($(m)-(90:0.25*\lenA)$) {$ M$};
+
+\node(a-label) at ($(a)-(10:0.25*\lenA)$) {$ A$}; 
+
+\node(y-label) at ($(y)-(-90:0.25*\lenA)$) {$ Y$};
+
+\node(d-label) at ($(d)-(170:0.25*\lenA)$) {$ D$};
+
+\draw[line width=0.3mm] (m)--(a) -- (y) node[midway] (tick1) {} --(d) node[midway] (tick2) {} -- cycle  (m)--(y); 
+
+\tikzset{twotick/.pic={\draw[line width=0.3mm] ($(-0.08,0)+(0,0.1*\lenA)$) -- ($(-0.08,0)-(0,0.1*\lenA)$) ($(0.08,0)+(0,0.1*\lenA)$) -- ($(0.08,0)-(0,0.1*\lenA)$) ; }}
+
+\pic[rotate=65] at (tick1) [pic type = twotick]; 
+
+\pic[rotate=115] at (tick2) [pic type = twotick]; 
+
+\end{tikzpicture} 

@@ -1,0 +1,21 @@
+\begin{tikzpicture}
+
+\def\len3{\lenA}
+
+\draw[line width=0.3mm] (0,0) coordinate (a)  -- (0:\len3) coordinate (b) --++ (75:\len3) coordinate (c) -- (75:\len3) coordinate (d) -- cycle -- (c) (b) -- (d) ; 
+
+\coordinate (tick1) at ($(a)!0.25!(c)$) {};
+
+\coordinate (tick2) at ($(a)!0.75!(c)$) {};  
+
+\tikzset{onetick/.pic={\draw[line width=0.3mm] ($(0,0)+(0, 0.06*\len3)$) -- ($(0,0)-(0, 0.06*\len3)$) ; }}
+
+\pic[rotate=38] at (tick1) [pic type = onetick]; 
+
+\pic[rotate=38] at (tick2) [pic type = onetick];   
+
+\node[anchor=south west, inner sep=1pt, rotate=0, xshift=0pt, yshift=0pt] (8x) at ($(b)!0.75!(d)$) {$ 8x$};
+
+\node[anchor=south west, inner sep=1pt, rotate=0, xshift=0pt, yshift=0pt] (3x+5) at ($(b)!0.25!(d)$) {\tiny$ 3x+5$}; 
+
+\end{tikzpicture} 

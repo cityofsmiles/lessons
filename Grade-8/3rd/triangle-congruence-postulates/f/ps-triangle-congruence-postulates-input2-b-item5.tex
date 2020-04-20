@@ -1,0 +1,37 @@
+\begin{tikzpicture}
+
+\def\len5{1.1*\lenB}
+
+\draw[line width=0.3mm] (0,0) coordinate (f)  -- (95:0.6*\len5) coordinate (o) -- (180:0.5*\len5) coordinate (h)  -- (0:0.5*\len5) coordinate (d) -- (-85:0.6*\len5) coordinate (g) -- cycle;  
+
+\node[anchor=south west, inner sep=2pt, rotate=0] (f-label) at (f) {$ F$};
+
+\node[anchor=south, inner sep=2pt, rotate=0] (o-label) at (o) {$ O$};
+
+\node[anchor=east, inner sep=2pt, rotate=0] (h-label) at (h) {$ H$};
+
+\node[anchor=west, inner sep=2pt, rotate=0] (d-label) at (d) {$ D$};
+
+\node[anchor=north, inner sep=2pt, rotate=0] (g-label) at (g) {$ G$};
+
+\coordinate (tick1) at ($(o)!0.5!(f)$) {};  
+
+\coordinate (tick2) at ($(f)!0.5!(g)$) {};  
+
+\tikzset{twotick/.pic={\draw[line width=0.3mm] ($(-0.02*\len5, 0)+(0, 0.06*\len5)$) -- ($(-0.02*\len5, 0)-(0, 0.06*\len5)$) ($(0.02*\len5, 0)+(0, 0.06*\len5)$) -- ($(0.02*\len5, 0)-(0, 0.06*\len5)$) ; }}
+
+\pic[rotate=95] at (tick1) [pic type = twotick]; 
+
+\pic[rotate=95] at (tick2) [pic type = twotick];   
+
+\coordinate (tick3) at ($(h)!0.5!(f)$) {};  
+
+\coordinate (tick4) at ($(f)!0.5!(d)$) {};  
+
+\tikzset{threetick/.pic={\draw[line width=0.3mm] ($(-0.03*\len5, 0)+(0, 0.06*\len5)$) -- ($(-0.03*\len5, 0)-(0, 0.06*\len5)$) ($(0,0)+(0, 0.06*\len5)$) -- ($(0,0)-(0, 0.06*\len5)$)  ($(0.03*\len5, 0)+(0, 0.06*\len5)$) -- ($(0.03*\len5, 0)-(0, 0.06*\len5)$) ; }}
+
+\pic[rotate=0] at (tick3) [pic type = threetick]; 
+
+\pic[rotate=0] at (tick4) [pic type = threetick];   
+
+\end{tikzpicture} 

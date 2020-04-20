@@ -1,0 +1,36 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, 
+dim-label/.style={fill=white, rectangle, inner sep=2pt, outer sep=0pt}, 
+nodot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=0pt}, 
+remember picture, overlay
+]  
+
+\def\rad1{1.2cm}
+
+% the origin 
+\coordinate (o) at (0,0); 
+% the circle and the dot at the origin
+\draw[line width=0.5mm] (o) node[circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt] {} circle [radius=\rad1]; 
+
+\node(o-label) at ($(o)+(200:0.22*\rad1)$) {$O$};
+
+\node (e) at (90:\rad1) [nodot] {}; 
+\node(e-label) at ($(e)+(90:0.22*\rad1)$) {$E$};
+
+\node (v) at (20:\rad1) [nodot] {}; 
+\node(v-label) at ($(v)+(20:0.22*\rad1)$) {$V$};
+
+\node (a) at (270:\rad1) [nodot] {}; 
+\node(a-label) at ($(a)+(270:0.22*\rad1)$) {$A$};
+
+\node (p) at (180:\rad1) [nodot] {}; 
+\node(p-label) at ($(p)+(180:0.22*\rad1)$) {$P$};
+
+\node(r-label) at ($(o)+(115:0.4*\rad1)$) {$R$};
+
+\draw[line width=0.3mm] (a)--(e); 
+\draw[line width=0.3mm] (p)--(v); 
+\draw[line width=0.3mm] (p)--(e)--(v) --(a) --(p) ; 
+
+\node (Name) at (-45:1.3*\rad1) {$\odot{O}$}; 
+\end{tikzpicture}
+

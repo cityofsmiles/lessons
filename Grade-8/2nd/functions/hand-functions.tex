@@ -1,0 +1,68 @@
+% cd ~/storage/emulated/0/Documents/documents/latex/1920/Grade-8/2nd/functions/&& pdflatex hand-functions.tex && divide 1x2 hand-functions.pdf
+
+
+
+\documentclass[handout]{beamer} 
+
+\usepackage{pgfpages} 
+\mode<handout>{%
+\pgfpagesuselayout{4 on 1}[%letterpaper, 
+legalpaper,% landscape, 
+border shrink=1mm] 
+}
+
+\input{/host-rootfs/storage/emulated/0/Documents/documents/latex/1920/common-preamble-2019}
+
+%\newcommand{\vertadjust}{\vspace*{-1.5in}} % for letterpaper
+%\newcommand{\vertadjustb}{\vspace*{-1.5in}} % for letterpaper
+\newcommand{\vertadjust}{\vspace*{-2.5in}} % for legalpaper
+\newcommand{\vertadjustb}{\vspace*{-2.5in}} % for legalpaper
+
+\def\gridscale{0.4}
+
+\begin{document} 
+
+% frame 1
+\vertadjust
+\begin{frame} 
+\input{vs-functions-input} \\
+%\input{hand-functions-input1}
+\input{ps-functions-input1}
+\input{ps-functions-input2}
+%\input{ps-functions-input3}
+\end{frame}
+
+% frame 2
+\vertadjust
+\begin{frame} 
+%\input{vs-functions-input}% \\
+%\input{ps-functions-input1}
+%\input{ps-functions-input2}
+%\input{hand-functions-input2}
+\vspace*{1ex}
+\input{ps-functions-input3}
+\end{frame}
+
+% frame 3
+\vertadjustb
+\begin{frame} 
+\input{vs-functions-input} \\
+\input{ps-functions-input1}
+\input{ps-functions-input2}
+%\input{ps-functions-input3}
+\end{frame}
+
+% frame 4
+\vertadjustb
+\begin{frame} 
+%\input{vs-functions-input}
+%\input{ps-functions-input1}
+%\input{ps-functions-input2}
+%\input{hand-functions-input2}
+\vspace*{1ex}
+\input{ps-functions-input3}
+
+\end{frame}
+
+\end{document}
+

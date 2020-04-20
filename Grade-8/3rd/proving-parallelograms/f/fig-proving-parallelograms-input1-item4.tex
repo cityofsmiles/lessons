@@ -1,0 +1,15 @@
+\begin{tikzpicture}
+
+\def\len4{\lenA}
+
+\draw[line width=0.3mm] (0,0) coordinate (a)  -- (0:\len4) coordinate (b) --++ (110:0.75*\len4) coordinate (c) -- (110:0.75*\len4) coordinate (d) -- cycle -- (c) (b) -- (d) ; 
+
+\node[anchor=south west, inner sep=1pt, rotate=0, xshift=0pt, yshift=0pt] (9a) at ($(b)!0.25!(d)$) {$ 53$};
+
+\node[anchor=south west, inner sep=1pt, rotate=0, xshift=0pt, yshift=0pt] (9b) at ($(b)!0.75!(d)$) {$ 53$};
+
+\node[anchor=south east, inner sep=1pt, rotate=0, xshift=0pt, yshift=0pt] (48) at ($(a)!0.25!(c)$) {$ 48$};
+
+\node[anchor=south east, inner sep=1pt, rotate=0, xshift=0.4em, yshift=0pt] (3x2) at ($(a)!0.75!(c)$) {$ 3x^2$};
+
+\end{tikzpicture} 

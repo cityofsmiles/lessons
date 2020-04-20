@@ -1,0 +1,67 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, dim-label/.style={fill=white, rectangle, inner sep=2pt, outer sep=0pt}]
+
+\node[draw,circle,minimum size=2*\myrad,inner sep=0pt, line width=0.5mm, outer sep=0] (e) at (0,0) {};
+
+\node(e-dot)[dot] at (e.center) {};
+
+\coordinate (k) at ($(e.center) +(90:\myrad)$);
+
+\node(k-label) at ($(k)+(90:0.18*\myrad)$) {$  K$};
+
+\coordinate (a) at ($(e.center) + (180:\myrad)$);
+
+\node(a-label) at ($(a)+(180:0.18*\myrad)$) {$  A$};
+
+\coordinate (r) at ($(e.center) +(-90:\myrad)$);
+
+\node(r-label) at ($(r)+(-90:0.18*\myrad)$) {$  R$};
+
+\coordinate (g) at ($(a)+(90:\myrad) $);
+
+\node(g-label) at ($(g)+(90:0.18*\myrad)$) {$  G$};
+
+\coordinate (d) at ($(a)+(-90:\myrad) $);
+
+\node(d-label) at ($(d)+(-90:0.18*\myrad)$) {$  D$};
+
+\coordinate (o) at ($(k)+(0:1.3*\myrad) $);
+
+\node(o-label) at ($(o)+(50:0.18*\myrad)$) {$  O$};
+
+\coordinate (ext) at ($(a)+(180:0.4*\myrad) $);
+
+\coordinate (u) at (tangent cs:node=e, point={(o)}, solution=2); 
+
+\node(u-label) at ($(u)+(-40:0.22*\myrad)$) {$  U$};
+
+\coordinate (guess1) at ($(o)!1.7!(u)$);
+
+\coordinate (guess2) at ($(d)!1.88!(r)$);
+
+\node(e-label) at ($(e.center)+(20:0.18*\myrad)$) {$  E$};
+
+\draw[line width=0.3mm] (u) -- (o) -- (g) -- (d) -- (r);
+
+\path[name path=line1.guess, line width=0.3mm] (u) -- (guess1); 
+
+\path[name path=line2.guess, line width=0.3mm] (r) -- (guess2); 
+
+\fill[red, name intersections={of=line1.guess and line2.guess, name=point}];
+
+\draw[line width=0.3mm] (u) -- (point-1) -- (r) ; 
+
+\node(l-label) at ($(point-1)+(-60:0.18*\myrad)$) {$  L$};
+
+\draw[{Rays[n=2].Classical TikZ Rightarrow[]}-{Classical TikZ Rightarrow[].Rays[n=2]}, line width=0.3mm] ($(ext)+(90:\myrad+1pt)$) -- ($(ext)+(-90:\myrad+1pt)$);
+
+\node[dim-label] (x-label) at ($(ext)+(90:0.3*\myrad)$) {\tiny $\text{x cm}$};
+
+\node (8cm) at ($(g)+(20:0.5*\myrad)$) {\tiny 8 cm};
+
+\node (16cm) at ($(o)+(-65:0.5*\myrad)$) {\tiny 16 cm};
+
+\node (6cm) at ($(u)+(-70:0.5*\myrad)$) {\tiny 6 cm};
+
+\node (12cm) at ($(r)+(200:0.5*\myrad)$) {\tiny 12 cm};
+\end{tikzpicture}
+

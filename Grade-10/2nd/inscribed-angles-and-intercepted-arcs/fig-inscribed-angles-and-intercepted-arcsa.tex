@@ -1,0 +1,31 @@
+\def\rad2{1.2cm}
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, 
+dim-label/.style={fill=white, rectangle, inner sep=2pt, outer sep=0pt}, 
+nodot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=0pt}, 
+%remember picture, overlay
+baseline = (current bounding box.west)
+]  
+
+% the origin 
+\coordinate (p) at (0,0); 
+% the circle and the nodot at the origin
+\draw[line width=0.5mm] (p) node[circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt] {} circle [radius=\rad2]; 
+
+\node(p-label) at ($(p)+(180:0.2*\rad2)$) {$P$};
+
+\node(p-angle) at ($(p)+(29:0.4*\rad2)$) {$75\degree$};
+
+\node (a) at (0:\rad2) [nodot] {}; 
+
+\node (b) at (75:\rad2) [nodot] {}; 
+
+
+\node (c) at (217.5:\rad2) [nodot] {}; 
+
+\node(x-label) at ($(c)+(37:0.4*\rad2)$) {$x$};
+
+
+\draw[line width=0.3mm] (p)--(a)--(c) --(b) --(p) ; 
+
+
+\end{tikzpicture}

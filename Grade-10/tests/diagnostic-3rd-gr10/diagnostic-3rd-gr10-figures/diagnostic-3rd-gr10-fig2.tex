@@ -1,0 +1,18 @@
+\begin{tikzpicture}[scale=0.3,
+remember picture, overlay]
+
+\filldraw [fill=black!15!, line width=0.5mm] (-3,3) circle (3);
+
+\draw [dotted, thin] (-7,-1) grid (1,7);
+ 
+\draw[line width=0.3mm, <->, >={Latex[round]}] (-7.5, 0) -- (1.5, 0);
+
+\draw[line width=0.3mm, <->, >={Latex[round]}] (0, -1.5) -- (0, 7.5);
+
+\fill [fill=black] (-3,3) circle (4pt);
+
+\node[anchor=south, inner sep=5pt, rotate=0] (x-label) at (1.5,0) {$\textstyle x$};  
+
+\node[anchor=west, inner sep=5pt, rotate=0] (y-label) at (0,7.5) {$\textstyle y$};  
+
+\end{tikzpicture} 

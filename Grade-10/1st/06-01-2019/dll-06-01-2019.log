@@ -1,0 +1,1625 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=pdflatex 2019.5.14)  1 JUN 2019 15:52
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**/storage/emulated/0/Documents/documents/latex/1920/Grade-10/1st/06-01-2019/dl
+l-06-01-2019.tex
+
+(/storage/emulated/0/Documents/documents/latex/1920/Grade-10/1st/06-01-2019/dll
+-06-01-2019.tex
+LaTeX2e <2018-12-01>
+(/storage/emulated/0/Documents/documents/latex/1920/dll-preamble-2019.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/base/articl
+e.cls
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/base/size11
+.clo
+File: size11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/graphics/gr
+aphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/graphics/ke
+yval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/graphics/gr
+aphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/graphics/tr
+ig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/graphics-cf
+g/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/graphics-de
+f/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tools/tabul
+arx.sty
+Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tools/array
+.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen105
+\ar@mcellbox=\box27
+\extrarowheight=\dimen106
+\NC@list=\toks15
+\extratabsurround=\skip43
+\backup@length=\skip44
+\ar@cellbox=\box28
+)
+\TX@col@width=\dimen107
+\TX@old@table=\dimen108
+\TX@old@col=\dimen109
+\TX@target=\dimen110
+\TX@delta=\dimen111
+\TX@cols=\count88
+\TX@ftn=\toks16
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/enumitem/en
+umitem.sty
+Package: enumitem 2019/02/04 v3.8 Customized lists
+\labelindent=\skip45
+\enit@outerparindent=\dimen112
+\enit@toks=\toks17
+\enit@inbox=\box29
+\enit@count@id=\count89
+\enitdp@description=\count90
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/booktabs/bo
+oktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen113
+\lightrulewidth=\dimen114
+\cmidrulewidth=\dimen115
+\belowrulesep=\dimen116
+\belowbottomsep=\dimen117
+\aboverulesep=\dimen118
+\abovetopsep=\dimen119
+\cmidrulesep=\dimen120
+\cmidrulekern=\dimen121
+\defaultaddspace=\dimen122
+\@cmidla=\count91
+\@cmidlb=\count92
+\@aboverulesep=\dimen123
+\@belowrulesep=\dimen124
+\@thisruleclass=\count93
+\@lastruleclass=\count94
+\@thisrulewidth=\dimen125
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/fronten
+dlayer/tikz.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/basicla
+yer/pgf.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/utiliti
+es/pgfrcs.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
+ties/pgfutil-common.tex
+\pgfutil@everybye=\toks18
+\pgfutil@tempdima=\dimen126
+\pgfutil@tempdimb=\dimen127
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
+ties/pgfutil-common-lists.tex))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
+ties/pgfutil-latex.def
+\pgfutil@abb=\box30
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi
+.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
+ties/pgfrcs.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.r
+evision.tex)
+Package: pgfrcs 2019/05/09 v3.1.3 (3.1.3)
+))
+Package: pgf 2019/05/09 v3.1.3 (3.1.3)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/basicla
+yer/pgfcore.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/systeml
+ayer/pgfsys.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/syste
+mlayer/pgfsys.code.tex
+Package: pgfsys 2019/05/09 v3.1.3 (3.1.3)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
+ties/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks19
+\pgfkeys@temptoks=\toks20
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
+ties/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks21
+))
+\pgf@x=\dimen128
+\pgf@y=\dimen129
+\pgf@xa=\dimen130
+\pgf@ya=\dimen131
+\pgf@xb=\dimen132
+\pgf@yb=\dimen133
+\pgf@xc=\dimen134
+\pgf@yc=\dimen135
+\pgf@xd=\dimen136
+\pgf@yd=\dimen137
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count95
+\c@pgf@countb=\count96
+\c@pgf@countc=\count97
+\c@pgf@countd=\count98
+\t@pgf@toka=\toks22
+\t@pgf@tokb=\toks23
+\t@pgf@tokc=\toks24
+\pgf@sys@id@count=\count99
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/syste
+mlayer/pgf.cfg
+File: pgf.cfg 2019/05/09 v3.1.3 (3.1.3)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/syste
+mlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2019/05/09 v3.1.3 (3.1.3)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/syste
+mlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2019/05/09 v3.1.3 (3.1.3)
+)))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/syste
+mlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgfsyssoftpath@smallbuffer@items=\count100
+\pgfsyssoftpath@bigbuffer@items=\count101
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/syste
+mlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2019/05/09 v3.1.3 (3.1.3)
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcol
+or.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/graphics-cf
+g/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcore.code.tex
+Package: pgfcore 2019/05/09 v3.1.3 (3.1.3)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmath.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathcalc.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathutil.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathparser.code.tex
+\pgfmath@dimen=\dimen138
+\pgfmath@count=\count102
+\pgfmath@box=\box31
+\pgfmath@toks=\toks25
+\pgfmath@stack@operand=\toks26
+\pgfmath@stack@operation=\toks27
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.basic.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.trigonometric.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.random.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.comparison.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.base.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.round.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.misc.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.integerarithmetics.code.tex)))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count103
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfint.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgf@picminx=\dimen139
+\pgf@picmaxx=\dimen140
+\pgf@picminy=\dimen141
+\pgf@picmaxy=\dimen142
+\pgf@pathminx=\dimen143
+\pgf@pathmaxx=\dimen144
+\pgf@pathminy=\dimen145
+\pgf@pathmaxy=\dimen146
+\pgf@xx=\dimen147
+\pgf@xy=\dimen148
+\pgf@yx=\dimen149
+\pgf@yy=\dimen150
+\pgf@zx=\dimen151
+\pgf@zy=\dimen152
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgf@path@lastx=\dimen153
+\pgf@path@lasty=\dimen154
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgf@shorten@end@additional=\dimen155
+\pgf@shorten@start@additional=\dimen156
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgfpic=\box32
+\pgf@hbox=\box33
+\pgf@layerbox@main=\box34
+\pgf@picture@serial@count=\count104
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgflinewidth=\dimen157
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgf@pt@x=\dimen158
+\pgf@pt@y=\dimen159
+\pgf@pt@temp=\dimen160
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2019/05/09 v3.1.3 (3.1.3)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2019/05/09 v3.1.3 (3.1.3)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2019/05/09 v3.1.3 (3.1.3)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgfarrowsep=\dimen161
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgf@max=\dimen162
+\pgf@sys@shading@range@num=\count105
+\pgf@shadingcount=\count106
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2019/05/09 v3.1.3 (3.1.3)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgfexternal@startupbox=\box35
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2019/05/09 v3.1.3 (3.1.3)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2019/05/09 v3.1.3 (3.1.3)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2019/05/09 v3.1.3 (3.1.3)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2019/05/09 v3.1.3 (3.1.3)
+)))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/modul
+es/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgfnodeparttextbox=\box36
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/modul
+es/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2019/05/09 v3.1.3 (3.1.3)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/compati
+bility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2019/05/09 v3.1.3 (3.1.3)
+\pgf@nodesepstart=\dimen163
+\pgf@nodesepend=\dimen164
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/compati
+bility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2019/05/09 v3.1.3 (3.1.3)
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/utiliti
+es/pgffor.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/utiliti
+es/pgfkeys.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
+ties/pgfkeys.code.tex))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pg
+fmath.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmath.code.tex))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
+ties/pgffor.code.tex
+Package: pgffor 2019/05/09 v3.1.3 (3.1.3)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmath.code.tex)
+\pgffor@iter=\dimen165
+\pgffor@skip=\dimen166
+\pgffor@stack=\toks28
+\pgffor@toks=\toks29
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/tikz.code.tex
+Package: tikz 2019/05/09 v3.1.3 (3.1.3)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
+ries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgf@plot@mark@count=\count107
+\pgfplotmarksize=\dimen167
+)
+\tikz@lastx=\dimen168
+\tikz@lasty=\dimen169
+\tikz@lastxsaved=\dimen170
+\tikz@lastysaved=\dimen171
+\tikzleveldistance=\dimen172
+\tikzsiblingdistance=\dimen173
+\tikz@figbox=\box37
+\tikz@figbox@bg=\box38
+\tikz@tempbox=\box39
+\tikz@tempbox@bg=\box40
+\tikztreelevel=\count108
+\tikznumberofchildren=\count109
+\tikznumberofcurrentchild=\count110
+\tikz@fig@count=\count111
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/modul
+es/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2019/05/09 v3.1.3 (3.1.3)
+\pgfmatrixcurrentrow=\count112
+\pgfmatrixcurrentcolumn=\count113
+\pgf@matrix@numberofcolumns=\count114
+)
+\tikz@expandcount=\count115
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2019/05/09 v3.1.3 (3.1.3)
+)))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tools/longt
+able.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
+\LTleft=\skip46
+\LTright=\skip47
+\LTpre=\skip48
+\LTpost=\skip49
+\LTchunksize=\count116
+\LTcapwidth=\dimen174
+\LT@head=\box41
+\LT@firsthead=\box42
+\LT@foot=\box43
+\LT@lastfoot=\box44
+\LT@cols=\count117
+\LT@rows=\count118
+\c@LT@tables=\count119
+\c@LT@chunks=\count120
+\LT@p@ftn=\toks30
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/multirow/mu
+ltirow.sty
+Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
+\multirow@colwidth=\skip50
+\multirow@cntb=\count121
+\multirow@dima=\skip51
+\bigstrutjot=\dimen175
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/base/inpute
+nc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks31
+\inpenc@posthook=\toks32
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/geometry/ge
+ometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/oberdiek/
+ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/oberdiek/
+ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/ifxetex/i
+fxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count122
+\Gm@cntv=\count123
+\c@Gm@tempcnt=\count124
+\Gm@bindingoffset=\dimen176
+\Gm@wd@mp=\dimen177
+\Gm@odd@mp=\dimen178
+\Gm@even@mp=\dimen179
+\Gm@layoutwidth=\dimen180
+\Gm@layoutheight=\dimen181
+\Gm@layouthoffset=\dimen182
+\Gm@layoutvoffset=\dimen183
+\Gm@dimlist=\toks33
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fourier/fou
+rier.sty
+Package: fourier 2005/01/01 1.4 fourier-GUTenberg package
+Now handling font encoding FML ...
+... no UTF-8 mapping file for font encoding FML
+Now handling font encoding FMS ...
+... no UTF-8 mapping file for font encoding FMS
+Now handling font encoding FMX ...
+... no UTF-8 mapping file for font encoding FMX
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/base/fonten
+c.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.
+def
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/base/textco
+mp.sty
+Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc
+.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc
+.dfu
+File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+FEFF (decimal 65279)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fourier/fou
+rier-orns.sty
+Package: fourier-orns 2004/01/30 1.1 fourier-ornaments package
+)
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 50.
+LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
+(Font)              `operators' in the math version `normal' on input line 50.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> T1/futs/m/n on input line 50.
+LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
+(Font)              `operators' in the math version `bold' on input line 50.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> T1/futs/m/n on input line 50.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  T1/futs/m/n --> T1/futs/b/n on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 59.
+LaTeX Font Info:    Encoding `OML' has changed to `FML' for symbol font
+(Font)              `letters' in the math version `normal' on input line 59.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> FML/futmi/m/it on input line 59.
+LaTeX Font Info:    Encoding `OML' has changed to `FML' for symbol font
+(Font)              `letters' in the math version `bold' on input line 59.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> FML/futmi/m/it on input line 59.
+\symotherletters=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  FML/futmi/m/it --> FML/futmi/b/it on input line 61.
+LaTeX Font Info:    Overwriting symbol font `otherletters' in version `bold'
+(Font)                  FML/futm/m/it --> FML/futm/b/it on input line 62.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 63.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 65.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 66.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 68.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 69.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 70.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 71.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 73.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 113.
+LaTeX Font Info:    Encoding `OMS' has changed to `FMS' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 113.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> FMS/futm/m/n on input line 113.
+LaTeX Font Info:    Encoding `OMS' has changed to `FMS' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 113.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> FMS/futm/m/n on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 114.
+LaTeX Font Info:    Encoding `OMX' has changed to `FMX' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 1
+14.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> FMX/futm/m/n on input line 114.
+LaTeX Font Info:    Encoding `OMX' has changed to `FMX' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 114
+.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> FMX/futm/m/n on input line 114.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 115.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> T1/futs/bx/n on input line 115.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> T1/futs/bx/n on input line 115.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 116.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 117.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> T1/futs/m/it on input line 117.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> T1/futs/m/it on input line 117.
+LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 118.
+LaTeX Font Info:    Redeclaring math symbol \parallel on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 148.
+LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 186.
+LaTeX Font Info:    Redeclaring math symbol \varvarrho on input line 187.
+LaTeX Font Info:    Redeclaring math delimiter \Vert on input line 210.
+LaTeX Font Info:    Redeclaring math delimiter \vert on input line 215.
+LaTeX Font Info:    Redeclaring math delimiter \Downarrow on input line 225.
+LaTeX Font Info:    Redeclaring math delimiter \backslash on input line 227.
+LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 229.
+LaTeX Font Info:    Redeclaring math delimiter \langle on input line 231.
+LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 233.
+LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 235.
+LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 237.
+LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 239.
+LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 241.
+LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 243.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 247.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 248.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 249.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 250.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 251.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 252.
+LaTeX Font Info:    Redeclaring math accent \check on input line 253.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 254.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 255.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 256.
+\symUfutm=\mathgroup5
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/makecell/ma
+kecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen184
+\c@nlinenum=\count125
+\TeXr@lab=\toks34
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/datatool/da
+tatool.sty
+Package: datatool 2018/12/07 v2.31 (NLCT)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xke
+yval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/xkeyval/x
+keyval.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/xkeyval/x
+kvutils.tex
+\XKV@toks=\toks35
+\XKV@tempa@toks=\toks36
+)
+\XKV@depth=\count126
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/base/ifthen
+.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/xfor/xfor.s
+ty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/substr/subs
+tr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count127
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/etoolbox/et
+oolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count128
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/datatool/da
+tatool-base.sty
+Package: datatool-base 2018/12/07 v2.31 (NLCT)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/amsmath/ams
+math.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/amsmath/ams
+text.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/amsmath/ams
+gen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks37
+\ex@=\dimen185
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/amsmath/ams
+bsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen186
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/amsmath/ams
+opn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count129
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count130
+\leftroot@=\count131
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count132
+\DOTSCASE@=\count133
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen187
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count134
+\c@MaxMatrixCols=\count135
+\dotsspace@=\muskip10
+\c@parentequation=\count136
+\dspbrk@lvl=\count137
+\tag@help=\toks38
+\row@=\count138
+\column@=\count139
+\maxfields@=\count140
+\andhelp@=\toks39
+\eqnshift@=\dimen188
+\alignsep@=\dimen189
+\tagshift@=\dimen190
+\tagwidth@=\dimen191
+\totwidth@=\dimen192
+\lineht@=\dimen193
+\@envbody=\toks40
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks41
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/datatool/da
+tatool-fp.sty
+Package: datatool-fp 2018/12/07 v2.31 (NLCT)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/defpatte
+rn.sty
+Package: defpattern 1994/10/12
+\actioncount=\count141
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic
+.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count142
+\FP@xia=\count143
+\FP@xib=\count144
+\FP@xfa=\count145
+\FP@xfb=\count146
+\FP@rega=\count147
+\FP@regb=\count148
+\FP@regs=\count149
+\FP@times=\count150
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addon
+s.sty
+Package: fp-addons 1995/03/15
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp-snap.
+sty
+Package: fp-snap 1995/04/05
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp-exp.s
+ty
+Package: fp-exp 1995/04/03
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp-trigo
+.sty
+Package: fp-trigo 1995/04/14
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp-pas.s
+ty
+Package: fp-pas 1994/08/29
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp-rando
+m.sty
+Package: fp-random 1995/02/23
+\FPseed=\count151
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.s
+ty
+Package: fp-eqn 1995/04/03
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp-upn.s
+ty
+Package: fp-upn 1996/10/21
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.
+sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks42
+\@dtl@tmpcount=\count152
+\dtl@tmplength=\skip55
+\dtl@sortresult=\count153
+\@dtl@numgrpsepcount=\count154
+\@dtl@datatype=\count155
+\dtl@codeA=\count156
+\dtl@codeB=\count157
+\@dtl@foreach@level=\count158
+)
+\dtlcolumnnum=\count159
+\dtlrownum=\count160
+\@dtl@before=\toks43
+\@dtl@after=\toks44
+\@dtl@colhead=\toks45
+\dtlcurrentrow=\toks46
+\dtlbeforerow=\toks47
+\dtlafterrow=\toks48
+\dtlforeachlevel=\count161
+\c@DTLrowi=\count162
+\c@DTLrowii=\count163
+\c@DTLrowiii=\count164
+\c@DTLrow=\count165
+\dtl@rowi=\count166
+\dtl@rowii=\count167
+\dtl@rowiii=\count168
+\@dtl@curi=\toks49
+\@dtl@previ=\toks50
+\@dtl@nexti=\toks51
+\@dtl@curii=\toks52
+\@dtl@previi=\toks53
+\@dtl@nextii=\toks54
+\@dtl@curiii=\toks55
+\@dtl@previii=\toks56
+\@dtl@nextiii=\toks57
+\@dtl@elements=\count169
+\@dtl@list=\toks58
+\@dtl@rowa=\toks59
+\@dtl@rowb=\toks60
+\@dtl@toksA=\toks61
+\@dtl@toksB=\toks62
+\@dtl@write=\write4
+\@dtl@read=\read2
+\dtl@entrycr=\count170
+\dtl@omitlines=\count171
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tools/multi
+col.sty
+Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
+\c@tracingmulticols=\count172
+\mult@box=\box47
+\multicol@leftmargin=\dimen194
+\c@unbalance=\count173
+\c@collectmore=\count174
+\doublecol@number=\count175
+\multicoltolerance=\count176
+\multicolpretolerance=\count177
+\full@width=\dimen195
+\page@free=\dimen196
+\premulticols=\dimen197
+\postmulticols=\dimen198
+\multicolsep=\skip56
+\multicolbaselineskip=\skip57
+\partial@page=\box48
+\last@line=\box49
+\maxbalancingoverflow=\dimen199
+\mult@rightbox=\box50
+\mult@grightbox=\box51
+\mult@gfirstbox=\box52
+\mult@firstbox=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\c@columnbadness=\count178
+\c@finalcolumnbadness=\count179
+\last@try=\dimen256
+\multicolovershoot=\dimen257
+\multicolundershoot=\dimen258
+\mult@nat@firstbox=\box71
+\colbreak@box=\box72
+\mc@col@check@num=\count180
+))
+(/storage/emulated/0/Documents/documents/latex/1920/dll-initial-infos-2019-gr10
+.tex
+
+LaTeX Warning: Writing file `./sections.csv'.
+
+\openout15 = `sections.csv'.
+
+
+\dtldb@Section=\toks63
+\dtlkeys@Section=\toks64
+\dtlrows@Section=\count181
+\dtlcols@Section=\count182
+)
+(/storage/emulated/0/Documents/documents/latex/1920/Grade-10/1st/06-01-2019/les
+sons-06-01-2019.tex)
+(/storage/emulated/0/Documents/documents/latex/1920/dll-format-2019.tex
+(./dll-06-01-2019.aux)
+\openout1 = `dll-06-01-2019.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 3.
+LaTeX Font Info:    Try loading font information for FML+futm on input line 3.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fourier/fml
+futm.fd
+File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
+)
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 3.
+LaTeX Font Info:    Try loading font information for FMS+futm on input line 3.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fourier/fms
+futm.fd
+File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
+)
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 3.
+LaTeX Font Info:    Try loading font information for FMX+futm on input line 3.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fourier/fmx
+futm.fd
+File: fmxfutm.fd futm-extension
+)
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 3.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr
+.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Try loading font information for T1+futs on input line 3.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fourier/t1f
+uts.fd
+File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/context/base/mkii
+/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count183
+\scratchdimen=\dimen259
+\scratchbox=\box73
+\nofMPsegments=\count184
+\nofMParguments=\count185
+\everyMPshowfont=\toks65
+\MPscratchCnt=\count186
+\MPscratchDim=\dimen260
+\MPnumerator=\count187
+\makeMPintoPDFobject=\count188
+\everyMPtoPDFconversion=\toks66
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/oberdiek/ep
+stopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/oberdiek/
+infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/oberdiek/gr
+fext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/oberdiek/
+kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/oberdiek/
+ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kv
+options.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/oberdiek/
+kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/oberdiek/
+etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/oberdiek/
+ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+))))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/oberdiek/
+pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/latexconfig
+/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)) ABD: EveryShipout initializing macros
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: legalpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: landscape 
+* h-part:(L,W,R)=(36.135pt, 867.24pt, 108.405pt)
+* v-part:(T,H,B)=(36.135pt, 542.02501pt, 36.135pt)
+* \paperwidth=1011.78pt
+* \paperheight=614.295pt
+* \textwidth=867.24pt
+* \textheight=542.02501pt
+* \oddsidemargin=-36.135pt
+* \evensidemargin=-36.135pt
+* \topmargin=-73.135pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fourier/fml
+futmi.fd)
+File: /storage/emulated/0/Documents/documents/latex/1920/deped2.png Graphic fil
+e (type png)
+<use /storage/emulated/0/Documents/documents/latex/1920/deped2.png>
+Package pdftex.def Info: /storage/emulated/0/Documents/documents/latex/1920/dep
+ed2.png  used on input line 43.
+(pdftex.def)             Requested size: 30.79996pt x 30.71446pt.
+
+Underfull \hbox (badness 1472) in paragraph at lines 91--91
+[]\T1/futs/m/n/10.95 Evaluate the rules of given se-
+ []
+
+
+Underfull \hbox (badness 3503) in paragraph at lines 91--91
+[]\T1/futs/m/n/10.95 Calculate the next terms of a
+ []
+
+
+Underfull \hbox (badness 3343) in paragraph at lines 125--125
+\T1/futs/m/n/10.95 rule of a given arith-metic se-
+ []
+
+
+Underfull \hbox (badness 3612) in paragraph at lines 159--159
+[]\T1/futs/m/n/10.95 State the steps in find-ing the
+ []
+
+
+Underfull \hbox (badness 4454) in paragraph at lines 159--159
+[]\T1/futs/m/n/10.95 Generate the arith-metic mean
+ []
+
+
+(/storage/emulated/0/Documents/documents/latex/1920/Grade-10/1st/sequences/vs-s
+equences-input.tex
+Underfull \hbox (badness 2142) in paragraph at lines 9--10
+[]\T1/futs/b/n/10.95 Finite Se-quence: \T1/futs/m/n/10.95 a se-quence of
+ []
+
+LaTeX Font Info:    Try loading font information for TS1+futs on input line 22.
+
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/fourier/ts1
+futs.fd
+File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
+)
+Underfull \hbox (badness 2088) in paragraph at lines 29--31
+\T1/futs/m/n/10.95 with con-stant sec-ond dif-fer-ences
+ []
+
+)
+(/storage/emulated/0/Documents/documents/latex/1920/Grade-10/1st/arithmetic-seq
+uences/vs-arithmetic-sequences-input.tex
+Underfull \hbox (badness 3168) in paragraph at lines 7--8
+\T1/futs/m/n/10.95 where ev-ery term af-ter the first
+ []
+
+)
+(/storage/emulated/0/Documents/documents/latex/1920/Grade-10/1st/arithmetic-mea
+ns/vs-arithmetic-means-input.tex
+
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 24.
+
+)
+(/storage/emulated/0/Documents/documents/latex/1920/Grade-10/1st/arithmetic-ser
+ies/vs-arithmetic-series-input.tex
+Underfull \hbox (badness 1789) in paragraph at lines 7--8
+[]\T1/futs/b/n/10.95 Arithmetic Se-ries: \T1/futs/m/n/10.95 the in-di-cated
+ []
+
+)
+Underfull \hbox (badness 1675) in paragraph at lines 435--437
+[]|\T1/futs/m/n/10.95 The pur-pose of this les-son is to
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 435--437
+\T1/futs/m/n/10.95 en-able the stu-dents to solve real
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 448--448
+[]|\T1/futs/m/n/10.95 Some ex-am-ples of se-quences are
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 455--455
+[]|\T1/futs/m/n/10.95 Some ex-am-ples of arith-metic se-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
+[]|\T1/futs/m/n/10.95 Some ex-am-ples of arith-metic
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 462--462
+[]\T1/futs/m/n/10.95 The arith-metic mean of 21
+ []
+
+
+Underfull \hbox (badness 4291) in paragraph at lines 462--462
+[]\T1/futs/m/n/10.95 The two arith-metic means
+ []
+
+
+Underfull \hbox (badness 5022) in paragraph at lines 469--469
+[]\T1/futs/m/n/10.95 The sum of even in-te-gers
+ []
+
+
+(/storage/emulated/0/Documents/documents/latex/1920/Grade-10/1st/sequences/ps-s
+equences-input1.tex)
+(/storage/emulated/0/Documents/documents/latex/1920/Grade-10/1st/arithmetic-seq
+uences/ps-arithmetic-sequences-input1.tex)
+(/storage/emulated/0/Documents/documents/latex/1920/Grade-10/1st/arithmetic-mea
+ns/ps-arithmetic-means-input1.tex
+Underfull \hbox (badness 6428) in paragraph at lines 6--9
+[]\T1/futs/m/n/10.95 Insert the in-di-cated num-ber of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--9
+\T1/futs/m/n/10.95 arith-metic means be-tween the
+ []
+
+)
+(/storage/emulated/0/Documents/documents/latex/1920/Grade-10/1st/arithmetic-ser
+ies/ps-arithmetic-series-input1.tex
+Underfull \hbox (badness 1721) in paragraph at lines 10--11
+[] \T1/futs/m/n/10.95 Sum of the in-te-gers be-
+ []
+
+)
+(/storage/emulated/0/Documents/documents/latex/1920/Grade-10/1st/sequences/ps-s
+equences-input2.tex)
+(/storage/emulated/0/Documents/documents/latex/1920/Grade-10/1st/arithmetic-seq
+uences/ps-arithmetic-sequences-input2.tex
+Underfull \hbox (badness 4181) in paragraph at lines 3--4
+[] $\T1/futs/m/n/10.95 18[]$ term of the arith-
+ []
+
+
+Underfull \hbox (badness 4181) in paragraph at lines 4--5
+[] $\T1/futs/m/n/10.95 11[]$ term of the arith-
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 4--5
+\T1/futs/m/n/10.95 metic se-quence if $\FML/futmi/m/it/10.95 a[]$ \T1/futs/m/n/
+10.95 = -15
+ []
+
+)
+(/storage/emulated/0/Documents/documents/latex/1920/Grade-10/1st/arithmetic-mea
+ns/ps-arithmetic-means-input2.tex)
+(/storage/emulated/0/Documents/documents/latex/1920/Grade-10/1st/arithmetic-ser
+ies/ps-arithmetic-series-input2.tex)
+(/storage/emulated/0/Documents/documents/latex/1920/Grade-10/1st/sequences/ps-s
+equences-input3.tex
+Underfull \hbox (badness 1337) in paragraph at lines 6--8
+[]\T1/futs/m/n/10.95 Find the first 5 terms of the se-
+ []
+
+
+Underfull \hbox (badness 2538) in paragraph at lines 15--18
+[]\T1/futs/m/n/10.95 Determine the rule that gov-erns
+ []
+
+)
+(/storage/emulated/0/Documents/documents/latex/1920/Grade-10/1st/arithmetic-seq
+uences/ps-arithmetic-sequences-input3.tex)
+(/storage/emulated/0/Documents/documents/latex/1920/Grade-10/1st/arithmetic-mea
+ns/ps-arithmetic-means-input3.tex
+Underfull \hbox (badness 6428) in paragraph at lines 3--5
+[]\T1/futs/m/n/10.95 Insert the in-di-cated num-ber of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
+\T1/futs/m/n/10.95 arith-metic means be-tween the
+ []
+
+)
+(/storage/emulated/0/Documents/documents/latex/1920/Grade-10/1st/arithmetic-ser
+ies/ps-arithmetic-series-input3.tex
+Underfull \hbox (badness 1721) in paragraph at lines 10--11
+[] \T1/futs/m/n/10.95 Sum of the in-te-gers be-
+ []
+
+)
+Overfull \hbox (0.15996pt too wide) in alignment at lines 47--552
+ [] [] [] [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 552
+ []
+
+
+Underfull \hbox (badness 3482) in paragraph at lines 554--554
+[]| \T1/futs/b/n/10.95 G. Find-ing Prac-ti-cal Ap-pli-ca-
+ []
+
+
+Underfull \hbox (badness 2698) in paragraph at lines 556--556
+[]\T1/futs/m/n/10.95 In what real life sit-u-a-tions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
+[]\T1/futs/m/n/10.95 How can you ap-ply your
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
+\T1/futs/m/n/10.95 knowl-edge of se-quences
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
+\T1/futs/m/n/10.95 in solv-ing these real life
+ []
+
+
+Underfull \hbox (badness 2698) in paragraph at lines 563--563
+[]\T1/futs/m/n/10.95 In what real life sit-u-a-tions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 563--563
+[]\T1/futs/m/n/10.95 How can you ap-ply your
+ []
+
+
+Underfull \hbox (badness 2698) in paragraph at lines 570--570
+[]\T1/futs/m/n/10.95 In what real life sit-u-a-tions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 570--570
+[]\T1/futs/m/n/10.95 How can you ap-ply your
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 570--570
+\T1/futs/m/n/10.95 knowl-edge of arith-metic
+ []
+
+
+Underfull \hbox (badness 2698) in paragraph at lines 577--577
+[]\T1/futs/m/n/10.95 In what real life sit-u-a-tions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 577--577
+[]\T1/futs/m/n/10.95 How can you ap-ply your
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 577--577
+\T1/futs/m/n/10.95 knowl-edge of arith-metic
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 583--583
+[]\T1/futs/m/n/10.95 How do we solve prob-lems
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 590--590
+[]\T1/futs/m/n/10.95 How do we solve prob-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 590--590
+\T1/futs/m/n/10.95 lems in-volv-ing arith-metic
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 597--597
+[]\T1/futs/m/n/10.95 How do we solve prob-lems
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 604--604
+[]\T1/futs/m/n/10.95 How do we solve prob-lems
+ []
+
+
+(/storage/emulated/0/Documents/documents/latex/1920/Grade-10/1st/sequences/qz-s
+equences-input.tex)
+(/storage/emulated/0/Documents/documents/latex/1920/Grade-10/1st/arithmetic-seq
+uences/qz-arithmetic-sequences-input.tex
+Underfull \hbox (badness 1354) in paragraph at lines 12--13
+[]\T1/futs/m/n/10.95 In the se-quence 3, $[]$, $[]$,...,
+ []
+
+
+Underfull \hbox (badness 5417) in paragraph at lines 14--15
+[]\T1/futs/m/n/10.95 The $61[]$ term of the se-
+ []
+
+)
+(/storage/emulated/0/Documents/documents/latex/1920/Grade-10/1st/arithmetic-mea
+ns/qz-arithmetic-means-input.tex)
+(/storage/emulated/0/Documents/documents/latex/1920/Grade-10/1st/arithmetic-ser
+ies/qz-arithmetic-series-input.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 664--664
+[]|\T1/futs/m/n/10.95 Objectives have been at-tained:
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 664--664
+\T1/futs/m/n/10.95 Objectives were not at-tained due
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 665--665
+[]|\T1/futs/m/n/10.95 Objectives have been at-tained:
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 665--665
+\T1/futs/m/n/10.95 Objectives were not at-tained due
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
+[]|\T1/futs/m/n/10.95 Objectives have been at-tained:
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 666--666
+\T1/futs/m/n/10.95 Objectives were not at-tained due
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 667--670
+[]|\T1/futs/m/n/10.95 Objectives have been at-tained:
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 667--670
+\T1/futs/m/n/10.95 Objectives were not at-tained due
+ []
+
+
+Underfull \hbox (badness 5908) in paragraph at lines 698--698
+[]| \T1/futs/b/n/10.95 C. Did the re-me-dial lessons
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 721--721
+[]| \T1/futs/b/n/10.95 F. What dif-fi-cul-ties did I en-
+ []
+
+
+Overfull \hbox (0.15996pt too wide) in alignment at lines 552--728
+ [] [] [] [] [] 
+ []
+
+[1
+
+{/data/data/com.termux/files/usr/share/texlive/texmf-var/fonts/map/pdftex/updma
+p/pdftex.map} </storage/emulated/0/Documents/documents/latex/1920/deped2.png>] 
+[2] [3] [4] [5] [6] [7] (./dll-06-01-2019.aux) ) ) 
+Here is how much of TeX's memory you used:
+ 17130 strings out of 494553
+ 325157 string characters out of 6175502
+ 487561 words of memory out of 5000000
+ 20321 multiletter control sequences out of 15000+600000
+ 53834 words of font info for 68 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 57i,17n,48p,985b,909s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/data/data/com.termux/files/
+usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</data/data/com.termux
+/files/usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb><
+/data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/adobe/utop
+ia/putb8a.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/t
+ype1/adobe/utopia/putr8a.pfb></data/data/com.termux/files/usr/share/texlive/tex
+mf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on dll-06-01-2019.pdf (7 pages, 104046 bytes).
+PDF statistics:
+ 50 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+

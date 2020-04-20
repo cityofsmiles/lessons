@@ -1,0 +1,29 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, baseline = (current bounding box.west)]
+
+\coordinate (circ) at (0,0); 
+
+\draw[name path=circum, line width=0.5mm] (circ) circle (\radA);
+
+\coordinate (a) at ($(circ) + (95:\radA)$); 
+
+\coordinate (b) at ($(circ) + (-80:\radA)$); 
+
+\coordinate (c) at ($(circ) + (60:\radA)$); 
+
+\coordinate (d) at ($(circ) + (200:\radA)$); 
+
+\draw[name path=line1, line width=0.3mm] (a) -- (b);
+
+\draw[name path=line2, line width=0.3mm] (c) -- (d);
+
+\fill[black, name intersections={of=line1 and line2, name=int}];
+
+\node(10.label) at ($(a)!0.5!(int-1) + (180:0.25*\radA)$) {$  10$};
+
+\node(x.label) at ($(c)!0.5!(int-1) +(-60:0.2*\radA)$) {$  x$};
+
+\node(25-label) at ($(d)!0.5!(int-1) +(100:0.27*\radA)$) {$  25$}; 
+
+\node(x6-label) at ($(b)!0.5!(int-1) +(10:0.44*\radA)$) {$  x+6$}; 
+
+\end{tikzpicture} 

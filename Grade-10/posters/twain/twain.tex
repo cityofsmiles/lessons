@@ -1,0 +1,30 @@
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-10/posters/ && pdflatex twain.tex && termux-open twain.pdf
+
+% convert -density 600 twain.pdf -quality 100 -verbose twain.png 
+%  6600x1440
+% convert -density 600 twain.pdf -crop 734x510 -quality 100 -verbose twain%02d.png
+
+\input{poster-preamble} 
+\usepackage[paperheight=1.7in, paperwidth=11in, margin=1mm]{geometry}
+
+\usepackage{tgchorus} 
+
+\def\framecolor{black!50!blue!60!}
+
+\def\bgpic{nature03.jpg}
+
+
+\begin{document}
+
+\input{poster-format} 
+
+%\vspace*{-1ex} 
+
+\centering
+{\fontsize{35}{37}\selectfont {``I have never let my schooling interfere with my education."
+
+\vspace*{1ex} 
+
+-- Mark Twain }}
+
+\end{document}

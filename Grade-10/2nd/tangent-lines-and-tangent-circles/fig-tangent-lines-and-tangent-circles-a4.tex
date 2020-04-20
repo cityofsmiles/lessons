@@ -1,0 +1,47 @@
+\begin{tikzpicture}[remember picture, overlay, 
+baseline = (current bounding box.north)
+]  
+ 
+\pgfmathsetmacro{\rone}{1} 
+
+\pgfmathsetmacro{\rtwo}{0.6}
+ 
+\pgfmathsetmacro{\mid}{\rone/(\rone + \rtwo)} 
+
+\pgfmathsetmacro{\out}{\rone/(\rone - \rtwo)} 
+
+\node[draw,circle,minimum size=2 * \rone cm,inner sep=0pt, line width=0.5mm] (c1) at (2*\rone,0) {}; 
+
+\node[draw,circle,minimum size=2 * \rtwo cm,inner sep=0pt, line width=0.5mm] (c2) at (0,0) {}; 
+
+\path (c1.center) -- node[coordinate,pos=\mid] (mid) {} (c2.center); 
+
+\path (c1.center) -- node[coordinate,pos=\out] (out) {} (c2.center); 
+
+\draw(c1.center) node  [circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt] () {};
+
+\draw(c2.center) node  [circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt] () {};
+
+\node(i-label) at ($(c1.center)+(180:0.22*\rone)$) {$  I$};
+
+\node(h-label) at ($(c2.center)+(180:0.22*\rone)$) {$  H$};
+
+\foreach \i in {1,2} 
+\foreach \j in {1,2} 
+\foreach \k in {mid,out} 
+\coordinate (t\i\j\k) at (tangent cs:node=c\i,point={(\k)},solution=\j); 
+
+\foreach \i in {1,2} 
+\foreach \k in {mid,out} 
+\draw[line width=0.3mm, <->, >={Latex[round]}] ($(t1\i\k)!-1cm!(t2\i\k)$) -- ($(t2\i\k)!-0.8cm!(t1\i\k)$); 
+
+\node(p-label) at ($(t21mid)!-1cm!(t11mid)+(110:3pt) $) {$  p$};
+
+\node(s-label) at ($(t22mid)!-1cm!(t12mid)+(-110:3pt) $) {$  s$};
+
+\node(r-label) at ($(t21out)!-1cm!(t11out)+(-70:0.25*\rone) $) {$  r$};
+
+\node(q-label) at ($(t22out)!-1cm!(t12out)+(70:0.25*\rone) $) {$  q$};
+
+\end{tikzpicture}
+

@@ -1,0 +1,17 @@
+\begin{tikzpicture}[baseline = (current bounding box.west)]
+
+
+
+\node[draw, circle, minimum size=2*\radA, inner sep=0pt, line width=0.5mm, outer sep=0] (circ) at (0,0) {};
+
+\node[anchor=south, inner sep=2pt, rotate=0] (16cm.label) at ($(circ.center)!0.5!(0:\radA)$) {$ \text{16 cm}$};
+
+\filldraw[fill=\figurefill, line width=0.3mm]  (0:\radA) arc (0:-90:\radA) -- cycle;
+
+\draw[line width=0.3mm]  (0:\radA) -- (circ.center) -- (-90:\radA);
+
+\begin{scope} [rotate=-90]
+\draw[line width=0.3mm] (circ.center) rectangle ++(0.15*\radA,0.15*\radA) node[transform shape]{};
+\end{scope} 
+
+\end{tikzpicture} 

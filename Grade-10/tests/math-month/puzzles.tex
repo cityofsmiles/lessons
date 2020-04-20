@@ -1,0 +1,83 @@
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-10/tests/math-month/ && pdflatex puzzles.tex && termux-open puzzles.pdf
+
+\documentclass[11pt]{article}
+\usepackage[letterpaper, portrait, margin=0.5in]{geometry}
+
+\input{/storage/emulated/0/Documents/documents/latex/1920/common-preamble-2019} 
+
+\pagenumbering{gobble}
+%\setlength{\extrarowheight}{15pt}
+
+
+\begin{document} 
+
+\begin{center}
+\textbf{Box Challenge}
+\end{center} 
+
+\begin{center}
+\begin{tikzpicture}
+
+\draw(1,0) rectangle(2,1); 
+
+\draw(0,1) rectangle(-1,2); 
+
+\draw(0,2) rectangle(1,3) rectangle(2,2); 
+
+\draw(0,0) rectangle(1,1) rectangle(2,2) rectangle(3,1);
+
+\end{tikzpicture} 
+\end{center} 
+
+Write the digits 1 through 8 in the boxes. No consecutive digits must be placed next to each other, for example: 
+
+\begin{center}
+\begin{tikzpicture}
+
+\draw(1,0) rectangle(2,1); 
+
+\draw(0,1) rectangle(-1,2); 
+
+\draw(0,2) rectangle(1,3) rectangle(2,2); 
+
+\draw(0,0) rectangle(1,1) rectangle(2,2) rectangle(3,1);
+
+\node (1) at (0.5, 1.5) {1}; 
+
+\node (2a) at (0.5, 2.5) {2}; 
+
+\node (2b) at (1.5, 2.5) {2}; 
+
+\node (2c) at (1.5, 1.5) {2}; 
+
+\end{tikzpicture} 
+\end{center} 
+
+\begin{center}
+\textbf{Stick Puzzle}
+\end{center} 
+
+Move 6 sticks to form 5 squares. 
+
+%\begin{center}
+\begin{tikzpicture}[remember picture,overlay]
+\node (stick) at (9,-3){\includegraphics[width=1.5in]{stick.jpg}}; 
+\end{tikzpicture} 
+%\end{center} 
+
+\newpage 
+
+\begin{center}
+\textbf{Coin Puzzle}
+\end{center} 
+
+Take six coins and arrange them in a triangle. Your goal is to rearrange the coins into a hexagon in four moves. Each move consists of sliding a single coin to a new location. The new location must be touching at least two other coins at each step. 
+
+%\begin{center}
+\begin{tikzpicture}[remember picture,overlay]
+\node (coin-start) at (9,-3){\includegraphics[width=1.5in]{coin-start.jpg}}; 
+\node (coin-start) at (9,-9){\includegraphics[width=1.5in]{coin-goal.jpg}}; 
+\end{tikzpicture} 
+%\end{center} 
+
+\end{document} 

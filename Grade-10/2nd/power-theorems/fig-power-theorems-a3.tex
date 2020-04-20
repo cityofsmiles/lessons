@@ -1,0 +1,41 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, baseline = (current bounding box.west)]
+
+\coordinate (circ) at (0,0); 
+
+\draw[name path=circum, line width=0.5mm] (circ) circle (\radA);
+
+\coordinate (a) at ($(circ) + (180:\radA)$); 
+
+\coordinate (b) at ($(circ) + (0:\radA)$); 
+
+\coordinate (c) at ($(circ) + (70:\radA)$);
+
+\coordinate (d) at ($(circ) + (-70:\radA)$); 
+
+\draw[name path=line1, line width=0.3mm] (a) -- (b);
+
+\draw[name path=line2, line width=0.3mm] (c) -- (d);
+
+\fill[black, name intersections={of=line1 and line2, name=int}];
+
+\begin{scope} [rotate=90]
+\draw[line width=0.3mm] (int-1) rectangle ++(0.15*\radA,0.15*\radA) node[transform shape]{};
+\end{scope} 
+
+\coordinate (tick1) at ($(c)!0.5!(int-1)$);
+
+\coordinate (tick2) at ($(d)!0.5!(int-1)$); 
+
+\tikzset{onetick/.pic={\draw[line width=0.3mm] ($(0,0)+(0,0.1*\radA)$) -- ($(0,0)-(0,0.1*\radA)$) ; }}
+
+\pic[rotate=90] at (tick1) [pic type = onetick]; 
+
+\pic[rotate=90] at (tick2) [pic type = onetick]; 
+
+\node(10.label) at ($(tick1)+(155:0.45*\radA)$) {$  10$};
+
+\node(4.label) at ($(b)! 0.5!(int-1)+(90:0.22*\radA)$) {$  4$};
+
+\node(x-label) at ($(a)!0.5!(int-1) +(90:0.18*\radA)$) {$  x$}; 
+
+\end{tikzpicture} 

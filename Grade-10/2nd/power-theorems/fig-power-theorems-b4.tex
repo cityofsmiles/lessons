@@ -1,0 +1,30 @@
+ \begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, baseline = (current bounding box.west)]
+
+\node[draw,circle,minimum size=2*\radB,inner sep=0pt, line width=0.5mm, outer sep=0] (circ) at (0,0) {};
+
+\coordinate (b) at ($(circ) + (95:\radB)$); 
+
+\coordinate (l) at ($(circ) + (-10:\radB)$); 
+
+\coordinate (e) at ($(l)! -0.5! (b)$); 
+
+\coordinate (s) at (tangent cs:node=circ, point={(e)}, solution=2);  
+
+\draw[name path=line1, line width=0.3mm] (b) -- (l) node[midway] (tick1) {} -- (e) node[midway] (tick2) {}  -- (s) node[midway] (tick3) {} ;
+
+\node(b.label) at ($(b)+(90:0.26*\radB)$) {$ B$};
+
+\node(l.label) at ($(l)+(40:0.26*\radB)$) {$ L$};
+
+\node(e.label) at ($(e)+(0:0.26*\radB)$) {$ E$};
+
+\node(s.label) at ($(s)+(-90:0.26*\radB)$) {$ S$};
+
+\node[rotate=-47](x2.label) at ($(tick1)+(30:0.17*\radB)$) {$ x+2$};
+
+\node(x-label) at ($(tick2) +(20:0.25*\radB)$) {$ x$};
+
+\node[rotate=5](x1-label) at ($(tick3) +(-90:0.25*\radB)$) {$ x+1$}; 
+
+\end{tikzpicture} 
+

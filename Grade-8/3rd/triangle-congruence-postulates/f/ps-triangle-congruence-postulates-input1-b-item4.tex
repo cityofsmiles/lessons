@@ -1,0 +1,31 @@
+\begin{tikzpicture}
+
+\def\len4{1.9*\lenB}
+
+\draw[line width=0.3mm] (0,0) coordinate (x) -- (40:0.9*\len4) coordinate (b) -- (0:0.7*\len4) coordinate (h) -- (180:0.7*\len4) coordinate (d) -- (220:0.9*\len4) coordinate (g) -- cycle; 
+
+\node[xshift=-3pt, anchor=south, inner sep=2pt, rotate=0] (x-label) at (x) {$ X$};
+
+\node[anchor=south, inner sep=2pt, rotate=0] (b-label) at (b) {$ B$}; 
+
+\node[anchor=west, inner sep=2pt, rotate=0] (h-label) at (h) {$ H$};
+
+\node[anchor=east, inner sep=2pt, rotate=0] (d-label) at (d) {$ D$};
+
+\node[anchor=north, inner sep=2pt, rotate=0] (g-label) at (g) {$ G$};
+
+\coordinate (tick1) at ($(x)!0.5!(h)$) {}; 
+
+\coordinate (tick2) at ($(x)!0.5!(d)$) {};  
+
+\tikzset{onetick/.pic={\draw[line width=0.3mm] ($(0,0)+(0,0.06*\len4)$) -- ($(0,0)-(0,0.06*\len4)$) ; }}
+
+\pic[rotate=0] at (tick1) [pic type = onetick];
+
+\pic[rotate=0] at (tick2) [pic type = onetick];   
+
+\pic [draw, line width=0.3mm, angle radius=0.15*\len4] {angle=b--h--x}; 
+
+\pic [draw, line width=0.3mm, angle radius=0.15*\len4] {angle=g--d--x}; 
+
+\end{tikzpicture} 

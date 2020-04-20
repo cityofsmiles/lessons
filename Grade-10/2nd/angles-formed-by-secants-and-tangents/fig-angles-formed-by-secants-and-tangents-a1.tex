@@ -1,0 +1,27 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, baseline = (current bounding box.west)]
+
+\node[draw,circle,minimum size=2*\radA, inner sep=0pt, line width=0.5mm, outer sep=0] (circ) at (0,0) {};
+
+\coordinate (a) at ($(circ) + (120:\radA)$);
+
+\coordinate (b) at ($(circ) + (-60:\radA)$);
+
+\coordinate (c) at ($(circ) + (70:\radA)$);
+
+\coordinate (d) at ($(circ) + (200:\radA)$);
+
+\draw[name path=line1, line width=0.3mm] (a)--(b);
+
+\draw[name path=line2, line width=0.3mm] (c)--(d);
+
+\fill[black, name intersections={of=line1 and line2, name=point}];
+
+\node[dot] (x) at (point-1){};
+
+\node(37-label) at ($(x)+(80: 0.85*\radA)$) {$  37\degree$};
+
+\node(x.label) at ($(x)+(85:0.22*\radA)$) {$  x$};
+
+\node(105.label) at ($(circ)+(-110:1.3*\radA)$) {$  105\degree $};
+
+\end{tikzpicture} 

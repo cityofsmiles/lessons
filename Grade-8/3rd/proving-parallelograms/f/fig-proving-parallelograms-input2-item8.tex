@@ -1,0 +1,13 @@
+\begin{tikzpicture}
+
+\def\len8{\lenB}
+
+\draw[line width=0.3mm] (0,0) coordinate (a)  -- (0:0.8*\len8) coordinate (b) --++ (110:\len8) coordinate (c) -- (110:\len8) coordinate (d) -- cycle -- (c) ;  
+
+\node[anchor=south east, inner sep=1pt, rotate=0, xshift=-0.1em, yshift=0pt] (b-label) at (b) {$ 55\degree $}; 
+
+\node[anchor=south west, inner sep=1pt, rotate=0, xshift=0.2em, yshift=0pt] (x-label) at (a) {$ x\degree $}; 
+
+\node[anchor=south, inner sep=1pt, rotate=0, xshift=0.25em, yshift=3.2ex] (58-label) at (a) {$ 58\degree $}; 
+
+\end{tikzpicture} 

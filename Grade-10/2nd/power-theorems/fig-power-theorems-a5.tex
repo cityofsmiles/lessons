@@ -1,0 +1,49 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, baseline = (current bounding box.west)]
+
+\coordinate (circ) at (0,0); 
+
+\draw[name path=circum, line width=0.5mm] (circ) circle (\radA);
+
+\coordinate (a) at ($(circ) + (170:\radA)$); 
+
+\coordinate (b) at ($(circ) + (275:\radA)$); 
+
+\coordinate (d) at ($(circ) + (43:\radA)$); 
+
+\coordinate (e) at ($(a)! 0.5!(b)$); 
+
+\draw[name path=line1, line width=0.3mm] (a) -- (b);
+
+\path[name path=line.guess, line width=0.3mm] (e) -- ($(e)!1!180:(d)$); 
+
+\fill[black, name intersections={of=circum and line.guess, name=int}];
+
+\coordinate (tick1) at ($(a)! 0.5!(e)$);
+
+\coordinate (tick2) at ($(b)! 0.5!(e)$);  
+
+\tikzset{onetick/.pic={\draw[line width=0.3mm] ($(0,0)+(0,0.1*\radA)$) -- ($(0,0)-(0,0.1*\radA)$) ; }}
+
+\pic[rotate=135] at (tick1) [pic type = onetick];  
+
+\pic[rotate=135] at (tick2) [pic type = onetick];  
+
+\node(6.label) at ($(tick2)+(-5:0.27*\radA)$) {$ 6$};
+
+\node(3.label) at ($(e)! 0.5!(int-1)+(130:0.18*\radA)$) {$ 3$};
+
+\node(x-label) at ($(d)!0.5!(int-1) +(100:0.25*\radA)$) {$ x$}; 
+
+\node(e-label) at ($(e)+(90:0.3*\radA)$) {$ E$}; 
+
+\node(d-label) at ($(d)+(55:0.25*\radA)$) {$ D$}; 
+
+\node(a-label) at ($(a)+(130:0.25*\radA)$) {$ A$};
+
+\node(b-label) at ($(b)-(130:0.25*\radA)$) {$ B$}; 
+
+\node(c-label) at ($(int-1)-(55:0.25*\radA)$) {$ C$}; 
+
+\draw[line width=0.3mm] (int-1) -- (d);
+
+\end{tikzpicture} 

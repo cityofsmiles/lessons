@@ -1,0 +1,106 @@
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-8/1st/intercepts-of-a-line && pdflatex hand-intercepts-of-a-line.tex && termux-open hand-intercepts-of-a-line.pdf
+
+
+\documentclass[handout]{beamer} 
+
+\usepackage{pgfpages} 
+\mode<handout>{%
+\pgfpagesuselayout{4 on 1}[letterpaper, 
+%legalpaper,% landscape, 
+border shrink=1mm] 
+%\setbeameroption{show notes} 
+}
+
+\usepackage{xcolor}
+\usepackage{anyfontsize}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{amsmath}
+%\usepackage{amsfonts,dsfont}% for \mathds 
+\usepackage{tabularx} 
+\usepackage{gensymb}
+\usepackage{multirow}
+\usepackage{graphicx, tipa}
+\usepackage{tikz}
+\usetikzlibrary{angles,quotes}
+\usepackage{pgfplots} 
+\usetikzlibrary{calc}
+\pgfplotsset{compat=newest}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{intersections}
+\usetikzlibrary{decorations.pathreplacing}
+\usepackage{flafter}
+\usepackage{amsmath,amssymb,cancel,units}
+\usepackage{microtype} % nicer output 
+\usepackage{hfoldsty} % nicer output 
+\usepackage{fixltx2e} 
+\usepackage{mathptmx}
+%\usepackage{booktabs}
+\usepackage{numprint}
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+
+
+\pagenumbering{gobble}
+%\linespread{0.9}
+\newcommand{\vspce}{\vspace{0.75ex}}
+\newcommand{\hspce}{\hspace{0.5em}}
+
+\newcommand{\vertadjust}{\vspace*{-1.5in}} % for letterpaper
+\newcommand{\vertadjustb}{\vspace*{-1.5in}} % for letterpaper
+%\newcommand{\vertadjust}{\vspace*{-2.5in}} % for legalpaper
+%\newcommand{\vertadjustb}{\vspace*{-2.7in}} % for legalpaper
+
+
+\newcommand{\blank}{\underline{\hspace{2em}}}%{\rule{1em}{0.15ex}}
+\newcommand{\arc}[1]{{% 
+\setbox9=\hbox{#1}% 
+\ooalign{\resizebox{\wd9}{\height}{\texttoptiebar{\phantom{A}}}\cr#1}}}
+
+\newcolumntype{C}{ >{\centering\arraybackslash} X}
+
+%\frame[shrink=5] 
+\begin{document} 
+
+% frame 1
+\vertadjust
+\begin{frame} 
+\input{vs-intercepts-of-a-line-input} %\\
+%\input{hand-intercepts-of-a-line-input1}
+\input{ps-intercepts-of-a-line-input1}
+\input{ps-intercepts-of-a-line-input2}
+\input{ps-intercepts-of-a-line-input3}
+\end{frame}
+
+% frame 2
+\vertadjust
+\begin{frame} 
+\input{vs-intercepts-of-a-line-input}% \\
+\input{ps-intercepts-of-a-line-input1}
+\input{ps-intercepts-of-a-line-input2}
+%\input{hand-intercepts-of-a-line-input2}
+\input{ps-intercepts-of-a-line-input3}
+\end{frame}
+
+% frame 3
+\vertadjustb
+\begin{frame} 
+\input{vs-intercepts-of-a-line-input} %\\
+\input{ps-intercepts-of-a-line-input1}
+\input{ps-intercepts-of-a-line-input2}
+\input{ps-intercepts-of-a-line-input3}
+\end{frame}
+
+% frame 4
+\vertadjustb
+\begin{frame} 
+\input{vs-intercepts-of-a-line-input}% \\
+\input{ps-intercepts-of-a-line-input1}
+\input{ps-intercepts-of-a-line-input2}
+%\input{hand-intercepts-of-a-line-input2}
+\input{ps-intercepts-of-a-line-input3}
+
+\end{frame}
+
+\end{document}
+

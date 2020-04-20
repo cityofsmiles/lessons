@@ -1,0 +1,71 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=4pt},
+nodot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=0pt},
+ remember picture, overlay
+]
+
+\def\radfig1{1.5cm}
+
+\node(i)[dot] at (0,0) {};
+
+\draw[name path=circ, line width=0.4mm] (i) circle (\radfig1);
+
+\node(i-label) at ($(i)+(120:0.18*\radfig1)$) {$\  I$};
+
+\coordinate (p) at ($(i) +(180:\radfig1)$);
+
+\node(p-label) at ($(p)+(180:0.22*\radfig1)$) {$\  P$};
+
+\coordinate (h) at ($(i) +(0:\radfig1)$);
+
+\node(h-label) at ($(h)+(0:0.1*\radfig1)$) {$\  H$};
+
+\node[nodot] (w) at ($(p)!0.5!(i)$){};
+
+\node(w-label) at ($(w)+(145:0.25*\radfig1)$) {$\  W$};
+
+\node[nodot] (n) at ($(i)!0.5!(h)$){};
+
+\node(n-label) at ($(n)+(60:0.15*\radfig1)$) {$\  N$};
+
+\path[name path=line1.guess, line width=0.5mm] (n) -- ($(n)!3!-90:(i)$);
+
+\fill[black, name intersections={of=line1.guess and circ, name=point}];
+
+\node[nodot] (c) at (point-1){};
+
+\node(c-label) at ($(c)+(90:0.22*\radfig1)$) {$\  C$};
+
+\path[name path=line2.guess, line width=0.5mm] (n) -- ($(n)!3!90:(i)$);
+
+\fill[black, name intersections={of=line2.guess and circ, name=point}];
+
+\node[nodot] (u) at (point-1){};
+
+\node(u-label) at ($(u)+(-90:0.22*\radfig1)$) {$\  U$};
+
+\path[name path=line3.guess, line width=0.5mm] (w) -- ($(w)!3!90:(i)$);
+
+\fill[black, name intersections={of=line3.guess and circ, name=point}];
+
+\node[nodot] (a) at (point-1){};
+
+\node(a-label) at ($(a)+(110:0.22*\radfig1)$) {$\  A$};
+
+\path[name path=line4.guess, line width=0.5mm] (w) -- ($(w)!3!-90:(i)$);
+
+\fill[black, name intersections={of=line4.guess and circ, name=point}];
+
+\node[nodot] (e) at (point-1){};
+
+\node(e-label) at ($(e)+(-120:0.22*\radfig1)$) {$\  E$};
+
+\draw[line width=0.5mm] (p) -- (h);
+
+\draw[line width=0.5mm] (a) -- (e);
+
+\draw[line width=0.5mm] (e) -- (c);
+
+\draw[line width=0.5mm] (c) -- (u);
+
+
+\end{tikzpicture}

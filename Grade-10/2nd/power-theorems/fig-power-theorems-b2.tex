@@ -1,0 +1,36 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, baseline = (current bounding box.west)]
+
+\coordinate (circ) at (0,0); 
+
+\draw[name path=circum, line width=0.5mm] (circ) circle (\radB);
+
+\coordinate (r) at ($(circ) + (120:\radB)$); 
+
+\coordinate (n) at ($(circ) + (0:1.6*\radB)$); 
+
+\coordinate (e) at ($(circ) + (210:\radB)$); 
+
+\draw[name path=line1, line width=0.3mm] (r) -- (n) -- (e) ;
+
+\fill[black, name intersections={of=line1 and circum, name=int}];
+
+\node(i.label) at ($(int-1)+(60:0.25*\radB)$) {$ I$};
+
+\node(r-label) at ($(r)+(160:0.25*\radB)$) {$ R$}; 
+
+\node(n-label) at ($(n)+(0:0.25*\radB)$) {$ N$};
+
+\node(e-label) at ($(e)+(-150:0.25*\radB)$) {$ E$};  
+
+\node(g.label) at ($(int-4)+(-40:0.2*\radB)$) {$ G$};
+
+\node(x-label) at ($(r)!0.5!(int-1) +(90:0.17*\radB)$) {$ x$}; 
+
+\node(3-label) at ($(n)!0.5!(int-1) +(70:0.25*\radB)$) {$ 3$}; 
+
+\node(5-label) at ($(e)!0.5!(int-4) +(-90:0.25*\radB)$) {$ 5$}; 
+
+\node(4-label) at ($(n)!0.5!(int-4) +(-70:0.25*\radB)$) {$ 4$}; 
+
+\end{tikzpicture} 
+

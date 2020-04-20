@@ -1,0 +1,52 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, baseline = (current bounding box.west)]
+
+\coordinate (circ) at (0,0); 
+
+\draw[name path=circum, line width=0.5mm] (circ) circle (\radB);
+
+\coordinate (e) at ($(circ) + (100:\radB)$); 
+
+\coordinate (o) at ($(circ) + (5:\radB)$); 
+
+\coordinate (r) at ($(circ) + (70:\radB)$);
+
+\coordinate (d) at ($(circ) + (-90:\radB)$); 
+
+\coordinate (a) at ($(d) + (180:1.3*\radB)$);
+
+\draw[name path=line1, line width=0.3mm] (e) -- (o);
+
+\draw[line width=0.3mm](r) -- (a) -- (d) ;
+
+\path[name path=line2, line width=0.3mm] (r) -- (a);
+
+\fill[black, name intersections={of=line2 and circum, name=ints}];
+
+\node(e.label) at ($(e)+(130:0.25*\radB)$) {$ E$};
+
+\node(s.label) at ($(ints-1)+(180:0.25*\radB)$) {$ S$};
+
+\node(r.label) at ($(r)+(40:0.25*\radB)$) {$ R$};
+
+\node(o.label) at ($(o)+(-20:0.25*\radB)$) {$ O$};
+
+\node(d.label) at ($(d)+(-90:0.25*\radB)$) {$ D$};
+
+\node(11-label) at ($(a)!0.5!(d) +(-90:0.25*\radB)$) {$ 11$}; 
+
+\node(a.label) at ($(a)+(170:0.25*\radB)$) {$ A$};
+
+\fill[black, name intersections={of=line1 and line2, name=int}];
+
+\node(y-label) at ($(e)!0.5!(int-1) +(235:0.25*\radB)$) {$ y$}; 
+
+\node(5-label) at ($(r)!0.5!(int-1) +(-30:0.25*\radB)$) {$ 5$}; 
+
+\node(9-label) at ($(o)!0.5!(int-1) +(260:0.25*\radB)$) {$ 9$}; 
+
+\node(x-label) at ($(ints-1)!0.5!(int-1) +(-40:0.2*\radB)$) {$ x$}; 
+
+\node(7-label) at ($(a)!0.5!(ints-1) +(180:0.25*\radB)$) {$ 7$}; 
+
+\end{tikzpicture} 
+

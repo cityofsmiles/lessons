@@ -1,0 +1,29 @@
+\begin{tikzpicture}
+
+\def\len2{0.8*\lenB}
+
+\draw[line width=0.3mm] (0,0) coordinate (q)  -- (85:0.6*\len2) coordinate (r) -- (0:1.3*\len2) coordinate (s) --++ (-95:0.6*\len2) coordinate (d) -- cycle --(s) ;  
+
+\node[anchor=east, inner sep=2pt, rotate=0] (q-label) at (q) {$ Q$}; 
+
+\node[anchor=south, inner sep=2pt, rotate=0] (r-label) at (r) {$ R$}; 
+
+\node[anchor=west, inner sep=2pt, rotate=0] (s-label) at (s) {$ S$}; 
+
+\node[anchor=north, inner sep=2pt, rotate=0] (d-label) at (d) {$ D$}; 
+
+\coordinate (tick1) at ($(q)!0.5!(r)$) {};
+
+\coordinate (tick2) at ($(s)!0.5!(d)$) {};  
+
+\tikzset{twotick/.pic={\draw[line width=0.3mm] ($(-0.02*\len2, 0)+(0, 0.06*\len2)$) -- ($(-0.02*\len2, 0)-(0, 0.06*\len2)$) ($(0.02*\len2, 0)+(0, 0.06*\len2)$) -- ($(0.02*\len2, 0)-(0, 0.06*\len2)$) ; }}
+
+\pic[rotate=85] at (tick1) [pic type = twotick];  
+
+\pic[rotate=85] at (tick2) [pic type = twotick];   
+
+\pic [draw, line width=0.3mm, angle radius=0.15*\len2] {angle=s--q--r}; 
+
+\pic [draw, line width=0.3mm, angle radius=0.15*\len2] {angle=q--s--d}; 
+
+\end{tikzpicture} 

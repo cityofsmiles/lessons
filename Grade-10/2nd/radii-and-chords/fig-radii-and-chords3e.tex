@@ -1,0 +1,53 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, 
+%dim-label/.style={fill=white, rectangle, inner sep=2pt, outer sep=0pt}, 
+nodot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=0pt}, 
+%remember picture, overlay, 
+baseline = (current bounding box.west)
+] 
+
+\node(i)[dot] at (0,0) {};
+
+\draw[name path=circ, line width=0.5mm] (i) circle (\radfig3a);
+
+\coordinate (a) at ($(i) + (100:\radfig3a)$);
+
+\coordinate (b) at ($(i) + (220:\radfig3a)$);
+
+\coordinate (c) at ($(i) + (340:\radfig3a)$);
+
+\coordinate (int) at ($(a)! 0.5!(c)$);
+
+\node(a.label) at ($(a)+(100:0.22*\radfig3a)$) {$  A$};
+
+\node(b.label) at ($(b)+(220:0.22*\radfig3a)$) {$  B$};
+
+\node(c.label) at ($(c)+(340:0.22*\radfig3a)$) {$  C$};
+
+\node(x.label) at ($(int)+(40:0.13*\radfig3a)$) {$  x$};
+
+\pic [draw, line width=0.3mm, angle radius=0.25*\radfig3a] {angle=b--a--c};
+
+\pic [draw, line width=0.3mm, angle radius=0.25*\radfig3a] {angle=a--c--b};
+
+\pic [draw, line width=0.3mm, angle radius=0.25*\radfig3a] {angle=c--b--a};
+ 
+\draw[line width=0.3mm] ($(a)! 0.15*\radfig3a! (i) $) -- ($(a)! 0.35*\radfig3a! (i) $) ;
+
+\draw[line width=0.3mm] ($(b)! 0.15*\radfig3a! (i) $) -- ($(b)! 0.35*\radfig3a! (i) $) ;
+
+\draw[line width=0.3mm] ($(c)! 0.15*\radfig3a! (i) $) -- ($(c)! 0.35*\radfig3a! (i) $) ;
+
+\draw[line width=0.5mm] (a) -- (b) node[midway, xshift=-0.22*\radfig3a] (17.label) {$17$};;
+
+\draw[line width=0.5mm] (c) -- (b) ;
+
+\draw[line width=0.5mm] (a) -- (c) ;
+
+\draw[line width=0.3mm, densely dotted] (b) -- (int) ;
+
+\begin{scope} [rotate=-140]
+\draw[line width=0.3mm] (int) rectangle ++(0.22*\radfig3a,0.22*\radfig3a) node[transform shape]{};
+\end{scope}
+
+\end{tikzpicture}
+

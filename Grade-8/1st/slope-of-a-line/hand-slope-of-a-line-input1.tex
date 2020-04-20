@@ -1,0 +1,193 @@
+\textbf{Practice Exercises}
+%\textbf{Problem Set}
+
+\vspce
+
+
+%\begin{enumerate}[label = \Alph*. ]
+%\item 
+\def \scaleforhandout{0.6}
+
+A. Find the slope of each line below. 
+
+\begin{enumerate}[label = \arabic*. ]
+\begin{multicols}{2}
+
+\item \hspce 
+\begin{tikzpicture}[place/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=6pt}, scale=\scaleforhandout %scale=1.3
+]
+\begin{axis} 
+[
+xticklabels={}, 
+yticklabels={}, 
+ymin=-5, ymax=5,
+xmin=-5, xmax=5,
+axis lines = center, 
+inner axis line style={Latex[round]-Latex[round],very thick}, 
+grid=both,
+minor tick num=1, 
+%xlabel=$\scriptstyle x$,
+%ylabel=$\scriptstyle y$, 
+tick align=inside,  
+%every axis y label/.style={rotate=0, black, at={(0.5,1.05)},}, 
+%every axis x label/.style={rotate=0, black, at={(1.05,0.5)},}, 
+%domain=-4.5:4.5, 
+%samples=200,
+] 
+
+\addplot[<->, >={Latex[round]},  ultra thick, domain=-2.25:0.5, samples=200]{(7/2)*x+3}node[]{};
+
+\node (A) at (-2,-4) [place] {}; 
+\node(A-label) at ($(A)+(135:37pt)$) {\Huge $ \scriptstyle (-2,-4)$};
+
+\node (B) at (0,3) [place] {}; 
+\node(B-label) at ($(B)+(5:27pt)$) {\huge $ (0,3)$};
+
+\end{axis} 
+\end{tikzpicture} 
+ 
+\vspce 
+\item \hspce 
+\begin{tikzpicture}[place/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=6pt}, scale=\scaleforhandout %scale=1.3
+]
+\begin{axis} 
+[
+xticklabels={}, 
+yticklabels={}, 
+ymin=-5, ymax=5,
+xmin=-5, xmax=5,
+axis lines = center, 
+inner axis line style={Latex[round]-Latex[round],very thick}, 
+grid=both,
+minor tick num=1, 
+%xlabel=$\scriptstyle x$,
+%ylabel=$\scriptstyle y$, 
+tick align=inside,  
+%every axis y label/.style={rotate=0, black, at={(0.5,1.05)},}, 
+%every axis x label/.style={rotate=0, black, at={(1.05,0.5)},}, 
+%domain=-4.5:4.5, 
+%samples=200,
+] 
+
+\addplot[<->, >={Latex[round]}, ultra thick, domain=-1.5:4, samples=200]{-x+3}node[]{};
+
+\node (A) at (0,3) [place] {}; 
+\node(A-label) at ($(A)+(185:32pt)$) {\huge $(0,3)$};
+
+\node (B) at (2,1) [place] {}; 
+\node(B-label) at ($(B)+(20:27pt)$) {\huge$(2,1)$};
+
+\end{axis} 
+\end{tikzpicture} 
+ 
+\vspce 
+\item \hspce 
+\begin{tikzpicture}[place/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=6pt},scale=\scaleforhandout % scale=1.3
+]
+\begin{axis} 
+[
+xticklabels={}, 
+yticklabels={}, 
+ymin=-5, ymax=5,
+xmin=-5, xmax=5,
+axis lines = center, 
+inner axis line style={Latex[round]-Latex[round],very thick}, 
+grid=both,
+minor tick num=1, 
+%xlabel=$\scriptstyle x$,
+%ylabel=$\scriptstyle y$, 
+tick align=inside,  
+%every axis y label/.style={rotate=0, black, at={(0.5,1.05)},}, 
+%every axis x label/.style={rotate=0, black, at={(1.05,0.5)},}, 
+%domain=-4.5:4.5, 
+%samples=200,
+] 
+
+\addplot[<->, >={Latex[round]}, ultra thick, domain=-4.5:4.5, samples=200]{-3}node[]{};
+
+\node (A) at (-3,-3) [place] {}; 
+\node(A-label) at ($(A)+(90:17pt)$) {\huge$(-3,-3)$};
+
+\node (B) at (2,-3) [place] {}; 
+\node(B-label) at ($(B)+(90:17pt)$) {\huge$(2,-3)$};
+
+\end{axis} 
+\end{tikzpicture} 
+  
+\vspce 
+\item \hspce 
+\begin{tikzpicture}[place/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=6pt}, scale=\scaleforhandout %scale=1.3
+]
+\begin{axis} 
+[
+xticklabels={}, 
+yticklabels={}, 
+ymin=-5, ymax=5,
+xmin=-5, xmax=5,
+axis lines = center, 
+inner axis line style={Latex[round]-Latex[round],very thick}, 
+grid=both,
+minor tick num=1, 
+%xlabel=$\scriptstyle x$,
+%ylabel=$\scriptstyle y$, 
+tick align=inside,  
+%every axis y label/.style={rotate=0, black, at={(0.5,1.05)},}, 
+%every axis x label/.style={rotate=0, black, at={(1.05,0.5)},}, 
+%domain=-4.5:4.5, 
+%samples=200,
+] 
+
+\addplot[<->, >={Latex[round]}, ultra thick, domain=-4:5, samples=200]{x/2-2}node[]{};
+
+\node (A) at (0,-2) [place] {}; 
+\node(A-label) at ($(A)+(165:32pt)$) {\huge$(0,-2)$};
+
+\node (B) at (4,0) [place] {}; 
+\node(B-label) at ($(B)+(130:22pt)$) {\huge$(4,0)$};
+
+\end{axis} 
+\end{tikzpicture} 
+  
+\vspce 
+\item \hspce 
+\begin{tikzpicture}[place/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=6pt}, scale=\scaleforhandout %scale=1.3
+]
+\begin{axis} 
+[
+xticklabels={}, 
+yticklabels={}, 
+ymin=-5, ymax=5,
+xmin=-5, xmax=5,
+axis lines = center, 
+inner axis line style={Latex[round]-Latex[round],very thick}, 
+grid=both,
+minor tick num=1, 
+%xlabel=$\scriptstyle x$,
+%ylabel=$\scriptstyle y$, 
+tick align=inside,  
+%every axis y label/.style={rotate=0, black, at={(0.5,1.05)},}, 
+%every axis x label/.style={rotate=0, black, at={(1.05,0.5)},}, 
+%domain=-4.5:4.5, 
+%samples=200,
+] 
+
+%\addplot[<->, ultra thick, domain=-2.25:0.5, samples=200]{(7/2)*x+3}node[]{};
+
+\node (A) at (-2, -4) [place] {}; 
+\node(A-label) at ($(A)+(180:32pt)$) {\huge $ \scriptstyle (-2,-4)$};
+
+\node (B) at (-2, 3) [place] {}; 
+\node(B-label) at ($(B)+(180:32pt)$) {\Huge $ \scriptstyle (-2,3)$};
+\draw[<->, >={Latex[round]},ultra thick] (-2,-5) -- (-2,4); 
+
+\end{axis} 
+\end{tikzpicture} 
+ 
+\end{multicols} 
+\end{enumerate}   
+
+
+
+
+%\end{enumerate} 
+

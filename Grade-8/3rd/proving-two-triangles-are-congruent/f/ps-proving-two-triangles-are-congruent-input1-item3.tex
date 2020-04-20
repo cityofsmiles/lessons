@@ -1,0 +1,65 @@
+\begin{tikzpicture}
+
+\def\len3{\lenA}
+
+\coordinate (n) at (0,0);
+
+\coordinate (e) at ($(n) + (0:0.3*\len3)$);
+
+\coordinate (i) at ($(n) + (180:0.3*\len3)$);
+
+\coordinate (f) at ($(n) + (90:0.8*\len3)$);
+
+\node[anchor=north, inner sep=0.07*\leninnersep, rotate=0] (n-label) at (n) {$ N$};
+
+\node[anchor=north west, inner sep=3pt, rotate=0] (e-label) at (e) {$ E$}; 
+
+\node[anchor=north east, inner sep=3pt, rotate=0] (i-label) at (i) {$ I$};
+
+\node[anchor=south, inner sep=0.07*\leninnersep, rotate=0] (f-label) at (f) {$ F$};
+
+\draw[line width=0.3mm] (f) -- (n) -- (e) -- (f) -- (i) -- (n);
+
+\begin{scope} [rotate=0]
+\draw[thick] (n) rectangle ++(0.08*\len3,0.08*\len3) node[transform shape]{};
+\end{scope}   
+
+\end{tikzpicture} 
+
+
+Given: $\overline{FN} \perp \overline{EI}  $, $\overline{FN} $ bisects  $\angle{EFI} $\\
+Prove: $\triangle FNI \cong \triangle FNE$\\
+Proof:
+\begin{center}
+
+\noindent\begin{minipage}{27em}
+
+\begin{tabularx}{\textwidth}{|Y|Y|}
+\hline
+\textbf{Statements} & \textbf{Reasons}  \\
+\hline
+\end{tabularx} 
+
+\par\vskip1pt
+
+\begin{tabularx}{\textwidth}{|X|X|}
+\hline
+1. $\overline{FN} \perp \overline{EI}$ & 1.  \\
+\hline
+2. $\angle{FNI} =90 \degree $, \newline $\angle{FNE} =90 \degree $ & 2.  \\
+\hline
+3. $\angle{FNI} \cong \angle{FNE}$ & 3.  \\
+\hline
+4. $\overline{FN} \cong \overline{FN} $ & 4.  \\
+\hline
+5. $\overline{FN} $ bisects  $\angle{EFI} $ & 5.  \\
+\hline
+6. $\angle{EFN} \cong \angle{IFN}$ &  6.  \\
+\hline
+7. $\triangle FNI \cong \triangle FNE$ & 7.  \\
+\hline
+\end{tabularx} 
+\end{minipage}
+
+\end{center} 
+

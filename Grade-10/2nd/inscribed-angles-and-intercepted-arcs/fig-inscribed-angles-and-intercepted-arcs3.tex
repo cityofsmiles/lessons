@@ -1,0 +1,35 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, 
+dim-label/.style={fill=white, rectangle, inner sep=2pt, outer sep=0pt}, 
+nodot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=0pt}, 
+remember picture, overlay
+]  
+
+\def\rad4{1.3cm}
+
+\coordinate (l) at (0,0); 
+
+\node(l-label) at ($(l)+(30:0.22*\rad4)$) {$L$};
+
+\draw[line width=0.5mm] (l) node[circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt] {} circle [radius=\rad4]; 
+
+\node (a) at (15:\rad4) [nodot] {}; 
+
+\node(a-label) at ($(a)+(15:0.22*\rad4)$) {$A$};
+  
+\node (o) at (165:\rad4) [nodot] {}; 
+
+\node(o-label) at ($(o)+(165:0.22*\rad4)$) {$O$};
+  
+\node (g) at (215:\rad4) [nodot] {};
+
+\node(g-label) at ($(g)+(215:0.22*\rad4)$) {$G$};
+   
+\node(75) at ($(g)+(53:0.4*\rad4)$) {$75\degree$};
+
+\draw[line width=0.3mm] (a)--(o)--(g)--(a) ; 
+ 
+\node(160) at ($(l)+(-45:1.3*\rad4)$) {$160\degree$};
+
+\draw[red, line width=0.5mm] (a)  arc (15:-145:\rad4);
+
+\end{tikzpicture}

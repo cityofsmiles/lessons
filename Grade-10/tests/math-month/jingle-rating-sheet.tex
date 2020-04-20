@@ -1,0 +1,99 @@
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-10/tests/math-month/ && pdflatex jingle-rating-sheet.tex && termux-open jingle-rating-sheet.pdf
+
+\documentclass[11pt]{article}
+\usepackage[letterpaper, portrait, margin=0.5in]{geometry}
+
+\input{/storage/emulated/0/Documents/documents/latex/1920/common-preamble-2019} 
+
+\pagenumbering{gobble}
+\newcolumntype{j}{>{\hsize=.5\hsize}Y}
+\newcolumntype{k}{>{\hsize=1.7\hsize}X}
+\newcolumntype{y}{>{\hsize=1.2\hsize}Y}
+\newcolumntype{z}{>{\hsize=1.1\hsize}Y}
+
+\newcommand{\judgename}{
+\vspace*{2ex}
+\begin{center}
+\underline{\hspace{6cm}} \\
+Judge's Name and Signature 
+\end{center} 
+}
+
+\newcommand{\consotable}{
+\begin{center}
+\vspace*{-2ex}
+\scalebox{1}{
+\noindent\begin{minipage}{\textwidth}
+{\begin{tabularx}{\textwidth}{*{8}{|Y}|}
+\hline 
+\thead{Contestant} & \thead{Judge 1\tabularnewline Ranking} & \thead{Judge 2\tabularnewline Ranking} & \thead{Judge 3\tabularnewline Ranking} &\thead{Judge 4\tabularnewline Ranking} & \thead{Judge 5\tabularnewline Ranking} & \thead{Sum of\tabularnewline Ranks} &\thead{Final Rank} \\
+\hline 
+1 & & & & & & & \\
+\hline 
+2 & & & & & & & \\
+\hline 
+3 & & & & & & & \\
+\hline 
+4 & & & & & & & \\
+\hline 
+5 & & & & & & & \\
+\hline  
+6 & & & & & & & \\
+\hline 
+7 & & & & & & & \\
+\hline 
+8 & & & & & & & \\
+\hline 
+\end{tabularx}}
+\end{minipage}}
+\end{center} 
+}
+
+\begin{document} 
+
+\begin{center}
+\textbf{Rating Sheet for Math Jingle}
+\end{center} 
+
+\begin{center}
+\vspace*{-2ex}
+\scalebox{1}{
+\noindent\begin{minipage}{\textwidth}
+{\begin{tabularx}{\textwidth}{|Y|k|Y|y|z|Y*{2}{|j}|}
+\hline 
+\multirow{5}{*}{\thead{Contestant}} & \multicolumn{5}{c|}{\thead{Category}} & \multirow{5}{*}{\thead{Total}} & \multirow{5}{*}{\thead{Rank}} \\
+\cline{2-6}
+ & \thead{Synchronization  \tabularnewline \& Choreography \tabularnewline (30 Points)} & \thead{Originality \tabularnewline (25 Points)} &\thead{Relevance to \tabularnewline the Theme\tabularnewline(20 Points)} & \thead{Modulation \tabularnewline of Voice \tabularnewline(15 Points)} & \thead{Audience\tabularnewline Impact\tabularnewline (10 Points)} & & \\
+\hline 
+1 & & & & & & & \\
+\hline 
+2 & & & & & & & \\
+\hline 
+3 & & & & & & & \\
+\hline 
+4 & & & & & & & \\
+\hline 
+5 & & & & & & & \\
+\hline  
+6 & & & & & & & \\
+\hline 
+7 & & & & & & & \\
+\hline 
+8 & & & & & & & \\
+\hline 
+\end{tabularx}}
+\end{minipage}}
+\end{center} 
+
+\judgename
+
+\newpage 
+
+\begin{center}
+\textbf{Consolidation of Ranks for Math Jingle}
+\end{center} 
+
+\consotable
+\judgename
+
+\end{document} 

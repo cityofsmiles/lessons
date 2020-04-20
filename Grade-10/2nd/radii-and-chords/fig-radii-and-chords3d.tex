@@ -1,0 +1,42 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, 
+nodot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=0pt}, 
+baseline = (current bounding box.west)
+]  
+
+\node(o)[dot] at (0,0) {};
+
+\draw[name path=circ, line width=0.5mm] (o) circle (\radfig3a);
+
+\node(o-label) at ($(o)+(250:0.22*\radfig3a)$) {$\  O$};
+
+\coordinate (y) at ($(o) +(\radfig3a, 0)$);
+
+\node(y.label) at ($(y)+(0:0.22*\radfig3a)$) {$\  Y$};
+
+\coordinate (a) at ($(o) + (0, \radfig3a)$);
+
+\coordinate (int) at ($(o)! 0.6!(a)$);
+
+\path[name path=line.guess, line width=0.3mm] ($(int)!2.3!-90:(o)$) -- ($(int)!2!90:(o)$);
+
+\fill[black, name intersections={of=line.guess and circ, name=point}];
+
+\node[nodot] (l) at (point-1){};
+
+\node(l.label) at ($(l)+(0:0.22*\radfig3a)$) {$\  L$};
+
+\draw[line width=0.3mm] (o) -- (y) node [midway, yshift=-0.19*\radfig3a] (25)
+{$\  25$};
+
+\draw[line width=0.3mm] (o) -- (int) node [midway, xshift=-0.2*\radfig3a, yshift=-2pt] (7)
+{$\  7$};;
+
+\draw[line width=0.3mm] (point-2) -- (l) node [midway, yshift=0.15*\radfig3a] (x)
+{$\  x$};;
+
+\begin{scope} [rotate=-90]
+\draw[line width=0.3mm] (int) rectangle ++(0.22*\radfig3a,0.22*\radfig3a) node[transform shape]{};
+\end{scope}
+
+\end{tikzpicture}
+

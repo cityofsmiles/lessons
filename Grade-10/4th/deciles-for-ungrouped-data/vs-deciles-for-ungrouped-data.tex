@@ -1,0 +1,55 @@
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-10/1st/deciles-for-ungrouped-data && pdflatex vs-deciles-for-ungrouped-data.tex && termux-open vs-deciles-for-ungrouped-data.pdf
+
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-10/1st/deciles-for-ungrouped-data && clean-tex vs-deciles-for-ungrouped-data-input.tex
+
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-10/1st/deciles-for-ungrouped-data && convert -density 600 vs-deciles-for-ungrouped-data.pdf -crop 2200x1700 -quality 100 -verbose vs-deciles-for-ungrouped-data%02d.png
+
+%2480.5x3508 portrait 2x2 2550x3300
+%3508x2480.5 landscape 2x2 3300x2550 
+%1653.7x2338.7 portrait 3x3 1700x2200
+%landscape 3x3 2200x1700
+
+% cd /storage/emulated/0/Documents/documents/latex/1819/grade10/visual/4th/deciles-for-ungrouped-data && while inotifywait -e close_write vs-deciles-for-ungrouped-data*.tex; do touch /storage/emulated/0/Android/data/com.termux/files/launch-termux.txt && printf '1' > /storage/emulated/0/Android/data/com.termux/files/launch-termux.txt && pdflatex vs-deciles-for-ungrouped-data.tex && termux-open vs-deciles-for-ungrouped-data.pdf; done
+
+% cd /host-rootfs/storage/emulated/0/Documents/documents/latex/1819/grade10/visual/4th/deciles-for-ungrouped-data && while inotifywait -e close_write vs-deciles-for-ungrouped-data*.tex; do pdflatex vs-deciles-for-ungrouped-data.tex  && printf "/storage/emulated/0/Documents/documents/latex/1819/grade10/visual/4th/deciles-for-ungrouped-data/vs-deciles-for-ungrouped-data.pdf" > /host-rootfs/storage/emulated/0/GNURoot/home/Scripts/file-to-launch.txt; done
+
+
+\documentclass[10pt]{article}
+\usepackage[letterpaper, landscape, right=0.5in, left=0.3in, top=0.5in, bottom=0.5in]{geometry}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{anyfontsize}
+\usepackage{amsmath}
+\usepackage{bm} 
+\usepackage{multirow, multicol, makecell} 
+\usepackage{gensymb}
+\usepackage{flafter}
+\usepackage{amsmath,amssymb,cancel,units}
+\usepackage{microtype} % nicer output 
+\usepackage{hfoldsty} % nicer output 
+\usepackage{fixltx2e} 
+\usepackage{mathptmx}
+\usepackage{booktabs}
+\usepackage{numprint}
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+%\usepackage{siunitx} 
+%\sisetup{detect-all}
+
+\pagenumbering{gobble}
+%\linespread{0.9}
+\newcommand{\vspce}{\vspace{0.5ex}}
+\newcommand{\hspce}{\hspace{0.5em}}
+
+
+
+\begin{document}
+
+\boldmath
+
+{\fontsize{36}{40}\fontfamily{pnc}\selectfont{
+
+\input{vs-deciles-for-ungrouped-data-input}
+
+}}
+\end{document}

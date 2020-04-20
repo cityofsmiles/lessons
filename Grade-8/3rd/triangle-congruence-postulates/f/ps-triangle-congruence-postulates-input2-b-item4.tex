@@ -1,0 +1,49 @@
+\begin{tikzpicture}
+
+\def\len4{\lenB}
+
+\draw[line width=0.3mm] (0,0) coordinate (a)  -- (180:0.6*\len4) coordinate (b) -- (90:0.9*\len4) coordinate (c) -- cycle;  
+
+\node[anchor=north, inner sep=2pt, rotate=0] (a-label) at (a) {$ A$}; 
+
+\node[anchor=north, inner sep=2pt, rotate=0] (b-label) at (b) {$ B$}; 
+
+\node[anchor=south, inner sep=7pt, rotate=0] (c-label) at (c) {$ C$}; 
+
+\draw[line width=0.3mm, xshift=0.8*\len4] (0,0) coordinate (j)  -- (180:0.6*\len4) coordinate (k) -- (90:0.9*\len4) coordinate (l) -- cycle;
+
+\node[anchor=north, inner sep=2pt, rotate=0] (j-label) at (j) {$ J$}; 
+
+\node[anchor=north, inner sep=2pt, rotate=0] (k-label) at (k) {$ K$}; 
+
+\node[anchor=south, inner sep=7pt, rotate=0] (l-label) at (l) {$ L$}; 
+
+\coordinate (tick1) at ($(a)!0.5!(b)$) {}; 
+
+\coordinate (tick2) at ($(j)!0.5!(k)$) {};  
+
+\tikzset{onetick/.pic={\draw[line width=0.3mm] ($(0,0)+(0, 0.06*\len4)$) -- ($(0,0)-(0, 0.06*\len4)$) ; }}
+
+\pic[rotate=0] at (tick1) [pic type = onetick]; 
+
+\pic[rotate=0] at (tick2) [pic type = onetick];   
+
+\coordinate (tick3) at ($(a)!0.5!(c)$) {};  
+
+\coordinate (tick4) at ($(l)!0.5!(j)$) {};  
+
+\tikzset{twotick/.pic={\draw[line width=0.3mm] ($(-0.02*\len4, 0)+(0, 0.06*\len4)$) -- ($(-0.02*\len4, 0)-(0, 0.06*\len4)$) ($(0.02*\len4, 0)+(0, 0.06*\len4)$) -- ($(0.02*\len4, 0)-(0, 0.06*\len4)$) ; }}
+
+\pic[rotate=90] at (tick3) [pic type = twotick];
+
+\pic[rotate=90] at (tick4) [pic type = twotick];  
+
+\begin{scope} [rotate=90]
+\draw[line width=0.3mm] (a) rectangle ++(0.13*\len4,0.13*\len4) node[transform shape]{};
+\end{scope} 
+
+\begin{scope} [rotate=90]
+\draw[line width=0.3mm] (j) rectangle ++(0.13*\len4,0.13*\len4) node[transform shape]{};
+\end{scope} 
+
+\end{tikzpicture} 

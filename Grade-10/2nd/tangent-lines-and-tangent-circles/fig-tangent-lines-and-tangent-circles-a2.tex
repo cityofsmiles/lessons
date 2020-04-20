@@ -1,0 +1,30 @@
+\begin{tikzpicture}[ 
+remember picture, %overlay, 
+baseline = (current bounding box.south)
+] 
+
+\def\radD{1cm}
+
+\def\radC{0.4cm}
+
+\coordinate (d) at (0,0); 
+
+\draw[line width=0.5mm] (d) node[circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt] {} circle [radius=\radD];
+
+\node(d-label) at ($(d)+(180:0.22*\radD)$) {$  D$};
+
+\draw ($(d)+(45:\radD)$) node[circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt] (int) {} [];
+
+\draw[line width=0.3mm, ->, >={Latex[round]}] (int) -- ($(int)!1!-90:(d)$);
+
+\draw[line width=0.3mm, ->, >={Latex[round]}] (int) -- ($(int)!1!90:(d)$);
+
+\node (c) at ($(int)!0.4!0:(d)$) {};
+
+\draw[line width=0.3mm] (c) node[circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt] {} circle [radius=\radC];
+
+\node(c-label) at ($(c)+(180:0.22*\radD)$) {$  C$};
+
+\node(m-label) at ($(c)+(0:0.8*\radD)$) {$  m$};
+
+\end{tikzpicture}

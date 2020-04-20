@@ -1,0 +1,37 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, baseline = (current bounding box.west)]
+
+\coordinate (circ) at (0,0); 
+
+\draw[name path=circum, line width=0.5mm] (circ) circle (\radA);
+
+\coordinate (l) at ($(circ) + (90:\radA)$); 
+
+\coordinate (k) at ($(circ) + (190:\radA)$);
+
+\coordinate (n) at ($(circ) + (-15:\radA)$); 
+
+\coordinate (j) at ($(l)!2!(k)$); 
+
+\draw[name path=line1, line width=0.3mm] (l) -- (j) -- (n) ;
+
+\fill[black, name intersections={of=line1 and circum, name=int}];
+
+\node(m.label) at ($(int-3)+(-100:0.33*\radA)$) {$ M$};
+
+\node(l.label) at ($(l)+(90:0.25*\radA)$) {$ L$};
+
+\node(j.label) at ($(j)+(220:0.33*\radA)$) {$ J$};
+
+\node(k.label) at ($(k)+(170:0.33*\radA)$) {$ K$};
+
+\node(n.label) at ($(n)+(0:0.25*\radA)$) {$ N$};
+
+\node(x-label) at ($(j)!0.5!(int-3) +(-90:0.2*\radA)$) {$ x$};
+
+\node(10-label1) at ($(j)!0.5!(k) +(180:0.35*\radA)$) {$ 10$};
+
+\node(10-label2) at ($(l)!0.5!(k) +(180:0.2*\radA)$) {$ 10$}; 
+
+\node(8-label) at ($(n)!0.5!(int-3) +(-90:0.25*\radA)$) {$ 8$};
+
+\end{tikzpicture} 

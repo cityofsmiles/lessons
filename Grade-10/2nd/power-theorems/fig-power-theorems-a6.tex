@@ -1,0 +1,31 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, baseline = (current bounding box.west)]
+
+\node[draw,circle,minimum size=2*\radA,inner sep=0pt, line width=0.5mm, outer sep=0] (circ) at (0,0) {};
+
+\path[name path=circum, line width=0.3mm] (circ) circle (\radA);
+
+\coordinate (f) at ($(circ) + (100:\radA)$); 
+
+\coordinate (h) at ($(circ) + (260:1.9*\radA)$); 
+
+\node[dot] (i) at (tangent cs:node=circ, point={(h)}, solution=1) {};  
+
+\draw[name path=line1, line width=0.3mm] (f) -- (h) -- (i) ;
+
+\fill[black, name intersections={of=line1 and circum, name=int}];
+
+\node(g.label) at ($(int-1)+(230:0.25*\radA)$) {$ G$};
+
+\node(f.label) at ($(f)+(80:0.25*\radA)$) {$ F$};
+
+\node(h.label) at ($(h)-(80:0.28*\radA)$) {$ H$};
+
+\node(i.label) at ($(i)+(-70:0.25*\radA)$) {$ I$};
+
+\node(11.label) at ($(h)!0.5!(i) +(-30:0.25*\radA)$) {$ 11$};
+
+\node(9.label) at ($(h)!0.5!(int-1) +(190:0.13*\radA)$) {$ 9$};
+
+\node(x-label) at ($(f)!0.5!(int-1) +(180:0.2*\radA)$) {$ x$}; 
+
+\end{tikzpicture} 

@@ -1,0 +1,71 @@
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-8/3rd/inductive-reasoning/&& pdflatex hand-inductive-reasoning.tex && divide 2x2 hand-inductive-reasoning.pdf
+
+
+\documentclass[handout]{beamer} 
+
+\usepackage{pgfpages} 
+\mode<handout>{%
+\pgfpagesuselayout{4 on 1}[%letterpaper, 
+legalpaper,% landscape, 
+border shrink=1mm] 
+}
+
+\input{/storage/emulated/0/Documents/documents/latex/1920/common-preamble-2019}
+
+%\setbeamertemplate{itemize items}{\textbullet} 
+%\useinnertheme{circles} 
+
+%\newcommand{\vertadjust}{\vspace*{-1.5in}} % for letterpaper
+%\newcommand{\vertadjustb}{\vspace*{-1.5in}} % for letterpaper
+\newcommand{\vertadjust}{\vspace*{-2.5in}} % for legalpaper
+\newcommand{\vertadjustb}{\vspace*{-2.5in}} % for legalpaper
+
+
+\begin{document} 
+
+% frame 1
+\vertadjust
+\begin{frame} 
+\input{vs-inductive-reasoning-input} %\\
+%\input{hand-inductive-reasoning-input1}
+\input{ps-inductive-reasoning-input1}
+\input{ps-inductive-reasoning-input2}
+%\vspace*{1ex}
+%\input{ps-inductive-reasoning-input3}
+\end{frame}
+
+% frame 2
+\vertadjust
+\begin{frame} 
+%\input{vs-inductive-reasoning-input}% \\
+%\input{ps-inductive-reasoning-input1}
+%\input{ps-inductive-reasoning-input2}
+%\input{hand-inductive-reasoning-input2}
+%\vspace*{1ex}
+\input{ps-inductive-reasoning-input3}
+\end{frame}
+
+% frame 3
+\vertadjustb
+\begin{frame} 
+\input{vs-inductive-reasoning-input} 
+\input{ps-inductive-reasoning-input1}
+\input{ps-inductive-reasoning-input2}
+%\vspace*{1ex}
+%\input{ps-inductive-reasoning-input3}
+\end{frame}
+
+% frame 4
+\vertadjustb
+\begin{frame} 
+%\input{vs-inductive-reasoning-input}
+%\input{ps-inductive-reasoning-input1}
+%\input{ps-inductive-reasoning-input2}
+%\input{hand-inductive-reasoning-input2}
+%\vspace*{1ex}
+\input{ps-inductive-reasoning-input3}
+
+\end{frame}
+
+\end{document}
+

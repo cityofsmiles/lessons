@@ -1,0 +1,94 @@
+\begin{tikzpicture}
+
+\def\len1{\lenA}
+
+\draw[line width=0.3mm] 
+(0,0) coordinate (b) 
+
+node[anchor=east, inner sep=0.07*\leninnersep, rotate=0] (b-label) {$ B$} 
+-+ 
+(0:\len1) coordinate (c) 
+
+node[anchor=west, inner sep=0.07*\leninnersep, rotate=0] (c-label) {$ C$} 
+
+node[midway] (tick1) {} 
+-+ 
+(50:0.5*\len1) coordinate (a) 
+
+node[anchor=south, inner sep=0.07*\leninnersep, rotate=0] (a-label) {$ A$} 
+-- 
+cycle; 
+
+\tikzset{onetick/.pic={\draw[line width=0.3mm] ($(0,0)+(0,0.04*\len1)$) -- ($(0,0)-(0,0.04*\len1)$) ; }}
+
+\pic[rotate=0] at (tick1) [pic type = onetick];  
+
+\pic [draw, line width=0.3mm, angle radius=0.1*\len1] {angle=c--b--a}; 
+
+\pic [draw, line width=0.3mm, angle radius=0.15*\len1] {angle=c--b--a}; 
+
+\pic [draw, line width=0.3mm, angle radius=0.1*\len1] {angle=b--a--c}; 
+
+\draw[line width=0.3mm, xshift=1.75*\len1] 
+(0,0) coordinate (d) 
+
+node[anchor=east, inner sep=0.07*\leninnersep, rotate=0] (d-label) {$ D$} 
+-- 
+(0:\len1) coordinate (f) 
+
+node[anchor=west, inner sep=0.07*\leninnersep, rotate=0] (f-label) {$ F$} 
+
+node[midway] (tick2) {}
+-- 
+(50:0.5*\len1) coordinate (e) 
+
+node[anchor=south, inner sep=0.07*\leninnersep, rotate=0] (e-label) {$ E$} 
+-- 
+cycle;  
+
+\pic[rotate=0] at (tick2) [pic type = onetick];  
+
+\pic [draw, line width=0.3mm, angle radius=0.1*\len1] {angle=f--d--e}; 
+
+\pic [draw, line width=0.3mm, angle radius=0.15*\len1] {angle=f--d--e}; 
+
+\pic [draw, line width=0.3mm, angle radius=0.1*\len1] {angle=d--e--f}; 
+
+
+\end{tikzpicture} 
+
+
+Given: $\angle{A}\cong \angle{E} $, $\angle{B}\cong \angle{D} $, $\overline{BC}\cong\overline{DF} $\\
+Prove: $\triangle ABC \cong \triangle EDF$\\
+Proof: 
+\begin{center}
+
+\noindent\begin{minipage}{27em}
+
+\begin{tabularx}{\textwidth}{|Y|Y|}
+\hline
+\textbf{Statements} & \textbf{Reasons}  \\
+\hline
+\end{tabularx} 
+
+\par\vskip1pt
+
+\begin{tabularx}{\textwidth}{|X|X|}
+\hline
+1. $\angle{A}+\angle{B} +\angle{C} = 180 \degree  $ \newline $\angle{D}+\angle{E} +\angle{F} = 180 \degree$ & 1.  \\
+\hline
+2. $\angle{A}+\angle{B} +\angle{C} = \newline  \angle{E}+\angle{D} +\angle{F} $ & 2.  \\
+\hline
+3. $\angle{A} = \angle{E} $, $\angle{B}  = \angle{D} $ & 3.  \\
+\hline
+4. $\angle{C} = \angle{F}$ & 4.  \\
+\hline
+5. $\overline{BC} \cong \overline{DF} $ & 5.  \\
+\hline
+6. $\triangle ABC \cong \triangle EDF$ & 6.  \\
+\hline
+\end{tabularx} 
+\end{minipage}
+
+\end{center} 
+

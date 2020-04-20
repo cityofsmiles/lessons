@@ -1,0 +1,31 @@
+\begin{tikzpicture}[
+remember picture, overlay, 
+baseline = (current bounding box.west)
+]  
+
+\def\radE{0.5cm}
+
+\def\radF{0.7cm}
+
+\coordinate (intE) at (0,0); 
+
+\coordinate (intF) at (1.5*\radF,0); 
+
+\node(e) at ($(intE)+(90:\radE)$) {};
+
+\draw[line width=0.5mm] (e) node[circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt] {} circle [radius=\radE];
+
+\node(e-label) at ($(e)+(50:0.3*\radF)$) {$  E$};
+
+\draw[line width=0.3mm, <->, >={Latex[round]}] ($(intE) +(180:1.2*\radE)$) -- ($(intF) +(0:1.2*\radF)$);
+
+\node(f) at ($(intF)+(-90:\radF)$) {};
+
+\node(n) at ($(intF)+(15:1cm)$) {$  n$};
+
+\draw[line width=0.5mm] (f) node[circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt] {} circle [radius=\radF];
+
+\node(f-label) at ($(f)+(-50:0.3*\radF)$) {$  F$};
+
+\end{tikzpicture}
+

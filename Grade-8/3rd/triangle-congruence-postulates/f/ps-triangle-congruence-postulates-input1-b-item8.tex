@@ -1,0 +1,35 @@
+\begin{tikzpicture}
+
+\def\len8{2*\lenB}
+
+\draw[line width=0.3mm] (0,0) coordinate (w) -- (0:\len8) coordinate (v) --++ (130:0.5*\len8) coordinate (r) -- (130:0.5*\len8) coordinate (q) -- cycle -- (r) ;  
+
+\node[anchor=north, inner sep=2pt, rotate=0] (w-label) at (w) {$ W$};
+
+\node[anchor=west, inner sep=2pt, rotate=0] (v-label) at (v) {$ V$};
+
+\node[anchor=south, inner sep=2pt, rotate=0] (r-label) at (r) {$ R$};
+
+\node[anchor=east, inner sep=2pt, rotate=0] (q-label) at (q) {$ Q$};
+
+\coordinate (tick1) at ($(w)!0.5!(v)$) {};  
+
+\coordinate (tick2) at ($(q)!0.5!(r)$) {};  
+
+\coordinate (tick3) at ($(r)!0.5!(v)$) {};  
+
+\coordinate (tick4) at ($(q)!0.5!(w)$) {};  
+
+\tikzset{twotick/.pic={\draw[line width=0.3mm] ($(-0.02*\len8, 0)+(0, 0.06*\len8)$) -- ($(-0.02*\len8, 0)-(0, 0.06*\len8)$) ($(0.02*\len8, 0)+(0, 0.06*\len8)$) -- ($(0.02*\len8, 0)-(0, 0.06*\len8)$) ; }}
+
+\pic[rotate=0] at (tick1) [pic type = twotick];
+
+\pic[rotate=0] at (tick2) [pic type = twotick];  
+
+\tikzset{threetick/.pic={\draw[line width=0.3mm] ($(-0.03*\len8, 0)+(0, 0.06*\len8)$) -- ($(-0.03*\len8, 0)-(0, 0.06*\len8)$) ($(0,0)+(0, 0.06*\len8)$) -- ($(0,0)-(0, 0.06*\len8)$)  ($(0.03*\len8, 0)+(0, 0.06*\len8)$) -- ($(0.03*\len8, 0)-(0, 0.06*\len8)$) ; }}
+
+\pic[rotate=130] at (tick3) [pic type = threetick];
+
+\pic[rotate=130] at (tick4) [pic type = threetick];   
+
+\end{tikzpicture} 

@@ -1,0 +1,38 @@
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-10/tests/quiz-bee; pdflatex quiz-bee-oral-difficult.tex && termux-open quiz-bee-oral-difficult.pdf
+
+\documentclass[11pt]{article}
+
+\input{/storage/emulated/0/Documents/documents/latex/1920/common-preamble-2019.tex} 
+\usepackage[letterpaper, portrait, margin=0.3in]{geometry}
+
+%\linespread{1}
+
+\newcommand{\mytext}{
+\textbf{Difficult Round} 
+\begin{enumerate}[label = \arabic*. ]
+%\begin{multicols}{2}
+%1
+\item Given six non-collinear, coplanar points, how many triangles can be formed using these points?
+%2
+\item In  how  many  ways  can 5  persons  be  seated  around  a  circular  table  if two  of  them  insist  on  sitting  beside  each  other? 
+%3
+\item What are the x-intercepts of the function \mbox{$f(x) = x^2 (x +3)(x -2)$}? 
+%4
+\item According to Descartes' rule of signs, how many positive zeros does  the polynomial function $f(x) = 4x^5-6x^3 + 2x^2-6x-9$ have? 
+%5 
+\item What is the remainder of  $3x^{100} - 4$  divided by $(x + 1)$?  
+%\end{multicols}
+\end{enumerate} 
+}
+
+\begin{document}
+
+\mytext
+
+\mytext
+
+\mytext
+
+\mytext
+
+\end{document}

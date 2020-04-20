@@ -1,0 +1,131 @@
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-10/2nd/area-of-sectors-and-segments-of-a-circle && pdflatex beamer-area-of-sectors-and-segments-of-a-circle.tex && termux-open beamer-area-of-sectors-and-segments-of-a-circle.pdf
+
+
+\documentclass{beamer} 
+\usetheme{Darmstadt}
+
+\input{/storage/emulated/0/Documents/documents/latex/1920/common-preamble-2019}
+
+\title{Area of Sectors and Segments of a Circle} 
+\author{Dr. Loreto G. Domingo\\
+Noemi Sangria\\
+Ferdinand Tala\\
+Marie Carvy Hazel Galinato\\
+Joanne A. Abia\\
+Joshua Catungal\\
+Jonathan R. Bacolod} 
+\institute{Sauyo High School} 
+\date{\today}
+
+\def\figurefill{blue!20}
+
+\begin{document} 
+
+\begin{frame} 
+\titlepage 
+\end{frame}
+
+%\begin{frame} 
+%\frametitle{Outline} 
+%\tableofcontents 
+%\end{frame}  
+
+\begin{frame} 
+\section{Sector of a Circle} 
+\frametitle{Sector of a Circle} 
+\textbf{Sector:} a region in the circle bounded by two radii and the minor arc they determine
+
+\vspce 
+
+The \textbf{area of a sector} is represented by $A = \dfrac{n}{360}\pi r^2$, where $n$ is the number of degrees in the central angle of a sector.
+\begin{center}
+\input{/storage/emulated/0/Documents/documents/latex/1920/Grade-10/2nd/area-of-sectors-and-segments-of-a-circle/fig-a/fig-area-of-sectors-and-segments-of-a-circle-c1} 
+\end{center} 
+\end{frame}
+
+\begin{frame} 
+\subsection{Example}
+\frametitle{Example} 
+\vspace*{-2cm}
+To solve for the area of the shaded region: \\
+$n=90 \degree $\\
+$\text{r = 5 in.}$\\
+$A = \dfrac{n}{360}\pi r^2$\\
+$A = \dfrac{90}{360}(\pi)(5^2)$\\
+$A = \dfrac{1}{4}(\pi)(25)$\\
+$A=\dfrac{25}{4}\pi$ in$^2$
+
+\vspace*{-2.5cm}\hspace*{7.5cm}\input{/storage/emulated/0/Documents/documents/latex/1920/Grade-10/2nd/area-of-sectors-and-segments-of-a-circle/fig-a/fig-area-of-sectors-and-segments-of-a-circle-c2} 
+\end{frame}
+
+\section{Segment of a Circle} 
+\begin{frame} 
+\frametitle{Segment of a Circle} 
+\textbf{Segment:} a region bounded by an arc and the chord of the arc
+
+\vspce 
+
+The \textbf{area of a segment} of a circle is found by subtracting the area of a triangle from the area of a sector. 
+\[
+\text A_{segment} = A_{sector}-A_{triangle}
+\] 
+\begin{center}
+\input{/storage/emulated/0/Documents/documents/latex/1920/Grade-10/2nd/area-of-sectors-and-segments-of-a-circle/fig-a/fig-area-of-sectors-and-segments-of-a-circle-d1} 
+\end{center} 
+\end{frame}
+
+\begin{frame} 
+\subsection{Example}
+\frametitle{Example} 
+\vspace*{-3cm}
+To solve for the area of the shaded region: \\
+%\begin{multicols}{2}
+$n=90 \degree $, 
+$\text{r = 5 in.}$\\
+%\end{multicols} 
+\begin{multicols}{3}
+\small{$A_{sector} = \dfrac{n}{360}\pi r^2$\\
+$A_{sector} = \dfrac{90}{360}(\pi)(5^2)$\\
+$A_{sector} = \dfrac{1}{4}(\pi)(25)$\\
+$A_{sector}=\dfrac{25}{4}\pi$ in$^2$\\
+\columnbreak
+$A_{triangle}=\dfrac{1}{2}bh$\\
+$A_{triangle}=\dfrac{1}{2}(5)(5)$\\
+$A_{triangle}=\dfrac{25}{2}$ in$^2$\\
+\columnbreak
+\tiny $A_{segment} = A_{sector}-A_{triangle}$\\
+$A_{segment} = \dfrac{25}{4}\pi-\dfrac{25}{2}$\\
+$A_{segment} = -\dfrac{25}{2}+\dfrac{25}{4}\pi$ in$^2$}
+\end{multicols} 
+
+\vspace*{-4.6cm}\hspace*{8.5cm}
+\input{/storage/emulated/0/Documents/documents/latex/1920/Grade-10/2nd/area-of-sectors-and-segments-of-a-circle/fig-a/fig-area-of-sectors-and-segments-of-a-circle-d2} 
+
+\end{frame}
+
+\section{Practice Exercises} 
+\begin{frame} 
+\frametitle{Practice Exercises} 
+\input{ps-area-of-sectors-and-segments-of-a-circle-input1a} 
+\end{frame}
+
+\begin{frame} 
+\frametitle{Practice Exercises}
+\input{ps-area-of-sectors-and-segments-of-a-circle-input1b} 
+\end{frame}
+
+\section{Problem Set} 
+\begin{frame} 
+\frametitle{Problem Set} 
+\input{ps-area-of-sectors-and-segments-of-a-circle-input3a} 
+\end{frame}
+
+\begin{frame} 
+\frametitle{Problem Set} 
+\input{ps-area-of-sectors-and-segments-of-a-circle-input3b} 
+\end{frame}
+
+
+\end{document}
+
+

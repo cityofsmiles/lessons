@@ -1,0 +1,18 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}]
+
+\node[draw,circle,minimum size=2*\myrad,inner sep=0pt, line width=0.5mm, outer sep=0] (o) at (0,0) {}; 
+
+\node(o-dot)[dot] at (o.center) {};
+
+\node(o-label) at ($(o.center)+(180:0.27*\myrad)$) {$  O$};
+
+\coordinate (t) at (2*\myrad,0); 
+
+\node(58) at ($(t)+(190:0.5*\myrad)$) {$  58\degree$};
+
+\draw[line width=0.3mm] (o.center) -- (tangent cs:node=o, point={(t)}, solution=1) -- (t) -- (tangent cs:node=o, point={(t)}, solution=2) -- cycle; 
+
+\node(x-label) at ($(o)+(0:0.22*\myrad)$) {$  x$};
+
+\end{tikzpicture}
+

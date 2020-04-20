@@ -1,0 +1,16 @@
+\begin{tikzpicture}[baseline = (current bounding box.west)]
+
+\node[draw, circle, minimum size=2*\radA, inner sep=0pt, line width=0.5mm, outer sep=0] (circ) at (0,0) {};
+
+\node[anchor=south, inner sep=2pt, rotate=0] (8in.label) at ($(circ.center)!0.5!(0:\radA)$) {$ \text{8 in}$};
+
+\filldraw[fill=\figurefill, line width=0.3mm]  (0:\radA) arc (0:-60:\radA) -- cycle;
+
+\filldraw[fill=\figurefill, line width=0.3mm]  (180:\radA) arc (180:120:\radA) -- cycle;
+
+\node[rotate=0] (120-label) at ($(circ.center)+(220:0.42*\radA)$) {$ 120\degree $}; 
+
+\draw[line width=0.3mm] (0:\radA) -- (180:\radA) -- (120:\radA) -- (-60:\radA) -- cycle;
+
+\end{tikzpicture} 
+

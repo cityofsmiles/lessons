@@ -1,0 +1,26 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=2pt}, dim-label/.style={fill=white, rectangle, inner sep=2pt, outer sep=0pt}, baseline = (current bounding box.west)]  
+
+\node[draw, circle, minimum size=2*\radB, inner sep=0pt, line width=0.5mm, outer sep=0] (circ) at (0,0) {};
+
+\filldraw[fill=\figurefill, line width=0.3mm]  (180:\radB) arc (180:0:\radB) -- cycle;
+
+\coordinate(center2) at ($(180:\radB)! 0.5! (circ.center) $);
+
+\filldraw[fill=white, line width=0.3mm] (center2) circle (0.5*\radB); 
+
+\coordinate(center3) at ($(0:\radB)! 0.5! (circ.center) $);
+
+\filldraw[fill=white, line width=0.3mm] (center3) circle (0.5*\radB); 
+
+\node [dot] at (center2){}; 
+
+\node [dot] at (center3){}; 
+
+
+\draw[line width=0.3mm] (180:\radB) -- (0:\radB); 
+
+\node[anchor=north, inner sep=2pt, rotate=0] (8cm1.label) at (center2) {$ \text{8 cm}$};
+
+\node[anchor=north, inner sep=2pt, rotate=0] (8cm2.label) at (center3) {$ \text{8 cm}$};
+
+\end{tikzpicture} 

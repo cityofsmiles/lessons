@@ -1,0 +1,7 @@
+\begin{tikzpicture}
+
+\def\len2{\lenA}
+
+\draw[line width=0.3mm] (0,0) coordinate (1) node[yshift=-0.07*\leninnersep, inner sep=5pt, rotate=0, anchor=south west] (1-label) {$ 1$} -- (70:\len2) coordinate (2) node[xshift=2pt, inner sep=6pt, rotate=0, anchor=north] (2-label) {$ 2$} -- (0:1.2*\len2) coordinate (3) edge[-Latex] (0:1.7*\len2) node[yshift=-4pt, xshift=-2pt, inner sep=5pt, rotate=0, anchor=south east] (3-label) {$ 3$} node[yshift=0pt, xshift=-2pt, inner sep=2pt, rotate=0, anchor=south west] (4-label) {$ 4$}  -- cycle;  
+
+\end{tikzpicture} 

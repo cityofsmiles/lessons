@@ -1,0 +1,35 @@
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-10/tests/math-month/ && pdflatex judges.tex && termux-open judges.pdf
+
+\documentclass[11pt]{article}
+\usepackage[letterpaper, portrait, margin=0.15in]{geometry}
+\usepackage{xcolor}
+
+\input{/storage/emulated/0/Documents/documents/latex/1920/common-preamble-2019} 
+
+\pagenumbering{gobble}
+
+\newcommand{\namejudge}[3]{\noindent\begin{center}\fontsize{#1}{#2}\fontfamily{pnc}\selectfont{#3}\end{center}}
+
+\begin{document} 
+\vspace*{2in}
+\textcolor{blue}{\namejudge{50}{56}{Mrs. Jhoanna C. Pabon}}
+\vfill
+\textcolor{blue}{\namejudge{50}{60}{Dr. Loreto R. Domingo}}
+
+\vfill
+
+\newpage 
+\vspace*{2in}
+\namejudge{40}{45}{Mr. Emmanuel S. Reginaldo}
+\vfill
+\namejudge{50}{60}{Mr. Joshua B. Mendoza}
+\vfill
+
+\newpage 
+\vspace*{2in}
+\namejudge{55}{65}{Joemarie A. Tadeo}
+\vfill
+\namejudge{45}{54}{Rowena Rebecca M. Tivoli}
+\vfill
+
+\end{document} 

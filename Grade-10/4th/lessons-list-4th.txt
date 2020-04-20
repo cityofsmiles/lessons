@@ -1,0 +1,13 @@
+conditional-probability
+quartiles-for-ungrouped-data
+deciles-for-ungrouped-data
+percentiles-for-ungrouped-data
+quartiles-for-grouped-data
+deciles-for-grouped-data
+percentiles-for-grouped-data
+mean-for-grouped-data
+mode-for-grouped-data
+median-for-grouped-data
+percentile-rank-for-ungrouped-data
+percentile-rank-for-grouped-data
+percentile-rank-for-data

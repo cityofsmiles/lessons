@@ -1,0 +1,49 @@
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-10/4th/quartiles-for-grouped-data && count-checks sol-quartiles-for-grouped-data.tex && count-checks sol-quartiles-for-grouped-data.tex && pdflatex sol-quartiles-for-grouped-data.tex && divide 1x2 sol-quartiles-for-grouped-data.pdf 
+
+
+\documentclass[handout]{beamer} 
+
+\usepackage{pgfpages} 
+
+\setlength\columnsep{1mm} 
+\mode<handout>{%
+\pgfpagesuselayout{4 on 1}[
+%letterpaper, 
+legalpaper, %landscape, 
+border shrink=1mm] 
+%\setbeameroption{show notes} 
+}
+
+\input{/storage/emulated/0/Documents/documents/latex/1920/common-preamble-2019} 
+
+%\newcommand{\vertadjust}{\vspace*{-1.5in}} % for letterpaper
+%\newcommand{\vertadjustb}{\vspace*{-1.5in}} % for letterpaper
+\newcommand{\vertadjust}{\vspace*{-2.5in}} % for legalpaper
+\newcommand{\vertadjustb}{\vspace*{-2.5in}} % for legalpaper
+
+
+\begin{document} 
+\vertadjust
+\begin{frame} %1
+\input{sol-quartiles-for-grouped-data-input1} 
+\end{frame}
+
+\vertadjust
+\begin{frame} %2
+\input{sol-quartiles-for-grouped-data-input2} 
+\end{frame}
+
+%\vspace*{-2.7in} %legalpaper
+\vertadjust
+\begin{frame} %3
+\input{sol-quartiles-for-grouped-data-input1} 
+\end{frame}
+
+%\vspace*{-2.7in} %legalpaper
+\vertadjust
+\begin{frame} %4
+\input{sol-quartiles-for-grouped-data-input2} 
+\end{frame}
+
+\end{document}
+

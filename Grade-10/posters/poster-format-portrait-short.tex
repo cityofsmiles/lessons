@@ -1,0 +1,13 @@
+
+\begin{tikzpicture}[remember picture, overlay]
+	\node[anchor=north west, opacity=0.3, inner sep=0pt] (pic) at (-0.65,0.5){\includegraphics[width=5.5in, height=11in]{\bgpic}};
+	
+	\node[rectangle, draw=\bordercolor, line width=0.3in, inner sep=0pt, minimum width=\paperwidth, minimum height=\paperheight] (frame) at (current page.center) {}; 
+	
+	
+	\node at ($(current page.south west)+(45:0.7*\allmargin)$)  {\pgfornament[width=7mm, symmetry=h, color=\framecolor]{61}};
+	\node at ($(current page.south east)+(135:0.7*\allmargin)$)  {\pgfornament[width=7mm, symmetry=h, color=\framecolor]{62}};
+	\node at ($(current page.north west)+(-45:0.7*\allmargin)$)  {\pgfornament[width=7mm, color=\framecolor]{61}};
+	\node at ($(current page.north east)+(225:0.7*\allmargin)$)  {\pgfornament[width=7mm, symmetry=v, color=\framecolor]{61}};
+
+\end{tikzpicture}

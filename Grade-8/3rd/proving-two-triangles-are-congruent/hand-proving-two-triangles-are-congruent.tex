@@ -1,0 +1,74 @@
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-8/3rd/proving-two-triangles-are-congruent/&& pdflatex hand-proving-two-triangles-are-congruent.tex && divide 2x2 hand-proving-two-triangles-are-congruent.pdf
+
+
+\documentclass[handout]{beamer} 
+
+\usepackage{pgfpages} 
+\mode<handout>{%
+\pgfpagesuselayout{4 on 1}[%letterpaper, 
+legalpaper,% landscape, 
+border shrink=1mm] 
+}
+
+\input{/storage/emulated/0/Documents/documents/latex/1920/common-preamble-2019}
+
+%\setbeamertemplate{itemize items}{\textbullet} 
+%\useinnertheme{circles} 
+
+%\newcommand{\vertadjust}{\vspace*{-1.5in}} % for letterpaper
+%\newcommand{\vertadjustb}{\vspace*{-1.5in}} % for letterpaper
+\newcommand{\vertadjust}{\vspace*{-2.5in}} % for legalpaper
+\newcommand{\vertadjustb}{\vspace*{-2.5in}} % for legalpaper
+
+\def\lenA{1.7cm}
+\def\lenB{1.2cm}
+\def\leninnersep{\lenA}
+
+\begin{document} 
+
+% frame 1
+\vertadjust
+\begin{frame} 
+\input{vs-proving-two-triangles-are-congruent-input} %\\
+%\input{hand-proving-two-triangles-are-congruent-input1}
+\input{ps-proving-two-triangles-are-congruent-input1}
+%\input{ps-proving-two-triangles-are-congruent-input2}
+%\vspace*{1ex}
+%\input{ps-proving-two-triangles-are-congruent-input3}
+\end{frame}
+
+% frame 2
+\vertadjust
+\begin{frame} 
+%\input{vs-proving-two-triangles-are-congruent-input}% \\
+%\input{ps-proving-two-triangles-are-congruent-input1}
+\input{ps-proving-two-triangles-are-congruent-input2}
+%\input{hand-proving-two-triangles-are-congruent-input2}
+\vspace*{1ex}
+\input{ps-proving-two-triangles-are-congruent-input3}
+\end{frame}
+
+% frame 3
+\vertadjustb
+\begin{frame} 
+\input{vs-proving-two-triangles-are-congruent-input} 
+\input{ps-proving-two-triangles-are-congruent-input1}
+%\input{ps-proving-two-triangles-are-congruent-input2}
+%\vspace*{1ex}
+%\input{ps-proving-two-triangles-are-congruent-input3}
+\end{frame}
+
+% frame 4
+\vertadjustb
+\begin{frame} 
+%\input{vs-proving-two-triangles-are-congruent-input}
+%\input{ps-proving-two-triangles-are-congruent-input1}
+\input{ps-proving-two-triangles-are-congruent-input2}
+%\input{hand-proving-two-triangles-are-congruent-input2}
+\vspace*{1ex}
+\input{ps-proving-two-triangles-are-congruent-input3}
+
+\end{frame}
+
+\end{document}
+

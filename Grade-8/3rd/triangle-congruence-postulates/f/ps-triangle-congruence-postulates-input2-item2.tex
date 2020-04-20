@@ -1,0 +1,32 @@
+
+\begin{tikzpicture}
+
+\coordinate (s) at (0,0);  
+
+\coordinate (o) at ($(s) - (-30:1.4*\lenA)$); 
+
+\coordinate (t) at ($(o)!1!90:(s)$); 
+
+\coordinate (e) at ($(o)!1!-90:(s)$); 
+
+\draw[line width=0.3mm] (s)--(t) node[midway] (tick2) {} --(e) -- cycle node[midway] (tick3) {}  (s) --(o) node[midway] (tick1) {} ; 
+
+\node(s-label) at ($(s)-(150:0.25*\lenA)$) {$ S$}; 
+
+\node(t-label) at ($(t)-(260:0.33*\lenA)$) {$ T$}; 
+
+\node(o-label) at ($(o)-(-30:0.25*\lenA)$) {$ O$}; 
+
+\node(e-label) at ($(e)-(50:0.33*\lenA)$) {$ E$}; 
+
+\tikzset{onetick/.pic={\draw[line width=0.3mm] ($(0,0)+(0,0.1*\lenA)$) -- ($(0,0)-(0,0.1*\lenA)$) ; }}
+
+\pic[rotate=-30] at (tick1) [pic type = onetick]; 
+
+\tikzset{twotick/.pic={\draw[line width=0.3mm] ($(-0.08,0)+(0,0.1*\lenA)$) -- ($(-0.08,0)-(0,0.1*\lenA)$) ($(0.08,0)+(0,0.1*\lenA)$) -- ($(0.08,0)-(0,0.1*\lenA)$) ; }}
+
+\pic[rotate=105] at (tick2) [pic type = twotick];  
+
+\pic[rotate=15] at (tick3) [pic type = twotick];  
+
+\end{tikzpicture} 

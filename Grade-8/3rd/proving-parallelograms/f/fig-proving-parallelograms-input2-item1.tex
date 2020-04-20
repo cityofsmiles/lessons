@@ -1,0 +1,13 @@
+\begin{tikzpicture}
+
+\def\len1{\lenB}
+
+\draw[line width=0.3mm] (0,0) coordinate (a)  -- (0:\len1) coordinate (b) --++ (70:0.6*\len1) coordinate (c) -- (70:0.6*\len1) coordinate (d) -- cycle;  
+
+\node[anchor=south east, inner sep=1pt, rotate=0, xshift=3pt, yshift=0pt] (b-label) at (b) {$ (4x+30)\degree $}; 
+
+\node[anchor=south west, inner sep=1pt, rotate=0, xshift=3pt, yshift=0pt] (a-label) at (a) {$ 70\degree $}; 
+
+\node[anchor=north east, inner sep=1pt, rotate=0, xshift=0pt, yshift=0pt] (c-label) at (c) {$ 2y\degree $}; 
+
+\end{tikzpicture} 

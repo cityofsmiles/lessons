@@ -1,0 +1,10 @@
+
+\begin{tikzpicture}[remember picture, overlay]
+	\node[anchor=center, opacity=0.3, inner sep=0pt] (pic) at (13,-1.5){\includegraphics[width=12in, height=2in]{\bgpic}}; %width=23in, height=6in
+	
+	\node at ($(current page.south west)+(45:\allmargin)$)  {\pgfornament[width=1cm, symmetry=h, color=\framecolor]{61}};
+	\node at ($(current page.south east)+(135:\allmargin)$)  {\pgfornament[width=1cm, symmetry=h, color=\framecolor]{62}};
+	\node at ($(current page.north west)+(-45:\allmargin)$)  {\pgfornament[width=1cm, color=\framecolor]{61}};
+	\node at ($(current page.north east)+(225:\allmargin)$)  {\pgfornament[width=1cm, symmetry=v, color=\framecolor]{61}};
+
+\end{tikzpicture}

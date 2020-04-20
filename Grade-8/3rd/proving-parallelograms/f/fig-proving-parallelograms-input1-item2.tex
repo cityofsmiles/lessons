@@ -1,0 +1,15 @@
+\begin{tikzpicture}
+
+\def\len2{\lenA}
+
+\draw[line width=0.3mm] (0,0) coordinate (a)  -- (0:\len2) coordinate (b) --++ (70:0.8*\len2) coordinate (c) -- (70:0.8*\len2) coordinate (d) -- cycle -- (c);  
+
+\node[anchor=south west, inner sep=0, rotate=0, xshift=6pt, yshift=10pt] (a-label) at (a) {$ 45\degree $};
+
+\node[anchor=south west, inner sep=1pt, rotate=0, xshift=13pt, yshift=0pt] (30-label) at (a) {$ 30\degree $}; 
+
+\node[anchor=north east, inner sep=1pt, rotate=0, xshift=-8pt, yshift=0pt] (c-label) at (c) {$ 30 \degree $}; 
+
+\node[anchor=north, inner sep=0pt, rotate=0] (5x2-label) at ($(c)+(222:30pt)$) {$ (5x^2) \degree $}; 
+
+\end{tikzpicture} 

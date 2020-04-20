@@ -1,0 +1,26 @@
+\def \School {Sauyo High School }
+
+\def \Teacher {Mr. Jonathan R. Bacolod, LPT }
+
+\def \Subject {Mathematics }
+
+\def \Checker {DR. LORETO R.  DOMINGO \\
+Head, Mathematics Department }
+
+\begin{filecontents*}{sections.csv} 
+Section
+Bohr 
+Copernicus 
+Fleming 
+\end{filecontents*}
+
+\DTLloaddb{Section}{sections.csv}
+
+\def \RemedialOne {\DTLforeach*{Section}{\Section=Section}{\Grade--\Section: \blank out of \blank \newline}}
+
+\def \RemedialTwo {\DTLforeach*{Section}{\Section=Section}{\Grade--\Section: \blank \newline}}
+
+\def \Remark {Objectives have
+been attained: \blank \newline
+Objectives were not attained due to: \underline{\hspace{10em}}}
+

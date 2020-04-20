@@ -1,0 +1,18 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, baseline = (current bounding box.west)]
+
+\node[draw,circle,minimum size=2*\radA, inner sep=0pt, line width=0.5mm, outer sep=0] (circ) at (0,0) {};
+
+\coordinate (ext) at ($(circ) + (-90:1.7*\radA)$);
+
+\node(x.label) at ($(ext)+(90:0.22*\radA)$) {$x$};
+
+\node[dot] (tan1) at (tangent cs:node=circ, point={(ext)}, solution=1) {}; 
+
+\node[dot] (tan2) at (tangent cs:node=circ, point={(ext)}, solution=2) {}; 
+
+\node(135.label) at ($(circ)+(-90:0.75*\radA) $) {$135\degree  $};
+
+\draw[line width=0.3mm, <->, >={Latex[round]}] ($(tan2)!-0.6!(ext) $) -- (ext) -- ($(tan1)!-0.6!(ext) $) ;
+
+\end{tikzpicture} 
+

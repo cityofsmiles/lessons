@@ -1,0 +1,41 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, baseline = (current bounding box.west)]
+
+\coordinate (circ) at (0,0); 
+
+\draw[name path=circum, line width=0.5mm] (circ) circle (\radA);
+
+\coordinate (p) at ($(circ) + (175:\radA)$); 
+
+\coordinate (r) at ($(circ) + (0:\radA)$); 
+
+\coordinate (o) at ($(circ) + (130:\radA)$); 
+
+\coordinate (q) at ($(circ) + (220:\radA)$); 
+
+\draw[name path=line1, line width=0.3mm] (p) -- (r) ;
+
+\draw[name path=line2, line width=0.3mm] (o) -- (q)  ;
+
+\fill[black, name intersections={of=line1 and line2, name=int}];
+
+\node(s.label) at ($(int-1)-(55:0.28*\radA)$) {$ S$};
+
+\node(o.label) at ($(o)+(110:0.25*\radA)$) {$ O$};
+
+\node(p.label) at ($(p)+(175:0.25*\radA)$) {$ P$};
+
+\node(q.label) at ($(q)+(250:0.25*\radA)$) {$ Q$};
+
+\node(r.label) at ($(r)+(-5:0.25*\radA)$) {$ R$};
+
+\node(50-label) at ($(r)!0.5!(int-1) +(100:0.25*\radA)$) {$ 50$}; 
+
+\node(3-label) at ($(p)!0.5!(int-1) +(90:0.17*\radA)$) {$ 3$}; 
+
+\node(2x-label) at ($(q)!0.5!(int-1) +(0:0.25*\radA)$) {$ 2x$}; 
+
+\node(3x.label) at ($(o)!0.5!(int-1) +(0:0.25*\radA)$) {$ 3x$};
+
+
+\end{tikzpicture} 
+

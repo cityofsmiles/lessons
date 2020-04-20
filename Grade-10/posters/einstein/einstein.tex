@@ -1,0 +1,30 @@
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-10/posters/ && pdflatex einstein.tex && termux-open einstein.pdf
+
+% convert -density 600 einstein.pdf -quality 100 -verbose einstein.png 
+%  6600x1020
+% convert -density 600 einstein.pdf -crop 734x510 -quality 100 -verbose einsten%02d.png
+
+\input{poster-preamble} 
+\usepackage[paperheight=1.7in, paperwidth=11in, margin=1mm]{geometry}
+
+\renewcommand*\rmdefault{pzc} 
+
+\def\framecolor{red!30!black!70!}
+
+\def\bgpic{nature01.jpg}
+
+
+\begin{document}
+
+\input{poster-format} 
+
+\vspace*{-1.5ex} 
+
+\centering
+{\fontsize{30}{32}\selectfont {``Education is what remains after one has forgotten what one has \\learned in school." 
+
+\vspace*{1ex} 
+
+-- Albert Einstein }}
+
+\end{document}

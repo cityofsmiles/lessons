@@ -1,0 +1,70 @@
+\begin{enumerate}[label = \arabic*. ]
+\begin{multicols}{2}
+%3
+\item[3. ] %A box contains 8 blue balls, 6 white balls, and 4 black balls. In how many ways can we select 4 balls such that: 
+\begin{enumerate}[label = \alph*. ]
+
+
+%e
+\item[c. ] %exactly 2 are black?
+$n_1= 14$ \redcheck \\
+$r_1= 2$ \redcheck \\
+$n_2= 4$ \redcheck \\
+$r_2= 2$ \redcheck \\
+
+$ C(14, 2) \cdot C(4, 2)  = \dfrac{14!}{(14-2)!2!} \cdot \dfrac{4!}{(4-2)!2!} $ \redcheck \\
+$ = \dfrac{14!}{12!2!} \cdot \dfrac{4!}{2!2!} $ \redcheck \\
+=\fbox{$546 $} \redcheck 
+ways \redcheck 
+
+%g
+\item[d. ] %A box contains 8 blue balls, 6 white balls, and 4 black balls. In how many ways can we select 4 balls such that:%%none is blue?
+$n_1= 8$ \redcheck \\
+$r_1= 0$ \redcheck \\
+$n_2= 10$ \redcheck \\
+$r_2= 4$ \redcheck \\
+
+$ C(8, 0) \cdot C(10, 4) = \dfrac{8!}{(8-0)!0!} \cdot \dfrac{10!}{(10-4)!4!} $ \redcheck \\
+$ = \dfrac{8!}{8!0!} \cdot \dfrac{10!}{6!4!} $ \redcheck \\
+=\fbox{$ 210$} \redcheck 
+ways \redcheck 
+
+\end{enumerate}
+%4
+\item[4. ] %A group of 11 women and 6 men must select a four-person committee. How many committees are possible if it must consist of the following?
+\begin{enumerate}[label = \alph*. ]
+%A
+\item% three men and one woman
+$n_1= 6$ \redcheck \\
+$r_1= 3$ \redcheck \\
+$n_2= 11$ \redcheck \\
+$r_2= 1$ \redcheck \\
+$ C(6, 3) \cdot C(11, 1) = \dfrac{6!}{(6-3)!3!} \cdot \dfrac{11!}{(11-1)!1!} $ \redcheck \\
+$ = \dfrac{6!}{3!3!} \cdot \dfrac{11!}{10!1!} $ \redcheck \\
+=\fbox{$ 220$} \redcheck 
+committees \redcheck 
+
+%B
+\item %any mixture of men and women
+$n= 17$ \redcheck \\
+$r= 4$ \redcheck \\
+$ C(n, r) = \dfrac{n!}{(n-r)!r!} $ \redcheck \\
+$ C(17, 4) = \dfrac{17!}{(17-4)!4!} $ \redcheck \\
+$ = \dfrac{17!}{13!4!} $ \redcheck \\
+=\fbox{$ 2,380$} \redcheck 
+committees \redcheck 
+
+%C
+\item %A group of 11 women and 6 men must select a four-person committee.% a man and three women
+$n_1= 6$ \redcheck \\
+$r_1= 1$ \redcheck \\
+$n_2= 11$ \redcheck \\
+$r_2= 3$ \redcheck \\
+$ C(6, 1) \cdot C(11, 3) = \dfrac{6!}{(6-1)!1!} \cdot \dfrac{11!}{(11-3)!3!} $ \redcheck \\
+$ = \dfrac{6!}{5!1!} \cdot \dfrac{11!}{8!3!} $ \redcheck \\
+=\fbox{$ 990$} \redcheck 
+committees \redcheck 
+
+\end{enumerate}  
+\end{multicols} 
+\end{enumerate}  

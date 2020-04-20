@@ -1,0 +1,12 @@
+\def\radA{1cm}
+\begin{tikzpicture}[baseline = (current bounding box.west)]
+
+
+\node[draw, circle, minimum size=2*\radA, inner sep=0pt, line width=0.5mm, outer sep=0] (circ) at (0,0) {};
+
+\filldraw[fill=\figurefill, line width=0.3mm]  (90:\radA) arc (90:180:\radA) -- cycle;
+
+\draw[line width=0.3mm] (90:\radA) -- (180:\radA) -- (circ.center) -- cycle;
+
+
+\end{tikzpicture} 

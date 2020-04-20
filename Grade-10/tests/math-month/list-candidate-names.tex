@@ -1,0 +1,56 @@
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-10/tests/math-month/ && pdflatex list-candidate-names.tex && termux-open list-candidate-names.pdf
+
+\documentclass[11pt]{article}
+\usepackage[letterpaper, portrait, margin=0.5in]{geometry}
+
+\input{/storage/emulated/0/Documents/documents/latex/1920/common-preamble-2019} 
+
+\pagenumbering{gobble}
+\setlength{\extrarowheight}{15pt}
+
+\newcolumntype{j}{>{\hsize=.1\hsize}Y}
+\newcolumntype{k}{>{\hsize=1.7\hsize}X}
+\newcolumntype{y}{>{\hsize=1.2\hsize}Y}
+
+
+\begin{document} 
+\begin{center}
+\textbf{List of Candidates for the Math-tinee Idol}
+\end{center} 
+\begin{center}
+\vspace*{-2ex}
+\scalebox{1}{
+\noindent\begin{minipage}{\textwidth}
+{\begin{tabularx}{\textwidth}{|j|k|Y|y|}
+\hline 
+\multicolumn{2}{|c|}{\thead{Name}} & \thead{Section} & \thead{Math Teacher} \\
+\hline 
+1 & Ramento, Jhon Mark & 8-Pythagoras  & \\
+\hline 
+2 & Maliwat, Gregorio Jose & 7-Einstein  & \\
+\hline 
+3 & Delarosa, Rojean & 8-Galileo  & \\
+\hline 
+4 & Leyva, Christian Wyne & 9-Edison  & \\
+\hline 
+5 & Valdez, Cepheus Laurenz & 8-Einstein  & \\
+\hline 
+6 & Rejoso, John Laurence & 9-Einstein & \\
+\hline 
+7 & Padida, RJ & 10-Copernicus  & \\
+\hline 
+8 & Mabini, Joshua & 7-Archimedes  & \\
+\hline 
+9 & Torequimada, Earl John & 7-Descartes  & \\
+\hline 
+10 & Velasquez, Danrene Mardel & 10-Einstein & \\
+\hline 
+11 & Gonzales, Gerry & 9-Hubble  & \\
+\hline 
+12 & Soriano, Mark Gian & 10-Faraday & \\
+\hline 
+\end{tabularx}}
+\end{minipage}}
+\end{center} 
+ 
+\end{document} 

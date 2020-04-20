@@ -1,0 +1,25 @@
+\begin{tikzpicture}[ 
+remember picture, overlay
+]  
+
+\def\len1{\lenA}
+
+\draw[line width=0.3mm] (0,0) coordinate (e)  -- (0:\len1) coordinate (u) --++ (60:0.6*\len1) coordinate (l) -- (60:0.6*\len1) coordinate (b) -- cycle;  
+
+\draw[line width=0.3mm, name path=line_le] (l) -- (e); 
+
+\draw[line width=0.3mm, name path=line_bu] (b) -- (u); 
+
+\node[anchor=north west, inner sep=0, rotate=0] (u-label) at (u) {$U$}; 
+
+\node[anchor=north east, inner sep=1pt, rotate=0] (e-label) at (e) {$E$}; 
+
+\node[anchor=south west, inner sep=0, rotate=0] (l-label) at (l) {$L$}; 
+
+\node[anchor=south east, inner sep=0, rotate=0] (b-label) at (b) {$B$}; 
+
+\fill[black, name intersections={of=line_bu and line_le, name=int}];
+
+\node[anchor=south, inner sep=3, rotate=0] (r-label) at (int-1) {$R$}; 
+
+\end{tikzpicture} 

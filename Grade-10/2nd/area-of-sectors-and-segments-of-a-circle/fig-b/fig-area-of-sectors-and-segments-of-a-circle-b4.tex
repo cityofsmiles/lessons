@@ -1,0 +1,19 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, baseline = (current bounding box.west)]
+
+\node[draw, circle, minimum size=2*\radB, inner sep=0pt, line width=0.5mm, outer sep=0] (circ) at (0,0) {};
+
+\node[dot] (circ.dot)  at (circ) {}; 
+
+\coordinate (u) at ($(circ) + (25:\radB)$); 
+
+\coordinate (m) at ($(circ) + (155:\radB)$); 
+
+\draw[line width=0.3mm] (u) -- (circ.center) -- (m) ;
+
+\node[anchor=north, inner sep=2pt, rotate=25] (8cm-label) at ($(u)!0.5!(circ.center)$) {$ \text{8 cm} $};  
+
+\node[rotate=0] (130-label) at ($(circ.center)+(80:1.22*\radB)$) {$ 130\degree $};
+
+\filldraw[fill=\figurefill, line width=0.3mm]  (25:\radB) arc (25:155:\radB) --(circ.center) -- cycle;
+
+\end{tikzpicture}  

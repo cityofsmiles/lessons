@@ -1,0 +1,38 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, 
+dim-label/.style={fill=white, rectangle, inner sep=2pt, outer sep=0pt}, 
+nodot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=0pt}, 
+remember picture, overlay
+]  
+
+\def\rad3{1.5cm}
+
+\coordinate (s) at (0,0);
+
+\node (s-label) at ($(s)+ (-40:0.22*\rad3)$) {$S$}; 
+
+\node (n-label) at ($(s)+ (80:0.65*\rad3)$) {$N$};
+
+\draw[line width=0.5mm] (s) node[circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt] {} circle [radius=\rad3]; 
+
+\node (o) at (30:\rad3) [nodot] {};
+
+\node (o-label) at ($(o)+ (30:0.22*\rad3  )$) {$O$};
+
+\node (r) at (90:\rad3) [nodot] {}; 
+
+\node (r-label) at ($(r)+ (90:0.22*\rad3  )$) {$R$};
+
+\node (a) at (150:\rad3) [nodot] {};
+
+\node (a-label) at ($(a)+ (150:0.22*\rad3 )$) {$A$};
+
+\node (m) at (270:\rad3) [nodot] {};
+
+\node (m-label) at ($(m)+ (270:0.22*\rad3  )$) {$ \  M$}; 
+
+\draw[line width=0.3mm] (r)--(m)--(o)--(r)--(a)--(s)--(o)--(m)--(a)--(o) ; 
+ 
+ 
+\node(name) at ($(s)+ (310:1.3*\rad3)$) {$\odot{S}$};
+ 
+\end{tikzpicture}

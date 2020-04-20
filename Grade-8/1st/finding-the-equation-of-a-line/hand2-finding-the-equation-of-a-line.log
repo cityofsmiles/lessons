@@ -1,0 +1,1634 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Termux) (preloaded format=pdflatex 2019.5.14)  9 AUG 2019 10:29
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**hand2-finding-the-equation-of-a-line.tex
+(./hand2-finding-the-equation-of-a-line.tex
+LaTeX2e <2018-12-01>
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/beamer/beam
+er.cls
+Document Class: beamer 2019/07/23 v3.56 A class for typesetting presentations
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/beamer/beam
+erbasemodes.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/etoolbox/et
+oolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count80
+)
+\beamer@tempbox=\box27
+\beamer@tempcount=\count81
+\c@beamerpauses=\count82
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/beamer/beam
+erbasedecode.sty
+\beamer@slideinframe=\count83
+\beamer@minimum=\count84
+\beamer@decode@box=\box28
+)
+\beamer@commentbox=\box29
+\beamer@modecount=\count85
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/oberdiek/
+ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+\headdp=\dimen102
+\footheight=\dimen103
+\sidebarheight=\dimen104
+\beamer@tempdim=\dimen105
+\beamer@finalheight=\dimen106
+\beamer@animht=\dimen107
+\beamer@animdp=\dimen108
+\beamer@animwd=\dimen109
+\beamer@leftmargin=\dimen110
+\beamer@rightmargin=\dimen111
+\beamer@leftsidebar=\dimen112
+\beamer@rightsidebar=\dimen113
+\beamer@boxsize=\dimen114
+\beamer@vboxoffset=\dimen115
+\beamer@descdefault=\dimen116
+\beamer@descriptionwidth=\dimen117
+\beamer@lastskip=\skip41
+\beamer@areabox=\box30
+\beamer@animcurrent=\box31
+\beamer@animshowbox=\box32
+\beamer@sectionbox=\box33
+\beamer@logobox=\box34
+\beamer@linebox=\box35
+\beamer@sectioncount=\count86
+\beamer@subsubsectionmax=\count87
+\beamer@subsectionmax=\count88
+\beamer@sectionmax=\count89
+\beamer@totalheads=\count90
+\beamer@headcounter=\count91
+\beamer@partstartpage=\count92
+\beamer@sectionstartpage=\count93
+\beamer@subsectionstartpage=\count94
+\beamer@animationtempa=\count95
+\beamer@animationtempb=\count96
+\beamer@xpos=\count97
+\beamer@ypos=\count98
+\beamer@ypos@offset=\count99
+\beamer@showpartnumber=\count100
+\beamer@currentsubsection=\count101
+\beamer@coveringdepth=\count102
+\beamer@sectionadjust=\count103
+\beamer@tocsectionnumber=\count104
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/beamer/beam
+erbaseoptions.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/graphics/ke
+yval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+))
+\beamer@paperwidth=\skip42
+\beamer@paperheight=\skip43
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/geometry/ge
+ometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/oberdiek/
+ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/ifxetex/i
+fxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count105
+\Gm@cntv=\count106
+\c@Gm@tempcnt=\count107
+\Gm@bindingoffset=\dimen118
+\Gm@wd@mp=\dimen119
+\Gm@odd@mp=\dimen120
+\Gm@even@mp=\dimen121
+\Gm@layoutwidth=\dimen122
+\Gm@layoutheight=\dimen123
+\Gm@layouthoffset=\dimen124
+\Gm@layoutvoffset=\dimen125
+\Gm@dimlist=\toks15
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/base/size11
+.clo
+File: size11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/basicla
+yer/pgfcore.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/graphics/gr
+aphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/graphics/gr
+aphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/graphics/tr
+ig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/graphics-cf
+g/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/graphics-de
+f/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen126
+\Gin@req@width=\dimen127
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/systeml
+ayer/pgfsys.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/utiliti
+es/pgfrcs.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
+ties/pgfutil-common.tex
+\pgfutil@everybye=\toks16
+\pgfutil@tempdima=\dimen128
+\pgfutil@tempdimb=\dimen129
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
+ties/pgfutil-common-lists.tex))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
+ties/pgfutil-latex.def
+\pgfutil@abb=\box36
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi
+.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
+ties/pgfrcs.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.r
+evision.tex)
+Package: pgfrcs 2019/08/03 v3.1.4b (3.1.4b)
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/syste
+mlayer/pgfsys.code.tex
+Package: pgfsys 2019/08/03 v3.1.4b (3.1.4b)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
+ties/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
+ties/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks19
+))
+\pgf@x=\dimen130
+\pgf@y=\dimen131
+\pgf@xa=\dimen132
+\pgf@ya=\dimen133
+\pgf@xb=\dimen134
+\pgf@yb=\dimen135
+\pgf@xc=\dimen136
+\pgf@yc=\dimen137
+\pgf@xd=\dimen138
+\pgf@yd=\dimen139
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count108
+\c@pgf@countb=\count109
+\c@pgf@countc=\count110
+\c@pgf@countd=\count111
+\t@pgf@toka=\toks20
+\t@pgf@tokb=\toks21
+\t@pgf@tokc=\toks22
+\pgf@sys@id@count=\count112
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/syste
+mlayer/pgf.cfg
+File: pgf.cfg 2019/08/03 v3.1.4b (3.1.4b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/syste
+mlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2019/08/03 v3.1.4b (3.1.4b)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/syste
+mlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2019/08/03 v3.1.4b (3.1.4b)
+)))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/syste
+mlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfsyssoftpath@smallbuffer@items=\count113
+\pgfsyssoftpath@bigbuffer@items=\count114
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/syste
+mlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcol
+or.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/graphics-cf
+g/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcore.code.tex
+Package: pgfcore 2019/08/03 v3.1.4b (3.1.4b)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmath.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathcalc.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathutil.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathparser.code.tex
+\pgfmath@dimen=\dimen140
+\pgfmath@count=\count115
+\pgfmath@box=\box37
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.basic.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.trigonometric.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.random.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.comparison.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.base.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.round.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.misc.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathfunctions.integerarithmetics.code.tex)))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count116
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfint.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@picminx=\dimen141
+\pgf@picmaxx=\dimen142
+\pgf@picminy=\dimen143
+\pgf@picmaxy=\dimen144
+\pgf@pathminx=\dimen145
+\pgf@pathmaxx=\dimen146
+\pgf@pathminy=\dimen147
+\pgf@pathmaxy=\dimen148
+\pgf@xx=\dimen149
+\pgf@xy=\dimen150
+\pgf@yx=\dimen151
+\pgf@yy=\dimen152
+\pgf@zx=\dimen153
+\pgf@zy=\dimen154
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@path@lastx=\dimen155
+\pgf@path@lasty=\dimen156
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@shorten@end@additional=\dimen157
+\pgf@shorten@start@additional=\dimen158
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfpic=\box38
+\pgf@hbox=\box39
+\pgf@layerbox@main=\box40
+\pgf@picture@serial@count=\count117
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgflinewidth=\dimen159
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@pt@x=\dimen160
+\pgf@pt@y=\dimen161
+\pgf@pt@temp=\dimen162
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfarrowsep=\dimen163
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@max=\dimen164
+\pgf@sys@shading@range@num=\count118
+\pgf@shadingcount=\count119
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfexternal@startupbox=\box41
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/basic
+layer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/utiliti
+es/xxcolor.sty
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count120
+\XC@countmixins=\count121
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/oberdiek/
+atbegshi.sty
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/oberdiek/
+infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/oberdiek/
+ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/hyperref/hy
+perref.sty
+Package: hyperref 2019/06/12 v6.88h Hypertext links for LaTeX
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/oberdiek/
+hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/oberdiek/
+hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/oberdiek/au
+xhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kv
+options.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen165
+\Hy@linkcounter=\count122
+\Hy@pagecounter=\count123
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd
+1enc.def
+File: pd1enc.def 2019/06/12 v6.88h Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count124
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/latexconfig
+/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4424.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4424.
+Package hyperref Info: Option `implicit' set `false' on input line 4424.
+Package hyperref Info: Hyper figures OFF on input line 4550.
+Package hyperref Info: Link nesting OFF on input line 4555.
+Package hyperref Info: Hyper index ON on input line 4558.
+Package hyperref Info: Plain pages OFF on input line 4565.
+Package hyperref Info: Backreferencing OFF on input line 4570.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4803.
+\c@Hy@tempcnt=\count125
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5156.
+\XeTeXLinkMargin=\dimen166
+\Fld@menulength=\count126
+\Field@Width=\dimen167
+\Fld@charsize=\dimen168
+Package hyperref Info: Hyper figures OFF on input line 6411.
+Package hyperref Info: Link nesting OFF on input line 6416.
+Package hyperref Info: Hyper index ON on input line 6419.
+Package hyperref Info: backreferencing OFF on input line 6426.
+Package hyperref Info: Link coloring OFF on input line 6431.
+Package hyperref Info: Link coloring with OCG OFF on input line 6436.
+Package hyperref Info: PDF/A mode OFF on input line 6441.
+LaTeX Info: Redefining \ref on input line 6481.
+LaTeX Info: Redefining \pageref on input line 6485.
+\Hy@abspage=\count127
+
+
+Package hyperref Message: Stopped early.
+
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/hyperref/hp
+dftex.def
+File: hpdftex.def 2019/06/12 v6.88h Hyperref driver for pdfTeX
+\Fld@listcount=\count128
+\c@bookmark@seq@number=\count129
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/oberdiek/re
+runfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/beamer/beam
+erbaserequires.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/beamer/beam
+erbasecompatibility.sty)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/beamer/beam
+erbasefont.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/amsfonts/am
+ssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/amsfonts/am
+sfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks26
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/beamer/beam
+erbasetranslator.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/translator/
+translator.sty
+Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/beamer/beam
+erbasemisc.sty)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/beamer/beam
+erbasetwoscreens.sty)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/beamer/beam
+erbaseoverlay.sty
+\beamer@argscount=\count130
+\beamer@lastskipcover=\skip44
+\beamer@trivlistdepth=\count131
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/beamer/beam
+erbasetitle.sty)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/beamer/beam
+erbasesection.sty
+\c@lecture=\count132
+\c@part=\count133
+\c@section=\count134
+\c@subsection=\count135
+\c@subsubsection=\count136
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/beamer/beam
+erbaseframe.sty
+\beamer@framebox=\box42
+\beamer@frametitlebox=\box43
+\beamer@zoombox=\box44
+\beamer@zoomcount=\count137
+\beamer@zoomframecount=\count138
+\beamer@frametextheight=\dimen169
+\c@subsectionslide=\count139
+\beamer@frametopskip=\skip45
+\beamer@framebottomskip=\skip46
+\beamer@frametopskipautobreak=\skip47
+\beamer@framebottomskipautobreak=\skip48
+\beamer@envbody=\toks27
+\framewidth=\dimen170
+\c@framenumber=\count140
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/beamer/beam
+erbaseverbatim.sty
+\beamer@verbatimfileout=\write4
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/beamer/beam
+erbaseframesize.sty
+\beamer@splitbox=\box45
+\beamer@autobreakcount=\count141
+\beamer@autobreaklastheight=\dimen171
+\beamer@frametitletoks=\toks28
+\beamer@framesubtitletoks=\toks29
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/beamer/beam
+erbaseframecomponents.sty
+\beamer@footins=\box46
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/beamer/beam
+erbasecolor.sty)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/beamer/beam
+erbasenotes.sty
+\beamer@frameboxcopy=\box47
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/beamer/beam
+erbasetoc.sty)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/beamer/beam
+erbasetemplates.sty
+\beamer@sbttoks=\toks30
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/beamer/beam
+erbaseauxtemplates.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/beamer/beam
+erbaseboxes.sty
+\bmb@box=\box48
+\bmb@colorbox=\box49
+\bmb@boxshadow=\box50
+\bmb@boxshadowball=\box51
+\bmb@boxshadowballlarge=\box52
+\bmb@temp=\dimen172
+\bmb@dima=\dimen173
+\bmb@dimb=\dimen174
+\bmb@prevheight=\dimen175
+)
+\beamer@blockheadheight=\dimen176
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/beamer/beam
+erbaselocalstructure.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tools/enume
+rate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks31
+)
+\c@figure=\count142
+\c@table=\count143
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/beamer/beam
+erbasenavigation.sty
+\beamer@section@min@dim=\dimen177
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/beamer/beam
+erbasetheorems.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/amsmath/ams
+math.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/amsmath/ams
+text.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/amsmath/ams
+gen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks32
+\ex@=\dimen178
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/amsmath/ams
+bsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen179
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/amsmath/ams
+opn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count144
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count145
+\leftroot@=\count146
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count147
+\DOTSCASE@=\count148
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+\big@size=\dimen180
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count149
+\c@MaxMatrixCols=\count150
+\dotsspace@=\muskip11
+\c@parentequation=\count151
+\dspbrk@lvl=\count152
+\tag@help=\toks33
+\row@=\count153
+\column@=\count154
+\maxfields@=\count155
+\andhelp@=\toks34
+\eqnshift@=\dimen181
+\alignsep@=\dimen182
+\tagshift@=\dimen183
+\tagwidth@=\dimen184
+\totwidth@=\dimen185
+\lineht@=\dimen186
+\@envbody=\toks35
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks36
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/amscls/amst
+hm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks37
+\thm@bodyfont=\toks38
+\thm@headfont=\toks39
+\thm@notefont=\toks40
+\thm@headpunct=\toks41
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks42
+)
+\c@theorem=\count156
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/beamer/beam
+erbasethemes.sty))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/beamer/beam
+erthemedefault.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/beamer/beam
+erfontthemedefault.sty)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/beamer/beam
+ercolorthemedefault.sty)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/beamer/beam
+erinnerthemedefault.sty
+\beamer@dima=\dimen187
+\beamer@dimb=\dimen188
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/beamer/beam
+erouterthemedefault.sty)))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/utiliti
+es/pgfpages.sty
+Package: pgfpages 2011/01/05 ver 0.02
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tools/calc.
+sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count157
+\calc@Bcount=\count158
+\calc@Adimen=\dimen189
+\calc@Bdimen=\dimen190
+\calc@Askip=\skip57
+\calc@Bskip=\skip58
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count159
+\calc@Cskip=\skip59
+)
+\pgf@logicalpages=\count160
+\pgf@firstshipout=\count161
+\pgf@lastshipout=\count162
+\pgf@currentshipout=\count163
+\pgf@cpn=\count164
+\pgf@shipoutnextto=\count165
+\pgfphysicalheight=\dimen191
+\pgfphysicalwidth=\dimen192
+\pgfpages@shipoutbox=\box55
+)
+\pgfpages@box@1=\box56
+\pgfpages@box@2=\box57
+\pgfpages@box@3=\box58
+\pgfpages@box@4=\box59
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/anyfontsize
+/anyfontsize.sty
+Package: anyfontsize 2007/11/22 anyfontsize.sty by pts
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/enumitem/en
+umitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip60
+\enit@outerparindent=\dimen193
+\enit@toks=\toks43
+\enit@inbox=\box60
+\enit@count@id=\count166
+\enitdp@description=\count167
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tools/multi
+col.sty
+Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
+\c@tracingmulticols=\count168
+\mult@box=\box61
+\multicol@leftmargin=\dimen194
+\c@unbalance=\count169
+\c@collectmore=\count170
+\doublecol@number=\count171
+\multicoltolerance=\count172
+\multicolpretolerance=\count173
+\full@width=\dimen195
+\page@free=\dimen196
+\premulticols=\dimen197
+\postmulticols=\dimen198
+\multicolsep=\skip61
+\multicolbaselineskip=\skip62
+\partial@page=\box62
+\last@line=\box63
+\maxbalancingoverflow=\dimen199
+\mult@rightbox=\box64
+\mult@grightbox=\box65
+\mult@gfirstbox=\box66
+\mult@firstbox=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\c@columnbadness=\count174
+\c@finalcolumnbadness=\count175
+\last@try=\dimen256
+\multicolovershoot=\dimen257
+\multicolundershoot=\dimen258
+\mult@nat@firstbox=\box85
+\colbreak@box=\box86
+\mc@col@check@num=\count176
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tools/tabul
+arx.sty
+Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tools/array
+.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen259
+\ar@mcellbox=\box87
+\extrarowheight=\dimen260
+\NC@list=\toks44
+\extratabsurround=\skip63
+\backup@length=\skip64
+\ar@cellbox=\box88
+)
+\TX@col@width=\dimen261
+\TX@old@table=\dimen262
+\TX@old@col=\dimen263
+\TX@target=\dimen264
+\TX@delta=\dimen265
+\TX@cols=\count177
+\TX@ftn=\toks45
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/was/gensymb
+.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/multirow/mu
+ltirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip65
+\multirow@cntb=\count178
+\multirow@dima=\skip66
+\bigstrutjot=\dimen266
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tipa/tipa.s
+ty
+Package: tipa 2002/08/08 TIPA version 1.1
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/base/fonten
+c.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tipa/t3enc.
+def
+File: t3enc.def 2001/12/31 T3 encoding
+Now handling font encoding T3 ...
+... no UTF-8 mapping file for font encoding T3
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc
+.def
+File: ot1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding OT1 on input line 48.
+)))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/fronten
+dlayer/tikz.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/basicla
+yer/pgf.sty
+Package: pgf 2019/08/03 v3.1.4b (3.1.4b)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/modul
+es/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfnodeparttextbox=\box89
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/modul
+es/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/compati
+bility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@nodesepstart=\dimen267
+\pgf@nodesepend=\dimen268
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/compati
+bility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2019/08/03 v3.1.4b (3.1.4b)
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/utiliti
+es/pgffor.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/utiliti
+es/pgfkeys.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
+ties/pgfkeys.code.tex))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pg
+fmath.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmath.code.tex))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/utili
+ties/pgffor.code.tex
+Package: pgffor 2019/08/03 v3.1.4b (3.1.4b)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/math/
+pgfmath.code.tex)
+\pgffor@iter=\dimen269
+\pgffor@skip=\dimen270
+\pgffor@stack=\toks46
+\pgffor@toks=\toks47
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/tikz.code.tex
+Package: tikz 2019/08/03 v3.1.4b (3.1.4b)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
+ries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@plot@mark@count=\count179
+\pgfplotmarksize=\dimen271
+)
+\tikz@lastx=\dimen272
+\tikz@lasty=\dimen273
+\tikz@lastxsaved=\dimen274
+\tikz@lastysaved=\dimen275
+\tikz@lastmovetox=\dimen276
+\tikz@lastmovetoy=\dimen277
+\tikzleveldistance=\dimen278
+\tikzsiblingdistance=\dimen279
+\tikz@figbox=\box90
+\tikz@figbox@bg=\box91
+\tikz@tempbox=\box92
+\tikz@tempbox@bg=\box93
+\tikztreelevel=\count180
+\tikznumberofchildren=\count181
+\tikznumberofcurrentchild=\count182
+\tikz@fig@count=\count183
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/modul
+es/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfmatrixcurrentrow=\count184
+\pgfmatrixcurrentcolumn=\count185
+\pgf@matrix@numberofcolumns=\count186
+)
+\tikz@expandcount=\count187
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibraryangles.code.tex
+File: tikzlibraryangles.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibraryquotes.code.tex
+File: tikzlibraryquotes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pg
+fplots.sty
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
+pgfplots.revision.tex)
+Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
+pgfplots.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
+pgfplotscore.code.tex
+\t@pgfplots@toka=\toks48
+\t@pgfplots@tokb=\toks49
+\t@pgfplots@tokc=\toks50
+\pgfplots@tmpa=\dimen280
+\c@pgfplots@coordindex=\count188
+\c@pgfplots@scanlineindex=\count189
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
+sys/pgfplotssysgeneric.code.tex))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
+libs/pgfplotslibrary.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
+oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
+ries/pgflibraryfpu.code.tex))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
+util/pgfplotsutil.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
+liststructure/pgfplotsliststructure.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
+liststructure/pgfplotsliststructureext.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
+liststructure/pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count190
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
+liststructure/pgfplotsmatrix.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
+numtable/pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count191
+\t@pgfplotstable@a=\toks51
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
+liststructure/pgfplotsdeque.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
+util/pgfplotsbinary.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
+util/pgfplotsbinary.data.code.tex))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
+util/pgfplotsutil.verb.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
+libs/pgflibrarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count192
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
+sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def)))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
+util/pgfplotscolormap.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
+util/pgfplotscolor.code.tex))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
+pgfplotsstackedplots.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
+pgfplotsplothandlers.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
+pgfplotsmeshplothandler.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
+pgfplotsmeshplotimage.code.tex)))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
+pgfplots.scaling.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
+pgfplotscoordprocessing.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
+pgfplots.errorbars.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
+pgfplots.markers.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
+pgfplotsticks.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgfplots/
+pgfplots.paths.code.tex)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibrarydecorations.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/modul
+es/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen281
+\pgfdecoratedremainingdistance=\dimen282
+\pgfdecoratedinputsegmentcompleteddistance=\dimen283
+\pgfdecoratedinputsegmentremainingdistance=\dimen284
+\pgf@decorate@distancetomove=\dimen285
+\pgf@decorate@repeatstate=\count193
+\pgfdecorationsegmentamplitude=\dimen286
+\pgfdecorationsegmentlength=\dimen287
+)
+\tikz@lib@dec@box=\box94
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
+ries/decorations/pgflibrarydecorations.pathmorphing.code.tex))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
+ries/decorations/pgflibrarydecorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count194
+\pgfplots@xmin@reg=\dimen288
+\pgfplots@xmax@reg=\dimen289
+\pgfplots@ymin@reg=\dimen290
+\pgfplots@ymax@reg=\dimen291
+\pgfplots@zmin@reg=\dimen292
+\pgfplots@zmax@reg=\dimen293
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
+ries/pgflibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
+ries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfarrowinset=\dimen294
+\pgfarrowlength=\dimen295
+\pgfarrowwidth=\dimen296
+\pgfarrowlinewidth=\dimen297
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibraryintersections.code.tex
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/pgf/libra
+ries/pgflibraryintersections.code.tex
+\pgf@intersect@solutions=\count195
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/base/flafte
+r.sty
+Package: flafter 2018/11/28 v1.4d Standard LaTeX floats after reference (FMi)
+Applying: [2015/01/01] float order in 2-column on input line 49.
+Already applied: [0000/00/00] float order in 2-column on input line 151.
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/cancel/canc
+el.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/units/units
+.sty
+Package: units 1998/08/04 v0.9b Typesetting units
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/base/ifthen
+.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/units/nicef
+rac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip67
+\L@UnitsRaiseTextstyle=\skip68
+\L@UnitsRaiseScriptstyle=\skip69
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/microtype/m
+icrotype.sty
+Package: microtype 2019/02/28 v2.7b Micro-typographical refinements (RS)
+\MT@toks=\toks52
+\MT@count=\count196
+LaTeX Info: Redefining \textls on input line 790.
+\MT@outer@kern=\dimen298
+LaTeX Info: Redefining \textmicrotypecontext on input line 1336.
+\MT@listname@count=\count197
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/microtype/m
+icrotype-pdftex.def
+File: microtype-pdftex.def 2019/02/28 v2.7b Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 914.
+LaTeX Info: Redefining \lslig on input line 914.
+\MT@outer@space=\skip70
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/microtype/m
+icrotype.cfg
+File: microtype.cfg 2019/02/28 v2.7b microtype main configuration file (RS)
+))
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/hfoldsty/hf
+oldsty.sty
+Package: hfoldsty 2012/01/01 v1.15 European Computer Modern with oldstyle digit
+s
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/base/fonten
+c.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.
+def
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+hfoldsty: Using all design sizes
+LaTeX Info: Redefining \oldstylenums on input line 57.
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/base/fixltx
+2e.sty
+Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
+Applying: [2015/01/01] Old fixltx2e package on input line 46.
+
+
+Package fixltx2e Warning: fixltx2e is not required with releases after 2015
+(fixltx2e)                All fixes are now in the LaTeX kernel.
+(fixltx2e)                See the latexrelease package for details.
+
+Already applied: [0000/00/00] Old fixltx2e package on input line 53.
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/psnfss/math
+ptmx.sty
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup6
+\symitalic=\mathgroup7
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/numprint/nu
+mprint.sty
+Package: numprint 2012/08/20 v1.39 Print numbers (HH)
+\c@nprt@mantissa@digitsbefore=\count198
+\c@nprt@mantissa@digitsafter=\count199
+\c@nprt@exponent@digitsbefore=\count266
+\c@nprt@exponent@digitsafter=\count267
+\nprt@digitwidth=\skip71
+\nprt@sepwidth=\skip72
+\nprt@decimalwidth=\skip73
+\nprt@blockwidth=\skip74
+\nprt@digittoks=\toks53
+\nprt@pretoks=\toks54
+\nprt@posttoks=\toks55
+\nprt@thisdigit=\count268
+\nprt@curpos=\count269
+\nprt@rndpos=\count270
+\c@nprt@digitsfirstblock=\count271
+\c@nprt@blockcnt=\count272
+\c@nprt@cntprint=\count273
+ No configuration file `numprint.cfg' found.)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/base/inpute
+nc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks56
+\inpenc@posthook=\toks57
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/base/fonten
+c.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.
+def
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)) (./hand2-finding-the-equation-of-a-line.aux)
+\openout1 = `hand2-finding-the-equation-of-a-line.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 63.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 63.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/tipa/t3cmr.
+fd
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Try loading font information for T1+hfoss on input line 63.
+
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/hfoldsty/t1
+hfoss.fd
+File: t1hfoss.fd 2012/01/01 v1.15 European Computer Modern with oldstyle digits
+
+LaTeX Font Info:    t1hfoss.fd:Usingalldesignsizes on input line 72.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
+* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
+* \paperwidth=364.19536pt
+* \paperheight=273.14662pt
+* \textwidth=307.28987pt
+* \textheight=244.6939pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/context/base/mkii
+/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count274
+\scratchdimen=\dimen299
+\scratchbox=\box95
+\nofMPsegments=\count275
+\nofMParguments=\count276
+\everyMPshowfont=\toks58
+\MPscratchCnt=\count277
+\MPscratchDim=\dimen300
+\MPnumerator=\count278
+\makeMPintoPDFobject=\count279
+\everyMPtoPDFconversion=\toks59
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/oberdiek/ep
+stopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/oberdiek/gr
+fext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/latexconfig
+/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)) ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box96
+Package hyperref Info: Link coloring OFF on input line 63.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/hyperref/na
+meref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/generic/oberdiek/
+gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count280
+)
+LaTeX Info: Redefining \ref on input line 63.
+LaTeX Info: Redefining \pageref on input line 63.
+LaTeX Info: Redefining \nameref on input line 63.
+ (./hand2-finding-the-equation-of-a-line.out)
+(./hand2-finding-the-equation-of-a-line.out)
+\@outlinefile=\write5
+\openout5 = `hand2-finding-the-equation-of-a-line.out'.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/ztmcm/m/n --> OT1/cmss/m/n on input line 63.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/ztmcm/m/n --> OT1/cmss/bx/n on input line 63.
+\symnumbers=\mathgroup8
+\sympureletters=\mathgroup9
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmss/m/n --> T1/ptm/m/n on input line 63.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 63.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/ptm/bx/n --> T1/hfoss/bx/n on input line 63.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/ptm/bx/n --> T1/hfoss/bx/n on input line 63.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 63.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> T1/hfoss/m/n on input line 63.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> T1/hfoss/m/n on input line 63.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 63.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/ptm/m/it --> T1/hfoss/m/it on input line 63.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/ptm/m/it --> T1/hfoss/m/it on input line 63.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 63.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 63.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 63.
+LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
+(Font)                  T1/hfoss/m/n --> T1/hfoss/bx/n on input line 63.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  T1/hfoss/m/it --> T1/hfoss/bx/it on input line 63.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/cmss/bx/n --> T1/ptm/bx/n on input line 63.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  T1/hfoss/bx/n --> T1/hfoss/bx/n on input line 63.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  T1/hfoss/m/n --> T1/hfoss/bx/n on input line 63.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  T1/hfoss/m/it --> T1/hfoss/bx/it on input line 63.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  T1/cmtt/m/n --> T1/cmtt/bx/n on input line 63.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/translator/
+translator-basic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/translator/
+translator-bibliography-dictionary-English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/translator/
+translator-environment-dictionary-English.dict
+Dictionary: translator-environment-dictionary, Language: English 
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/translator/
+translator-months-dictionary-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/translator/
+translator-numbers-dictionary-English.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/translator/
+translator-theorem-dictionary-English.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+LaTeX Info: Redefining \celsius on input line 63.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 63.
+
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 63.
+Package gensymb Info: Using \upOmega for \ohm on input line 63.
+
+Package gensymb Warning: Not defining \micro.
+
+Package pgfplots notification 'compat/show suggested version=true': document ha
+s been generated with the most recent feature set (\pgfplotsset{compat=1.16}).
+
+LaTeX Info: Redefining \microtypecontext on input line 63.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `hfoss' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+(./hand2-finding-the-equation-of-a-line.nav)
+(./vs-finding-the-equation-of-a-line-input.tex
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmss' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 10
+.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlz
+tmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 10
+.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsz
+tmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 10
+.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxz
+tmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/microtype/m
+t-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/microtype/m
+t-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 10.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1p
+tm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 10.
+
+(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/microtype/m
+t-ptm.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 10.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 10.
+LaTeX Font Info:    Font shape `T1/hfoss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/hfoss/m/sl' tried instead on input line 10.
+LaTeX Font Info:    Font shape `T1/hfoss/m/it' in size <8> not available
+(Font)              Font shape `T1/hfoss/m/sl' tried instead on input line 10.
+LaTeX Font Info:    Font shape `T1/hfoss/m/it' in size <6> not available
+(Font)              Font shape `T1/hfoss/m/sl' tried instead on input line 10.
+) (./ps-finding-the-equation-of-a-line-input2.tex)
+(./ps-finding-the-equation-of-a-line-input4.tex)
+Overfull \vbox (286.57977pt too high) detected at line 73
+ []
+
+(./vs-finding-the-equation-of-a-line-input.tex)
+(./ps-finding-the-equation-of-a-line-input2.tex)
+(./ps-finding-the-equation-of-a-line-input4.tex)
+Overfull \vbox (286.57977pt too high) detected at line 83
+ []
+
+(./vs-finding-the-equation-of-a-line-input.tex)
+(./ps-finding-the-equation-of-a-line-input2.tex)
+(./ps-finding-the-equation-of-a-line-input4.tex)
+Overfull \vbox (286.57977pt too high) detected at line 92
+ []
+
+(./vs-finding-the-equation-of-a-line-input.tex)
+(./ps-finding-the-equation-of-a-line-input2.tex)
+(./ps-finding-the-equation-of-a-line-input4.tex)
+Overfull \vbox (286.57977pt too high) detected at line 103
+ []
+
+\tf@nav=\write6
+\openout6 = `hand2-finding-the-equation-of-a-line.nav'.
+
+\tf@toc=\write7
+\openout7 = `hand2-finding-the-equation-of-a-line.toc'.
+
+\tf@snm=\write8
+\openout8 = `hand2-finding-the-equation-of-a-line.snm'.
+
+[5
+
+{/data/data/com.termux/files/usr/share/texlive/texmf-var/fonts/map/pdftex/updma
+p/pdftex.map}
+
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
+ (./hand2-finding-the-equation-of-a-line.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 105.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 105.
+Package rerunfilecheck Info: File `hand2-finding-the-equation-of-a-line.out' ha
+s not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
+Here is how much of TeX's memory you used:
+ 34315 strings out of 494553
+ 820167 string characters out of 6175502
+ 1091420 words of memory out of 5000000
+ 37210 multiletter control sequences out of 15000+600000
+ 42902 words of font info for 81 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 78i,11n,136p,803b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-
+super/cm-super-ts1.enc}{/data/data/com.termux/files/usr/share/texlive/texmf-dis
+t/fonts/enc/dvips/cm-super/cm-super-t1.enc}</data/data/com.termux/files/usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></data/data/com
+.termux/files/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmss10.pfb></data/data/com.termux/files/usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></data/data/com.termux/files/us
+r/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfsi1095.pfb></data/data
+/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfss
+0800.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/
+public/cm-super/sfss1095.pfb></data/data/com.termux/files/usr/share/texlive/tex
+mf-dist/fonts/type1/public/cm-super/sfsx1095.pfb>
+Output written on hand2-finding-the-equation-of-a-line.pdf (1 page, 77416 bytes
+).
+PDF statistics:
+ 67 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 500000)
+ 21547 words of extra memory for PDF output out of 24883 (max. 10000000)
+

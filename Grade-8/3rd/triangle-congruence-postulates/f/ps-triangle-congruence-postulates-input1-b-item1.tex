@@ -1,0 +1,35 @@
+\begin{tikzpicture}
+
+\def\len1{1.2*\lenB}
+
+\draw[line width=0.3mm] 
+(0,0) coordinate (a) --++ 
+(30:\len1) coordinate (b) --++ 
+(120:0.5*\len1) coordinate (c) --++ 
+(210:\len1) coordinate (d) -- cycle ;  
+
+\node[anchor=north, inner sep=2pt, rotate=0] (a-label) at (a) {$ A$};
+
+\node[anchor=west, inner sep=2pt, rotate=0] (b-label) at (b) {$ B$}; 
+
+\node[anchor=south, inner sep=2pt, rotate=0] (c-label) at (c) {$ C$};
+
+\node[anchor=east, inner sep=2pt, rotate=0] (d-label) at (d) {$ D$};
+
+\draw[line width=0.3mm] (b) -- (d);  
+
+\coordinate (tick1) at ($(a)!0.5!(d)$) {}; 
+
+\coordinate (tick2) at ($(c)!0.5!(b)$) {};  
+
+\tikzset{onetick/.pic={\draw[line width=0.3mm] ($(0,0)+(0,0.07*\len1)$) -- ($(0,0)-(0,0.07*\len1)$) ; }}
+
+\pic[rotate=-60] at (tick1) [pic type = onetick];  
+
+\pic[rotate=-60] at (tick2) [pic type = onetick];  
+
+\pic [draw, line width=0.3mm, angle radius=0.15*\len1] {angle=c--b--d}; 
+
+\pic [draw, line width=0.3mm, angle radius=0.15*\len1] {angle=a--d--b}; 
+
+\end{tikzpicture} 

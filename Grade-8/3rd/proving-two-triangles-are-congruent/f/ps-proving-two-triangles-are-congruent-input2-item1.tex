@@ -1,0 +1,65 @@
+\vspace*{14ex}\hspace*{22em}\begin{tikzpicture}[remember picture, overlay
+]  
+
+\def\len1{\lenB}
+
+\coordinate (p) at (0,0);
+
+\coordinate (m) at ($(p) + (0:0.6*\len1)$);
+
+\coordinate (j) at ($(p) + (180:0.6*\len1)$);
+
+\coordinate (u) at ($(p) + (90:0.8*\len1)$);
+
+\node[anchor=north, inner sep=0.07*\leninnersep, rotate=0] (p-label) at (p) {$ P$};
+
+\node[anchor=north west, inner sep=3pt, rotate=0] (m-label) at (m) {$ M$}; 
+
+\node[anchor=north east, inner sep=3pt, rotate=0] (j-label) at (j) {$ J$};
+
+\node[anchor=south, inner sep=0.07*\leninnersep, rotate=0] (u-label) at (u) {$ U$};
+
+\draw[line width=0.3mm] (u) -- (m) -- (j) -- cycle;
+
+\draw[line width=0.3mm, dashed] (u) -- (p);   
+
+\end{tikzpicture} 
+
+\vspace*{-7ex}
+
+Given: $\triangle JUM$ with $\overline{UJ} \cong \overline{UM} $ \\
+Prove: $\angle{J}  \cong \angle{M} $ \\
+Proof:
+\begin{center}
+
+\noindent\begin{minipage}{27em}
+
+\begin{tabularx}{\textwidth}{|Y|Y|}
+\hline
+\textbf{Statements} & \textbf{Reasons}  \\
+\hline
+\end{tabularx} 
+
+\par\vskip1pt
+
+\begin{tabularx}{\textwidth}{|X|X|}
+\hline
+1. $\overline{UJ} \cong \overline{UM} $ & 1.  \\
+\hline
+2. Let $P$ be the midpoint of $\overline{JM} $ & 2.  \\
+\hline
+3. $\overline{JP} \cong \overline{MP} $ & 3.  \\
+\hline
+4. Connect $\overline{UP} $ & 4.  \\
+\hline
+5. $\overline{UP} \cong \overline{UP} $ & 5.  \\
+\hline
+6. $\triangle JUP\cong \triangle MUP$ &  6.  \\
+\hline
+7. $\angle{J}  \cong \angle{M} $ & 7.  \\
+\hline
+\end{tabularx} 
+\end{minipage}
+
+\end{center} 
+

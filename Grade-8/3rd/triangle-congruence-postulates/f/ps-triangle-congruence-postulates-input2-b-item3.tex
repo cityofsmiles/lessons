@@ -1,0 +1,31 @@
+\begin{tikzpicture}%[remember picture, overlay] 
+
+\def\len3{\lenB}
+
+\draw[line width=0.3mm] (0,0) coordinate (v)  -- (130:0.8*\len3) coordinate (u) -- (180:0.4*\len3) coordinate (w) -- (0:0.8*\len3) coordinate (k) -- (-50:0.4*\len3) coordinate (m) -- cycle;  
+
+\node[anchor=south west, inner sep=2pt, rotate=0] (v-label) at (v) {$ V$}; 
+
+\node[anchor=south, inner sep=7pt, rotate=0] (u-label) at (u) {$ U$}; 
+
+\node[anchor=north east, inner sep=2pt, rotate=0] (w-label) at (w) {$ W$}; 
+
+\node[anchor=west, inner sep=2pt, rotate=0] (k-label) at (k) {$ K$}; 
+
+\node[anchor=north, inner sep=2pt, rotate=0] (m-label) at (m) {$ M$}; 
+
+\coordinate (tick1) at ($(u)!0.5!(v)$) {}; 
+
+\coordinate (tick2) at ($(k)!0.5!(v)$) {};  
+
+\tikzset{twotick/.pic={\draw[line width=0.3mm] ($(-0.02*\len3, 0)+(0, 0.06*\len3)$) -- ($(-0.02*\len3, 0)-(0, 0.06*\len3)$) ($(0.02*\len3, 0)+(0, 0.06*\len3)$) -- ($(0.02*\len3, 0)-(0, 0.06*\len3)$) ; }}
+
+\pic[rotate=130] at (tick1) [pic type = twotick];
+
+\pic[rotate=0] at (tick2) [pic type = twotick];   
+
+\pic [draw, line width=0.3mm, angle radius=0.15*\len3] {angle=w--u--v}; 
+
+\pic [draw, line width=0.3mm, angle radius=0.15*\len3] {angle=v--k--m}; 
+
+\end{tikzpicture} 

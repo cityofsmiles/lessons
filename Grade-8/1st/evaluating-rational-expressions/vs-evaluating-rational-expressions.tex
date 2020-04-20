@@ -1,0 +1,53 @@
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-8/1st/evaluating-rational-expressions && pdflatex vs-evaluating-rational-expressions.tex && termux-open vs-evaluating-rational-expressions.pdf
+
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-8/1st/evaluating-rational-expressions && convert -density 600 vs-evaluating-rational-expressions.pdf -crop 2200x1700 -quality 100 -verbose vs-evaluating-rational-expressions%02d.png
+
+%2480.5x3508 portrait 2x2 2550x3300
+%3508x2480.5 landscape 2x2 3300x2550 
+%1653.7x2338.7 portrait 3x3 1700x2200
+%landscape 3x3 2200x1700
+
+% cd /storage/emulated/0/Documents/documents/latex/1819/grade10/visual/4th/evaluating-rational-expressions && while inotifywait -e close_write vs-evaluating-rational-expressions*.tex; do touch /storage/emulated/0/Android/data/com.termux/files/launch-termux.txt && printf '1' > /storage/emulated/0/Android/data/com.termux/files/launch-termux.txt && pdflatex vs-evaluating-rational-expressions.tex && termux-open vs-evaluating-rational-expressions.pdf; done
+
+% cd /host-rootfs/storage/emulated/0/Documents/documents/latex/1819/grade10/visual/4th/evaluating-rational-expressions && while inotifywait -e close_write vs-evaluating-rational-expressions*.tex; do pdflatex vs-evaluating-rational-expressions.tex  && printf "/storage/emulated/0/Documents/documents/latex/1819/grade10/visual/4th/evaluating-rational-expressions/vs-evaluating-rational-expressions.pdf" > /host-rootfs/storage/emulated/0/GNURoot/home/Scripts/file-to-launch.txt; done
+
+
+\documentclass[10pt]{article}
+\usepackage[letterpaper, landscape, right=0.3in, left=0.3in, top=0.5in, bottom=0.5in]{geometry}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{anyfontsize}
+\usepackage{amsmath}
+\usepackage{bm} 
+\usepackage{multirow} 
+\usepackage{gensymb}
+\usepackage{flafter}
+\usepackage{amsmath,amssymb,cancel,units}
+\usepackage{microtype} % nicer output 
+\usepackage{hfoldsty} % nicer output 
+\usepackage{fixltx2e} 
+\usepackage{mathptmx}
+%\usepackage{booktabs}
+\usepackage{numprint}
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+%\usepackage{siunitx} 
+%\sisetup{detect-all}
+
+\pagenumbering{gobble}
+%\linespread{0.9}
+\newcommand{\vspce}{\vspace{0.5ex}}
+\newcommand{\hspce}{\hspace{0.5em}}
+
+
+
+\begin{document}
+
+\boldmath
+
+{\fontsize{40}{45}\fontfamily{pnc}\selectfont{
+
+\input{vs-evaluating-rational-expressions-input}
+
+}}
+\end{document}

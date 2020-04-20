@@ -1,0 +1,62 @@
+
+\documentclass[11pt]{article}
+\usepackage[pdftex]{graphicx}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{bm}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage[utf8]{inputenc}
+\usepackage[legalpaper, landscape, right=0.5in,  left=1.5in, top=0.5in, bottom=0.5in]{geometry}
+\usepackage{fourier} 
+\usepackage{array} 
+\usepackage{makecell} 
+\usepackage{datatool}
+\usepackage{multicol, gensymb} 
+\usepackage{graphicx, tipa}
+\usepackage{tikz}
+\usetikzlibrary{angles,quotes}
+\usepackage{pgfplots} 
+\usetikzlibrary{calc}
+\pgfplotsset{compat=newest}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{intersections}
+\usetikzlibrary{decorations.pathreplacing}
+
+\renewcommand\theadalign{bc} 
+
+\renewcommand\theadfont{\bfseries} 
+
+\renewcommand\theadgape{\Gape[4pt]} 
+
+\renewcommand\cellgape{\Gape[4pt]} 
+
+\pagenumbering{gobble}
+
+\newcolumntype{Y}{>{\centering\arraybackslash}X} %for tabularx
+
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X} %for tabularx
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}X} %for tabularx
+
+\newcolumntype{A}[1]{>{\raggedright\arraybackslash}p{#1}} %for longtable LEFT
+
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}} %for longtable CENTER
+
+\newcolumntype{B}[1]{>{\raggedleft\arraybackslash}p{#1}} %for longtable RIGHT 
+ 
+\renewcommand{\tabularxcolumn}[1]{>{\small}m{#1}}
+
+\setlength{\extrarowheight}{1pt}
+
+\newcommand{\hspce}{\hspace{0.5em}}
+
+\newcommand{\blank}{\underline{\hspace{2.5em}}}
+
+\newcommand{\vspce}{\vspace{0.75ex}}
+
+\newcommand{\arc}[1]{{% 
+\setbox9=\hbox{#1}% 
+\ooalign{\resizebox{\wd9}{\height}{\texttoptiebar{\phantom{A}}}\cr#1}}}
+

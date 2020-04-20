@@ -1,0 +1,47 @@
+\begin{tikzpicture}
+
+\def\len8{\lenB}
+
+\draw[line width=0.3mm, remember picture, overlay] (0,0) coordinate (m)  -- (60:0.5*\len8) coordinate (l) -- (0:0.7*\len8) coordinate (k) -- cycle; 
+
+\node[anchor=east, inner sep=2pt, rotate=0] (m-label) at (m) {$ M$};
+
+\node[anchor=south, inner sep=2pt, rotate=0] (l-label) at (l) {$ L$};
+
+\node[anchor=west, inner sep=2pt, rotate=0] (k-label) at (k) {$ K$};
+
+\draw[line width=0.3mm, rotate=-90, xshift=-1*\len8,
+yshift=0.9*\len8
+] (0,0) coordinate (d)  -- (60:0.5*\len8) coordinate (i) -- (0:0.7*\len8) coordinate (r) -- cycle; 
+
+\node[anchor=south, inner sep=2pt, rotate=0] (d-label) at (d) {$ D$};
+
+\node[anchor=west, inner sep=2pt, rotate=0] (i-label) at (i) {$ I$};
+
+\node[anchor=north, inner sep=2pt, rotate=0] (r-label) at (r) {$ R$};
+
+\pic [draw, line width=0.3mm, angle radius=0.15*\len8] {angle=k--m--l}; 
+
+\pic [draw, line width=0.3mm, angle radius=0.15*\len8] {angle=r--d--i}; 
+
+\coordinate (tick1) at ($(l)!0.5!(m)$) {};  
+
+\coordinate (tick2) at ($(d)!0.5!(i)$) {};  
+
+\tikzset{onetick/.pic={\draw[line width=0.3mm] ($(0,0)+(0, 0.06*\len8)$) -- ($(0,0)-(0, 0.06*\len8)$) ; }}
+
+\pic[rotate=60] at (tick1) [pic type = onetick];
+
+\pic[rotate=-30] at (tick2) [pic type = onetick]; 
+
+\coordinate (tick3) at ($(k)!0.5!(m)$) {};  
+
+\coordinate (tick4) at ($(d)!0.5!(r)$) {};  
+
+\tikzset{twotick/.pic={\draw[line width=0.3mm] ($(-0.02*\len8, 0)+(0, 0.06*\len8)$) -- ($(-0.02*\len8, 0)-(0, 0.06*\len8)$) ($(0.02*\len8, 0)+(0, 0.06*\len8)$) -- ($(0.02*\len8, 0)-(0, 0.06*\len8)$) ; }}
+
+\pic[rotate=0] at (tick3) [pic type = twotick];
+
+\pic[rotate=90] at (tick4) [pic type = twotick];    
+
+\end{tikzpicture} 

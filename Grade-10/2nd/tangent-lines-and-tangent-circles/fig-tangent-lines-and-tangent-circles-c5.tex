@@ -1,0 +1,28 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}]
+
+\node[draw,circle,minimum size=2*\myrad,inner sep=0pt, line width=0.5mm, outer sep=0] (c1) at (0,0) {};
+
+\node(o-dot)[dot] at (o.center) {};
+
+\coordinate (ext) at ($(o.center)+(0:2.4*\myrad) $); 
+
+\node(o-label) at ($(o.center)+(180:0.22*\myrad)$) {$  O$};
+
+\node(x-label) at ($(tangent cs:node=o, point={(ext)}, solution=1)+(-60:0.25*\myrad)$) {\tiny $x$};
+
+\node(y-label) at ($(o.center)+(32:0.22*\myrad)$) {\tiny $y$};
+
+\node(z-label) at ($(tangent cs:node=o, point={(ext)}, solution=2)+(60:0.25*\myrad)$) {\tiny $z$};
+
+\node(35-label) at ($(ext)+(169:0.88*\myrad)$) {\tiny $35\degree$};
+
+\draw[line width=0.3mm] (ext) -- (o.center) -- (tangent cs:node=o, point={(ext)}, solution=1) ; 
+
+\draw[line width=0.3mm] (tangent cs:node=o, point={(ext)}, solution=1) -- (tangent cs:node=o, point={(ext)}, solution=2) ; 
+
+\draw[line width=0.3mm] (tangent cs:node=o, point={(ext)}, solution=2) -- (o.center) ; 
+
+\draw[line width=0.3mm] ($(ext)!1.5!(tangent cs:node=o, point={(ext)}, solution=1)$) -- (ext) -- ($(ext)!1.5!(tangent cs:node=o, point={(ext)}, solution=2)$); 
+
+\end{tikzpicture}
+

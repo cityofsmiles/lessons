@@ -1,0 +1,33 @@
+\begin{tikzpicture}
+
+\coordinate (m) at (0,0); 
+
+\coordinate (a) at ($(m) + (-25:\lenA)$); 
+
+\coordinate (h) at ($(m) + (205:\lenA)$); 
+
+\coordinate (t) at ($(m) + (-90:2.4*\lenA)$); 
+
+\node(m-label) at ($(m)+(90:0.25*\lenA)$) {$ M$};
+
+\node(a-label) at ($(a)+(10:0.25*\lenA)$) {$ A$}; 
+
+\node(t-label) at ($(t)+(-90:0.25*\lenA)$) {$ T$};
+
+\node(h-label) at ($(h)+(170:0.25*\lenA)$) {$ H$};
+
+\draw[line width=0.3mm] (m)--(a) -- (t) node[midway] (tick1) {} --(h) node[midway] (tick2) {} -- cycle  (m)--(t); 
+
+%\tikzset{twotick/.pic={\draw[line width=0.3mm] ($(-0.08,0)+(0,0.1*\lenA)$) -- ($(-0.08,0)-(0,0.1*\lenA)$) ($(0.08,0)+(0,0.1*\lenA)$) -- ($(0.08,0)-(0,0.1*\lenA)$) ; }}
+
+%\tikzset{twotick/.pic={\draw[line width=0.3mm] ($(-0.02*\lenA,0)+(0,0.06*\lenA)$) -- ($(-0.02*\lenA,0)-(0,0.06*\lenA)$) ($(0.02*\lenA,0)+(0,0.06*\lenA)$) -- ($(0.02*\lenA,0)-(0,0.06*\lenA)$) ; }}  
+
+\tikzset{twotick/.pic={\draw[line width=0.3mm] ($(-0.02*\lentick,0)+(0,0.06*\lentick)$) -- ($(-0.02*\lentick,0)-(0,0.06*\lentick)$) ($(0.02*\lentick,0)+(0,0.06*\lentick)$) -- ($(0.02*\lentick,0)-(0,0.06*\lentick)$) ; }}  
+
+
+
+\pic[rotate=65] at (tick1) [pic type = twotick]; 
+
+\pic[rotate=115] at (tick2) [pic type = twotick]; 
+
+\end{tikzpicture} 

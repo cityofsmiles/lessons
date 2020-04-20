@@ -1,0 +1,74 @@
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-8/3rd/theorems-on-perpendicular-lines/&& pdflatex hand-theorems-on-perpendicular-lines.tex && divide 2x2 hand-theorems-on-perpendicular-lines.pdf
+
+
+\documentclass[handout]{beamer} 
+
+\usepackage{pgfpages} 
+\mode<handout>{%
+\pgfpagesuselayout{4 on 1}[%letterpaper, 
+legalpaper,% landscape, 
+border shrink=1mm] 
+}
+
+\input{/storage/emulated/0/Documents/documents/latex/1920/common-preamble-2019}
+
+%\setbeamertemplate{itemize items}{\textbullet} 
+%\useinnertheme{circles} 
+
+%\newcommand{\vertadjust}{\vspace*{-1.5in}} % for letterpaper
+%\newcommand{\vertadjustb}{\vspace*{-1.5in}} % for letterpaper
+\newcommand{\vertadjust}{\vspace*{-2.5in}} % for legalpaper
+\newcommand{\vertadjustb}{\vspace*{-2.5in}} % for legalpaper
+
+\def\lenA{1.3cm}
+\def\lenB{1.2cm}
+\def\leninnersep{\lenA}
+
+\begin{document} 
+
+% frame 1
+\vertadjust
+\begin{frame} 
+\input{vs-theorems-on-perpendicular-lines-input} %\\
+%\input{hand-theorems-on-perpendicular-lines-input1}
+\input{ps-theorems-on-perpendicular-lines-input1}
+%\input{ps-theorems-on-perpendicular-lines-input2}
+\vspace*{1ex}
+\input{ps-theorems-on-perpendicular-lines-input3}
+\end{frame}
+
+% frame 2
+\vertadjust
+\begin{frame} 
+\input{vs-theorems-on-perpendicular-lines-input}% \\
+%\input{vs-theorems-on-perpendicular-lines-input2}
+\input{ps-theorems-on-perpendicular-lines-input1}
+%\input{ps-theorems-on-perpendicular-lines-input2}
+\vspace*{1ex}
+\input{ps-theorems-on-perpendicular-lines-input3}
+\end{frame}
+
+% frame 3
+\vertadjustb
+\begin{frame} 
+\input{vs-theorems-on-perpendicular-lines-input} 
+\input{ps-theorems-on-perpendicular-lines-input1}
+%\input{ps-theorems-on-perpendicular-lines-input2}
+\vspace*{1ex}
+\input{ps-theorems-on-perpendicular-lines-input3}
+\end{frame}
+
+% frame 4
+\vertadjustb
+\begin{frame} 
+\input{vs-theorems-on-perpendicular-lines-input}
+%\input{vs-theorems-on-perpendicular-lines-input2}
+\input{ps-theorems-on-perpendicular-lines-input1}
+%\input{ps-theorems-on-perpendicular-lines-input2}
+\vspace*{1ex}
+\input{ps-theorems-on-perpendicular-lines-input3}
+
+\end{frame}
+
+\end{document}
+

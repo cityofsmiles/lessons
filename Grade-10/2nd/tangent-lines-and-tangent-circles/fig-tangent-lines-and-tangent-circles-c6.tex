@@ -1,0 +1,50 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, dim-label/.style={fill=white, rectangle, inner sep=2pt, outer sep=0pt}]
+
+\node[draw,circle,minimum size=2*\myrad,inner sep=0pt, line width=0.5mm, outer sep=0] (o) at (0,0) {};
+
+\node(o-dot)[dot] at (o.center) {};
+
+\coordinate(a) at ($(o.center) +(-90:\myrad)$);
+
+\coordinate(b) at ($(o.center) + (0:\myrad)$);
+
+\coordinate (ext) at ($(a)+(180:\myrad)$); 
+
+\coordinate (ext2) at ($(b)+(90:\myrad)$); 
+
+\coordinate (ext3) at ($(ext)+(90:2*\myrad)$); 
+
+\coordinate (ext4) at ($(ext)+(0:2*\myrad)$); 
+
+\coordinate (ext5) at ($(b)+(0:0.3*\myrad)$); 
+
+\draw[line width=0.3mm] (ext) rectangle (ext2);
+
+\begin{scope} [rotate=0]
+\draw[line width=0.3mm] (ext) rectangle ++(0.22*\myrad,0.22*\myrad) node[transform shape]{};
+\end{scope}
+
+\begin{scope} [rotate=180]
+\draw[line width=0.3mm] (ext2) rectangle ++(0.22*\myrad,0.22*\myrad) node[transform shape]{};
+\end{scope}
+
+\begin{scope} [rotate=-90]
+\draw[line width=0.3mm] (ext3) rectangle ++(0.22*\myrad,0.22*\myrad) node[transform shape]{};
+\end{scope}
+
+\begin{scope} [rotate=90]
+\draw[line width=0.3mm] (ext4) rectangle ++(0.22*\myrad,0.22*\myrad) node[transform shape]{};
+\end{scope}
+
+\node(o-label) at ($(o.center)+(180:0.23*\myrad)$) {$  O$};
+
+\draw[line width=0.3mm] (o.center) -- (b) ;
+
+\node(14) at ($(o.center)+(15:0.5*\myrad)$) {\tiny $\text{14 ft.}$}; 
+
+\draw[{Rays[n=2].Classical TikZ Rightarrow[]}-{Classical TikZ Rightarrow[].Rays[n=2]}, line width=0.3mm] ($(ext5)+(90:\myrad+1pt)$) -- ($(ext5)+(-90:\myrad+1pt)$);
+
+\node[dim-label] (x-label) at (ext5) {\tiny $\text{x ft.}$};
+
+\end{tikzpicture}
+

@@ -1,0 +1,12 @@
+\begin{tikzpicture}[baseline = (current bounding box.west)]
+
+
+\node[draw, circle, minimum size=2*\radA, inner sep=0pt, line width=0.5mm, outer sep=0] (circ) at (0,0) {};
+
+\node[anchor=north, inner sep=2pt, rotate=0] (8cm.label) at ($(circ.center)!0.5!(0:\radA)$) {$ \text{8 cm}$};
+
+\node[anchor=south west, inner sep=2pt, rotate=0] (90.label) at ($(circ.center)+(45:\radA)$) {$ 90 \degree $};
+
+\filldraw[fill=\figurefill, line width=0.3mm]  (0:\radA) arc (0:90:\radA) -- (circ.center) -- cycle;
+
+\end{tikzpicture} 

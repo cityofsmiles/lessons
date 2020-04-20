@@ -1,0 +1,39 @@
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-10/posters/west && pdflatex west.tex && termux-open west.pdf
+
+% convert -density 600 west.pdf -quality 100 -verbose west.png 
+%  
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-10/posters/west && convert -density 600 west.pdf -crop 1269x1320 -quality 100 -verbose west%02d.png
+
+\input{../poster-preamble} 
+\usepackage[paperheight=11in, paperwidth=4.23in, margin=1mm]{geometry}
+\usepackage{tgchorus} 
+%\renewcommand*\rmdefault{pzc} 
+
+%\definecolor{armygreen}{rgb}{0.29, 0.33, 0.13}
+\definecolor{blue(pigment)}{rgb}{0.2, 0.2, 0.6}
+\definecolor{bulgarianrose}{rgb}{0.28, 0.02, 0.03}
+
+\definecolor{aqua}{rgb}{0.0, 1.0, 1.0}
+
+\definecolor{brass}{rgb}{0.71, 0.65, 0.26}
+
+\def\framecolor{aqua}
+
+\def\bordercolor{bulgarianrose}
+
+\def\bgpic{/storage/emulated/0/Tasker/Wall/pic008.jpg}
+
+
+\begin{document}
+
+\input{../poster-format-portrait-long} 
+
+\centering
+\parbox{3.8in}{\centering\vspace*{1in}
+\noindent{\fontsize{82}{90}\selectfont {\hspace*{-0.4em}``You only live once, but if you do it right, once is enough."}}
+
+\vspace*{0.5in} 
+
+\noindent{\fontsize{54}{64}\selectfont {-- Mae West }}}
+
+\end{document}

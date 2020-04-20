@@ -1,0 +1,743 @@
+
+% Start the document
+\begin{document}
+
+
+\begin{center}
+
+{
+\setlength\arrayrulewidth{2pt}
+\begin{tabularx}{\textwidth}{|Y|R|L|R|L|}
+
+\hline
+
+\multirow[c]{3}{15em}{
+\begin{tikzpicture}[remember picture, overlay]
+\node (deped) at (135:1mm) {\includegraphics[width=3.5em]{/storage/emulated/0/Documents/documents/latex/1920/deped2.png}};
+\end{tikzpicture}
+\centering \textbf{\makecell{GRADES 1 to 12 \\ DAILY LESSON LOG}}
+}  
+& 	
+\textbf{School}  & 
+\School & 	
+\textbf{Grade Level} & 
+Grade \Grade 
+\\
+
+\cline{2-5}
+
+& \textbf{Teacher} 
+& \Teacher 
+& \textbf{Learning Area} 
+& \Subject \\
+
+\cline{2-5}
+
+& \textbf{Teaching Dates and Time} 
+& Week \WeekNum, \LessonWeek 
+& \textbf{Quarter} 
+& \Quarter \\
+
+\hline
+
+\end{tabularx} 
+}
+
+
+\begin{longtable}{|p{161pt}|p{161pt}|p{161pt}|p{161pt}|p{161pt}|}
+
+\hline
+
+\textbf{I. OBJECTIVES } & 	
+\thead{DAY 1}  & 
+\thead{DAY 2}  & 	
+\thead{DAY 3}  & 
+\thead{DAY 4}  \\
+
+\hline
+
+\hspce \textbf{A. Content Standards:}  	
+& 
+\ContentStandards
+\\ 
+
+\hline 
+
+\hspce \textbf{B. Performance Standards:}  	
+& 
+\PerformanceStandards
+\\ 
+\hline 
+
+\hspce \textbf{C. Learning Competencies/ \newline Objectives: (Write the LC code for each.) }
+&	
+
+% Day 1 Learning Competencies
+\if \LessonA1 
+\LearningCompetenciesDayA
+\fi 
+\if \LessonB1 
+\LearningCompetenciesDayB
+\fi 
+\if \LessonC1 
+\LearningCompetenciesDayC
+\fi 
+\if \LessonD1 
+\LearningCompetenciesDayD
+\fi 
+
+\begin{enumerate}[leftmargin=1em, nolistsep]
+\if \LessonA1 
+\ObjectivesDayA
+\fi
+\if \LessonB1 
+\ObjectivesDayB
+\fi
+\if \LessonC1 
+\ObjectivesDayC
+\fi
+\if \LessonD1 
+\ObjectivesDayD
+\fi
+\end{enumerate}
+
+&
+
+% Day 2 Learning Competencies
+\if \LessonA2
+\LearningCompetenciesDayA
+\fi 
+\if \LessonB2
+\LearningCompetenciesDayB
+\fi 
+\if \LessonC2
+\LearningCompetenciesDayC
+\fi 
+\if \LessonD2
+\LearningCompetenciesDayD
+\fi 
+ 
+\begin{enumerate}[leftmargin=1em, nolistsep]
+\if \LessonA2 
+\ObjectivesDayA
+\fi
+\if \LessonB2 
+\ObjectivesDayB
+\fi
+\if \LessonC2 
+\ObjectivesDayC
+\fi
+\if \LessonD2 
+\ObjectivesDayD
+\fi
+\end{enumerate}
+
+& 
+
+% Day 3 Learning Competencies
+\if \LessonA3
+\LearningCompetenciesDayA
+\fi 
+\if \LessonB3
+\LearningCompetenciesDayB
+\fi 
+\if \LessonC3
+\LearningCompetenciesDayC
+\fi 
+\if \LessonD3
+\LearningCompetenciesDayD
+\fi 
+ 
+\begin{enumerate}[leftmargin=1em, nolistsep]
+\if \LessonA3 
+\ObjectivesDayA
+\fi
+\if \LessonB3 
+\ObjectivesDayB
+\fi
+\if \LessonC3 
+\ObjectivesDayC
+\fi
+\if \LessonD3 
+\ObjectivesDayD
+\fi
+\end{enumerate}
+
+&
+
+% Day 4 Learning Competencies
+\if \LessonA4
+\LearningCompetenciesDayA
+\fi 
+\if \LessonB4
+\LearningCompetenciesDayB
+\fi 
+\if \LessonC4
+\LearningCompetenciesDayC
+\fi 
+\if \LessonD4
+\LearningCompetenciesDayD
+\fi 
+ 
+\begin{enumerate}[leftmargin=1em, nolistsep]
+\if \LessonA4 
+\ObjectivesDayA
+\fi
+\if \LessonB4 
+\ObjectivesDayB
+\fi
+\if \LessonC4 
+\ObjectivesDayC
+\fi
+\if \LessonD4 
+\ObjectivesDayD
+\fi
+\end{enumerate} 
+\\
+
+\hline
+\multirow[l]{2}{15em}{\textbf{II. CONTENT}} & \Content 
+\\
+
+\cline{2-5}
+
+& 
+
+% Day 1 Lesson 
+\if \LessonA1 \textbf{\LessonDayA } \fi
+\if \LessonB1 \textbf{\LessonDayB } \fi
+\if \LessonC1 \textbf{\LessonDayC } \fi
+\if \LessonD1 \textbf{\LessonDayD } \fi
+& 
+% Day 2 Lesson 
+\if \LessonA2 \textbf{\LessonDayA } \fi
+\if \LessonB2 \textbf{\LessonDayB } \fi
+\if \LessonC2  \textbf{\LessonDayC } \fi
+\if \LessonD2 \textbf{\LessonDayD } \fi
+& 
+% Day 3 Lesson 
+\if \LessonA3  \textbf{\LessonDayA } \fi
+\if \LessonB3 \textbf{\LessonDayB } \fi
+\if \LessonC3 \textbf{\LessonDayC } \fi
+\if \LessonD3 \textbf{\LessonDayD } \fi
+& 
+% Day 4 Lesson 
+\if \LessonA4  \textbf{\LessonDayA } \fi
+\if \LessonB4  \textbf{\LessonDayB } \fi
+\if \LessonC4  \textbf{\LessonDayC } \fi
+\if \LessonD4  \textbf{\LessonDayD } \fi
+\\
+\hline
+
+\textbf{III. LEARNING RESOURCES} 
+&
+\multicolumn{4}{l|}{}
+\\
+\hline
+
+\hspce \textbf{A. References} & & & &
+\\
+\hline
+
+\hspce \hspce \textbf{1. Teacher's Guide Pages} & 
+
+% Day 1 Teachers Guide References
+\if \LessonA1 \TeachersGuideDayA \fi 
+\if \LessonB1 \TeachersGuideDayB \fi 
+\if \LessonC1 \TeachersGuideDayC \fi 
+\if \LessonD1 \TeachersGuideDayD \fi 
+&
+% Day 2 Teachers Guide References
+\if \LessonA2 \TeachersGuideDayA \fi
+\if \LessonB2 \TeachersGuideDayB \fi
+\if \LessonC2 \TeachersGuideDayC \fi
+\if \LessonD2 \TeachersGuideDayD \fi
+&
+% Day 3 Teachers Guide References
+\if \LessonA3 \TeachersGuideDayA \fi
+\if \LessonB3 \TeachersGuideDayB \fi
+\if \LessonC3 \TeachersGuideDayC \fi
+\if \LessonD3 \TeachersGuideDayD \fi
+&
+% Day 4 Teachers Guide References
+\if \LessonA4 \TeachersGuideDayA \fi
+\if \LessonB4 \TeachersGuideDayB \fi
+\if \LessonC4 \TeachersGuideDayC \fi
+\if \LessonD4 \TeachersGuideDayD \fi
+\\
+\hline
+
+\hspce \hspce \textbf{2. Learner's Materials Pages} & 
+
+% Day 1 References
+\if \LessonA1 \LMPagesDayA \fi
+\if \LessonB1 \LMPagesDayB \fi
+\if \LessonC1 \LMPagesDayC \fi
+\if \LessonD1 \LMPagesDayD \fi
+&
+% Day 2 References
+\if \LessonA2 \LMPagesDayA \fi
+\if \LessonB2 \LMPagesDayB \fi
+\if \LessonC2 \LMPagesDayC \fi
+\if \LessonD2 \LMPagesDayD \fi
+&
+% Day 3 References
+\if \LessonA3 \LMPagesDayA \fi
+\if \LessonB3 \LMPagesDayB \fi
+\if \LessonC3 \LMPagesDayC \fi
+\if \LessonD3 \LMPagesDayD \fi
+&
+% Day 4 References
+\if \LessonA4 \LMPagesDayA \fi
+\if \LessonB4 \LMPagesDayB \fi
+\if \LessonC4 \LMPagesDayC \fi
+\if \LessonD4 \LMPagesDayD \fi
+\\
+
+\hline
+
+\hspce \hspce \textbf{3. Textbook Pages} & 
+
+% Day 1 Textbook Pages 
+\if \LessonA1 \TextbookPagesDayA \fi
+\if \LessonB1 \TextbookPagesDayB \fi
+\if \LessonC1 \TextbookPagesDayC \fi
+\if \LessonD1 \TextbookPagesDayD \fi
+& 
+% Day 2 Textbook Pages 
+\if \LessonA2 \TextbookPagesDayA \fi
+\if \LessonB2 \TextbookPagesDayB \fi
+\if \LessonC2 \TextbookPagesDayC \fi
+\if \LessonD2 \TextbookPagesDayD \fi
+&
+% Day 3 Textbook Pages 
+\if \LessonA3 \TextbookPagesDayA \fi
+\if \LessonB3 \TextbookPagesDayB \fi
+\if \LessonC3 \TextbookPagesDayC \fi
+\if \LessonD3 \TextbookPagesDayD \fi
+& 
+% Day 4 Textbook Pages 
+\if \LessonA4 \TextbookPagesDayA \fi
+\if \LessonB4 \TextbookPagesDayB \fi
+\if \LessonC4 \TextbookPagesDayC \fi
+\if \LessonD4 \TextbookPagesDayD \fi
+\\
+
+\hline
+
+\hspce \hspce \textbf{4. Additional Materials from \newline Learning Resources Portal }
+& 
+
+% Day 1 Additional Materials 
+\if \LessonA1 \AdditionalMaterialsDayA \fi
+\if \LessonB1 \AdditionalMaterialsDayB \fi
+\if \LessonC1 \AdditionalMaterialsDayC \fi
+\if \LessonD1 \AdditionalMaterialsDayD \fi
+& 
+% Day 2 Additional Materials 
+\if \LessonA2 \AdditionalMaterialsDayA \fi
+\if \LessonB2 \AdditionalMaterialsDayB \fi
+\if \LessonC2 \AdditionalMaterialsDayC \fi
+\if \LessonD2 \AdditionalMaterialsDayD \fi
+& 
+% Day 3 Additional Materials 
+\if \LessonA3 \AdditionalMaterialsDayA \fi
+\if \LessonB3 \AdditionalMaterialsDayB \fi
+\if \LessonC3 \AdditionalMaterialsDayC \fi
+\if \LessonD3 \AdditionalMaterialsDayD \fi
+& 
+% Day 4 Additional Materials 
+\if \LessonA4 \AdditionalMaterialsDayA \fi
+\if \LessonB4 \AdditionalMaterialsDayB \fi
+\if \LessonC4 \AdditionalMaterialsDayC \fi
+\if \LessonD4 \AdditionalMaterialsDayD \fi
+\\
+
+\hline
+\hspce \textbf{B. Other Learning Resources }
+&
+% Day 1 Other Resources  
+\if \LessonA1 \OtherResourcesDayA \fi
+\if \LessonB1 \OtherResourcesDayB \fi
+\if \LessonC1 \OtherResourcesDayC \fi
+\if \LessonD1 \OtherResourcesDayD \fi
+&
+% Day 2 Other Resources  
+\if \LessonA2 \OtherResourcesDayA \fi
+\if \LessonB2 \OtherResourcesDayB \fi
+\if \LessonC2 \OtherResourcesDayC \fi
+\if \LessonD2 \OtherResourcesDayD \fi
+&
+% Day 3 Other Resources  
+\if \LessonA3 \OtherResourcesDayA \fi
+\if \LessonB3 \OtherResourcesDayB \fi
+\if \LessonC3 \OtherResourcesDayC \fi
+\if \LessonD3 \OtherResourcesDayD \fi
+&
+% Day 4 Other Resources  
+\if \LessonA4 \OtherResourcesDayA \fi
+\if \LessonB4 \OtherResourcesDayB \fi
+\if \LessonC4 \OtherResourcesDayC \fi
+\if \LessonD4 \OtherResourcesDayD \fi
+\\
+
+\hline
+
+\textbf{IV. PROCEDURES} & \multicolumn{4}{l|}{}
+\\
+
+\hline
+
+\hspce \textbf{A. Reviewing Previous Lesson \newline or  Presenting New Lesson}  &
+% Day 1 Review 
+\if \LessonA1 \ReviewDayA \fi
+\if \LessonB1 \ReviewDayB \fi
+\if \LessonC1 \ReviewDayC \fi
+\if \LessonD1 \ReviewDayD \fi
+&
+% Day 2 Review 
+\if \LessonA2 \ReviewDayA \fi
+\if \LessonB2 \ReviewDayB \fi
+\if \LessonC2 \ReviewDayC \fi
+\if \LessonD2 \ReviewDayD \fi
+&
+% Day 3 Review 
+\if \LessonA3 \ReviewDayA \fi
+\if \LessonB3 \ReviewDayB \fi
+\if \LessonC3 \ReviewDayC \fi
+\if \LessonD3 \ReviewDayD \fi
+&
+% Day 4 Review 
+\if \LessonA4 \ReviewDayA \fi
+\if \LessonB4 \ReviewDayB \fi
+\if \LessonC4 \ReviewDayC \fi
+\if \LessonD4 \ReviewDayD \fi
+\\
+
+\hline
+
+\hspce \textbf{B. Establishing a Purpose for \newline the  Lesson} &
+% Day 1 Purpose  
+\if \LessonA1 \PurposeDayA \fi
+\if \LessonB1 \PurposeDayB \fi
+\if \LessonC1 \PurposeDayC \fi
+\if \LessonD1 \PurposeDayD \fi
+&
+% Day 2 Purpose  
+\if \LessonA2 \PurposeDayA \fi
+\if \LessonB2 \PurposeDayB \fi
+\if \LessonC2 \PurposeDayC \fi
+\if \LessonD2 \PurposeDayD \fi
+&
+% Day 3 Purpose  
+\if \LessonA3 \PurposeDayA \fi
+\if \LessonB3 \PurposeDayB \fi
+\if \LessonC3 \PurposeDayC \fi
+\if \LessonD3 \PurposeDayD \fi
+&
+% Day 4 Purpose  
+\if \LessonA4 \PurposeDayA \fi
+\if \LessonB4 \PurposeDayB \fi
+\if \LessonC4 \PurposeDayC \fi
+\if \LessonD4 \PurposeDayD \fi
+\\
+
+\hline
+\hspce \textbf{C. Presenting Examples/ \newline Instances of the Lesson} &
+% Day 1 Examples  
+\if \LessonA1 \ExamplesDayA \fi
+\if \LessonB1 \ExamplesDayB \fi
+\if \LessonC1 \ExamplesDayC \fi
+\if \LessonD1 \ExamplesDayD \fi
+&
+% Day 2 Examples  
+\if \LessonA2 \ExamplesDayA \fi
+\if \LessonB2 \ExamplesDayB \fi
+\if \LessonC2 \ExamplesDayC \fi
+\if \LessonD2 \ExamplesDayD \fi
+&
+% Day 3 Examples  
+\if \LessonA3 \ExamplesDayA \fi
+\if \LessonB3 \ExamplesDayB \fi
+\if \LessonC3 \ExamplesDayC \fi
+\if \LessonD3 \ExamplesDayD \fi
+&
+% Day 4 Examples  
+\if \LessonA4 \ExamplesDayA \fi
+\if \LessonB4 \ExamplesDayB \fi
+\if \LessonC4 \ExamplesDayC \fi
+\if \LessonD4 \ExamplesDayD \fi
+\\
+
+\hline
+\hspce \textbf{D. Discussing New Concepts \newline and  Practicing New Skills \#1} &
+% Day 1 Practice 1 
+\if \LessonA1 \PracticeOneDayA \fi
+\if \LessonB1 \PracticeOneDayB \fi
+\if \LessonC1 \PracticeOneDayC \fi
+\if \LessonD1 \PracticeOneDayD \fi
+&
+% Day 2 Practice 1 
+\if \LessonA2 \PracticeOneDayA \fi
+\if \LessonB2 \PracticeOneDayB \fi
+\if \LessonC2 \PracticeOneDayC \fi
+\if \LessonD2 \PracticeOneDayD \fi
+&
+% Day 3 Practice 1 
+\if \LessonA3 \PracticeOneDayA \fi
+\if \LessonB3 \PracticeOneDayB \fi
+\if \LessonC3 \PracticeOneDayC \fi
+\if \LessonD3 \PracticeOneDayD \fi
+&
+% Day 4 Practice 1 
+\if \LessonA4 \PracticeOneDayA \fi
+\if \LessonB4 \PracticeOneDayB \fi
+\if \LessonC4 \PracticeOneDayC \fi
+\if \LessonD4 \PracticeOneDayD \fi
+\\
+
+\hline
+\hspce \textbf{E. Discussing New Concepts \newline and  Practicing New Skills \#2} &
+% Day 1 Practice 2 
+\if \LessonA1 \PracticeTwoDayA \fi
+\if \LessonB1 \PracticeTwoDayB \fi
+\if \LessonC1 \PracticeTwoDayC \fi
+\if \LessonD1 \PracticeTwoDayD \fi
+&
+% Day 2 Practice 2
+\if \LessonA2 \PracticeTwoDayA \fi
+\if \LessonB2 \PracticeTwoDayB \fi
+\if \LessonC2 \PracticeTwoDayC \fi
+\if \LessonD2 \PracticeTwoDayD \fi
+&
+% Day 3 Practice 2
+\if \LessonA3 \PracticeTwoDayA \fi
+\if \LessonB3 \PracticeTwoDayB \fi
+\if \LessonC3 \PracticeTwoDayC \fi
+\if \LessonD3 \PracticeTwoDayD \fi
+&
+% Day 4 Practice 2 
+\if \LessonA4 \PracticeTwoDayA \fi
+\if \LessonB4 \PracticeTwoDayB \fi
+\if \LessonC4 \PracticeTwoDayC \fi
+\if \LessonD4 \PracticeTwoDayD \fi
+\\
+
+\hline
+\hspce \textbf{F. Developing Mastery} &
+% Day 1 Mastery 
+\if \LessonA1 \MasteryDayA \fi
+\if \LessonB1 \MasteryDayB \fi
+\if \LessonC1 \MasteryDayC \fi
+\if \LessonD1 \MasteryDayD \fi
+&
+% Day 2 Mastery 
+\if \LessonA2 \MasteryDayA \fi
+\if \LessonB2 \MasteryDayB \fi
+\if \LessonC2 \MasteryDayC \fi
+\if \LessonD2 \MasteryDayD \fi
+&
+% Day 3 Mastery 
+\if \LessonA3 \MasteryDayA \fi
+\if \LessonB3 \MasteryDayB \fi
+\if \LessonC3 \MasteryDayC \fi
+\if \LessonD3 \MasteryDayD \fi
+&
+% Day 4 Mastery 
+\if \LessonA4 \MasteryDayA \fi
+\if \LessonB4 \MasteryDayB \fi
+\if \LessonC4 \MasteryDayC \fi
+\if \LessonD4 \MasteryDayD \fi
+\\
+
+\hline
+\hspce \textbf{G. Finding Practical Application of Concepts and Skills in Daily Living} &
+% Day 1 Application  
+\if \LessonA1 \ApplicationDayA \fi
+\if \LessonB1 \ApplicationDayB \fi
+\if \LessonC1 \ApplicationDayC \fi
+\if \LessonD1 \ApplicationDayD \fi
+&
+% Day 2 Application  
+\if \LessonA2 \ApplicationDayA \fi
+\if \LessonB2 \ApplicationDayB \fi
+\if \LessonC2 \ApplicationDayC \fi
+\if \LessonD2 \ApplicationDayD \fi
+&
+% Day 3 Application  
+\if \LessonA3 \ApplicationDayA \fi
+\if \LessonB3 \ApplicationDayB \fi
+\if \LessonC3 \ApplicationDayC \fi
+\if \LessonD3 \ApplicationDayD \fi
+&
+% Day 4 Application  
+\if \LessonA4 \ApplicationDayA \fi
+\if \LessonB4 \ApplicationDayB \fi
+\if \LessonC4 \ApplicationDayC \fi
+\if \LessonD4 \ApplicationDayD \fi
+\\
+
+\hline
+\hspce \textbf{H. Making Generalization and \newline Abstractions about the Lesson }&
+% Day 1 Generalization  
+\if \LessonA1 \GeneralizationDayA \fi
+\if \LessonB1 \GeneralizationDayB \fi
+\if \LessonC1 \GeneralizationDayC \fi
+\if \LessonD1 \GeneralizationDayD \fi
+&
+% Day 2 Generalization  
+\if \LessonA2 \GeneralizationDayA \fi
+\if \LessonB2 \GeneralizationDayB \fi
+\if \LessonC2 \GeneralizationDayC \fi
+\if \LessonD2 \GeneralizationDayD \fi
+&
+% Day 3 Generalization  
+\if \LessonA3 \GeneralizationDayA \fi
+\if \LessonB3 \GeneralizationDayB \fi
+\if \LessonC3 \GeneralizationDayC \fi
+\if \LessonD3 \GeneralizationDayD \fi
+&
+% Day 4 Generalization  
+\if \LessonA4 \GeneralizationDayA \fi
+\if \LessonB4 \GeneralizationDayB \fi
+\if \LessonC4 \GeneralizationDayC \fi
+\if \LessonD4 \GeneralizationDayD \fi
+\\
+
+\hline
+\hspce \textbf{I. Evaluating Learning} &
+% Day 1 Evaluation  
+\if \LessonA1 \EvaluationDayA \fi
+\if \LessonB1 \EvaluationDayB \fi
+\if \LessonC1 \EvaluationDayC \fi
+\if \LessonD1 \EvaluationDayD \fi
+&
+% Day 2 Evaluation  
+\if \LessonA2 \EvaluationDayA \fi
+\if \LessonB2 \EvaluationDayB \fi
+\if \LessonC2 \EvaluationDayC \fi
+\if \LessonD2 \EvaluationDayD \fi
+&
+% Day 3 Evaluation  
+\if \LessonA3 \EvaluationDayA \fi
+\if \LessonB3 \EvaluationDayB \fi
+\if \LessonC3 \EvaluationDayC \fi
+\if \LessonD3 \EvaluationDayD \fi
+&
+% Day 4 Evaluation  
+\if \LessonA4 \EvaluationDayA \fi
+\if \LessonB4 \EvaluationDayB \fi
+\if \LessonC4 \EvaluationDayC \fi
+\if \LessonD4 \EvaluationDayD \fi
+%\input{/storage/emulated/0/Documents/documents/latex/1920/Grade-10/1st/combinations/qz-combinations-input} 
+\\
+
+\hline
+\hspce \textbf{J. Additional Activities for \newline Application or Remediation} &
+% Day 1 Remediation  
+\if \LessonA1 \RemediationDayA \fi
+\if \LessonB1 \RemediationDayB \fi
+\if \LessonC1 \RemediationDayC \fi
+\if \LessonD1 \RemediationDayD \fi
+&
+% Day 2 Remediation  
+\if \LessonA2 \RemediationDayA \fi
+\if \LessonB2 \RemediationDayB \fi
+\if \LessonC2 \RemediationDayC \fi
+\if \LessonD2 \RemediationDayD \fi
+&
+% Day 3 Remediation  
+\if \LessonA3 \RemediationDayA \fi
+\if \LessonB3 \RemediationDayB \fi
+\if \LessonC3 \RemediationDayC \fi
+\if \LessonD3 \RemediationDayD \fi
+&
+% Day 4 Remediation  
+\if \LessonA4 \RemediationDayA \fi
+\if \LessonB4 \RemediationDayB \fi
+\if \LessonC4 \RemediationDayC \fi
+\if \LessonD4 \RemediationDayD \fi
+\\
+
+\hline
+\textbf{VI. REMARKS} & 
+\Remark &
+\Remark &
+\Remark &
+\Remark
+% \multicolumn{3}{l|}{MATHEMATICS 10 is taken only four times a week with one hour per meeting. There is allotted one day non-meeting for each class. }
+\\
+
+\hline
+\textbf{VII. REFLECTION} & \multicolumn{4}{l|}{}
+\\
+
+\hline
+\hspce \textbf{A. No. of learners who earned 80\% in the evaluation} &
+\RemedialOne
+&  
+\RemedialOne
+&  
+\RemedialOne
+& 
+\RemedialOne
+\\
+
+\hline
+\hspce \textbf{B.	No. of learners who require additional activities for remediation who scored below 80\%} & 
+\RemedialOne
+& 
+\RemedialOne
+& 
+\RemedialOne
+&
+\RemedialOne
+\\
+
+\hline
+\hspce \textbf{C.	Did the remedial lessons work? No. of learners who have caught up with the lesson} &
+\RemedialTwo
+& 
+\RemedialTwo
+& 
+\RemedialTwo
+&
+\RemedialTwo
+\\
+\hline
+\hspce \textbf{D.	No. of learners who continue to require remediation} & 
+\RemedialTwo
+& 
+\RemedialTwo
+& 
+\RemedialTwo
+&
+\RemedialTwo
+\\
+\hline
+\hspce \textbf{E.	Which of my teaching strategies worked well? Why did these work?}  & & & &
+\\
+\hline
+\hspce \textbf{F.	What difficulties did I encounter which my principal or supervisor can help me solve? } & & & &
+\\
+\hline
+\hspce \textbf{G.	What innovation or localized materials did I use/discover which I wish to share with other teachers?}  & & & &
+\\
+\hline
+
+\end{longtable}
+%\end{tabularx} 
+\end{center}
+
+\vfill
+
+\begin{flushright}
+Checked by: \\
+\vspace*{3ex}
+\Checker
+\end{flushright}
+
+
+\end{document}
+
+

@@ -1,0 +1,23 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}]
+
+\node[draw,circle,minimum size=2*\myrad,inner sep=0pt, line width=0.5mm, outer sep=0] (o) at (0,0) {};
+
+\node(o-dot)[dot] at (o.center) {};
+
+\coordinate (a) at ($(o.center)+(-90:\myrad) $); 
+
+\coordinate (ext) at ($(a)+(180:2*\myrad) $); 
+
+\node(o-label) at ($(o.center)+(20:0.22*\myrad)$) {$  O$};
+
+\node(x1-label) at ($(o.center)+(190:0.5*\myrad)$) {$x$};
+
+\node(x2-label) at ($(o.center)+(-70:0.5*\myrad)$) {$x$};
+
+\node(4) at ($(o.center)+(200:1.6*\myrad)$) {$  4$};
+
+\node(8) at ($(a)+(190:\myrad)$) {$8$};
+
+\draw[line width=0.3mm] (ext) -- (tangent cs:node=o, point={(ext)}, solution=1) -- (o.center) -- cycle; 
+
+\end{tikzpicture}

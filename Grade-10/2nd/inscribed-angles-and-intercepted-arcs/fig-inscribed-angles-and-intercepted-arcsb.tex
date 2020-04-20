@@ -1,0 +1,26 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, 
+dim-label/.style={fill=white, rectangle, inner sep=2pt, outer sep=0pt}, 
+nodot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=0pt}, 
+%remember picture, overlay
+baseline = (current bounding box.west)
+]  
+
+\coordinate (p) at (0,0); 
+
+\draw[line width=0.5mm] (p) node[circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt] {} circle [radius=\rad2]; 
+
+\node(p-label) at ($(p)+(290:0.22*\rad2)$) {$P$};
+
+\node(p-angle) at ($(p)+(52:0.5*\rad2)$) {${38\degree}$};
+
+\node (a) at (40:\rad2) [nodot] {}; 
+
+\node (b) at (78:\rad2) [nodot] {}; 
+
+\node (c) at (220:\rad2) [nodot] {};
+
+\node(x-label) at ($(c)+(50:0.7*\rad2)$) {${x}$};
+ 
+\draw[line width=0.3mm] (a)--(c)--(b)--(p) ; 
+
+\end{tikzpicture}

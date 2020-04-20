@@ -1,0 +1,17 @@
+\begin{tikzpicture}[baseline = (current bounding box.west)]
+
+
+
+\node[draw, circle, minimum size=2*\radB, inner sep=0pt, line width=0.5mm, outer sep=0] (circ) at (0,0) {};
+
+\node[anchor=south, inner sep=2pt, rotate=0] (10in.label) at ($(circ.center)!0.5!(0:\radB)$) {$ \text{10 in}$};
+
+\filldraw[fill=\figurefill, line width=0.3mm]  (0:\radB) arc (0:-60:\radB) -- (circ.center) -- cycle;
+
+\filldraw[fill=\figurefill, line width=0.3mm]  (180:\radB) arc (180:120:\radB) -- (circ.center) -- cycle;
+
+\node[rotate=0] (120-label) at ($(circ.center)+(220:0.42*\radB)$) {$ 120\degree $}; 
+
+
+\end{tikzpicture} 
+

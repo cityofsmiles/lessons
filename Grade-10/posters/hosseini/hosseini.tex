@@ -1,0 +1,42 @@
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-10/posters/hosseini && pdflatex hosseini.tex && termux-open hosseini.pdf
+
+% convert -density 600 hosseini.pdf -quality 100 -verbose hosseini.png 
+%  3300x6600
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-10/posters/ && convert -density 600 hosseini.pdf -crop 1650x2200 -quality 100 -verbose hosseini%02d.png
+
+\input{../poster-preamble} 
+\usepackage[paperheight=11in, paperwidth=5.5in, margin=1mm]{geometry}
+
+%\renewcommand*\rmdefault{pzc} 
+\usepackage{chancery}
+%\usepackage{tgchorus} 
+
+%\definecolor{armygreen}{rgb}{0.29, 0.33, 0.13}
+\definecolor{cadetblue}{rgb}{0.37, 0.62, 0.63}
+\definecolor{blue(pigment)}{rgb}{0.2, 0.2, 0.6}
+\definecolor{bulgarianrose}{rgb}{0.28, 0.02, 0.03}
+\definecolor{cordovan}{rgb}{0.54, 0.25, 0.27}
+\definecolor{aqua}{rgb}{0.0, 1.0, 1.0}
+
+\definecolor{brass}{rgb}{0.71, 0.65, 0.26}
+\definecolor{daffodil}{rgb}{1.0, 1.0, 0.19}
+
+\def\framecolor{daffodil}
+
+\def\bordercolor{cordovan}
+
+\def\bgpic{/storage/emulated/0/Tasker/Wall/pic130.jpg}
+
+
+\begin{document}
+
+\input{../poster-format-portrait-short} 
+
+\centering
+\noindent{\fontsize{100}{145}\selectfont {\hspace*{-0.4em}``Marriage can wait, education cannot."\\}}
+
+\vspace*{0.5in} 
+
+\noindent{\fontsize{50}{85}\selectfont {\hspace*{-0.4em}-- Khaled Hosseini }}
+
+\end{document}

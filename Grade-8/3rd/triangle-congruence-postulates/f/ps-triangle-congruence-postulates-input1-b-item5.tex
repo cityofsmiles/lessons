@@ -1,0 +1,51 @@
+\begin{tikzpicture}
+
+\def\len5{0.8*\lenB}
+
+\coordinate (d) at (0,0);  
+
+\coordinate (n) at ($(d) + (0:\len5)$); 
+
+\coordinate (o) at ($(n) + (-140:2.3*\len5)$); 
+
+\draw[line width=0.3mm] (d) --  (n) -- (o) -- cycle node[midway] (tick1) {} ; 
+
+%\tikzset{twotick/.pic={\draw[line width=0.3mm] ($(-0.03*\len5,0)+(0,0.1*\len5)$) -- ($(-0.03*\len5,0)-(0,0.1*\len5)$) ($(0.03*\len5,0)+(0,0.1*\len5)$) -- ($(0.03*\len5,0)-(0,0.1*\len5)$) ; }}
+\tikzset{twotick/.pic={\draw[line width=0.3mm] ($(-0.02*\lentick,0)+(0,0.06*\lentick)$) -- ($(-0.02*\lentick,0)-(0,0.06*\lentick)$) ($(0.02*\lentick,0)+(0,0.06*\lentick)$) -- ($(0.02*\lentick,0)-(0,0.06*\lentick)$) ; }}  
+
+
+%\tikzset{twotick/.pic={\draw[line width=0.3mm] ($(-0.02*\len5,0)+(0,0.06*\len5)$) -- ($(-0.02*\len5,0)-(0,0.06*\len5)$) ($(0.02*\len5,0)+(0,0.06*\len5)$) -- ($(0.02*\len5,0)-(0,0.06*\len5)$) ; }}  
+
+\pic[rotate=63] at (tick1) [pic type = twotick]; 
+
+\pic [draw, line width=0.3mm, angle radius=0.2*\len5] {angle=o--d--n}; 
+
+\node(d-label) at ($(d)+(110:0.25*\lenB)$) {$ D$}; 
+
+\node(n-label) at ($(n)+(60:0.25*\lenB)$) {$ N$}; 
+
+\node(o-label) at ($(o)-(60:0.35*\lenB)$) {$ O$}; 
+
+\coordinate (g) at ($(n) + (30:0.5*\len5)$); 
+
+\coordinate (a) at ($(g) + (245:2.3*\len5)$); 
+
+\coordinate (m) at ($(a) + (25:\len5)$); 
+
+\node(g-label) at ($(g)+(80:0.35*\lenB)$) {$ G$};
+
+\node(m-label) at ($(m)+(-70:0.35*\lenB)$) {$ M$};
+
+\node(a-label) at ($(a)+(235:0.25*\lenB)$) {$ A$}; 
+
+\draw[line width=0.3mm] (g) -- (a)--(m) -- cycle node[midway] (tick2) {} ; 
+
+\pic[rotate=88] at (tick2) [pic type = twotick];  
+
+\pic [draw, line width=0.3mm, angle radius=0.2*\len5] {angle=g--m--a}; 
+
+\pic [draw, line width=0.3mm, angle radius=0.4*\len5] {angle=a--g--m}; 
+
+\pic [draw, line width=0.3mm, angle radius=0.4*\len5] {angle=n--o--d}; 
+
+\end{tikzpicture} 

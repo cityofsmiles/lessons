@@ -1,0 +1,45 @@
+\begin{tikzpicture}
+
+\def\len6{1.6*\lenB}
+
+\coordinate (k) at (0,0);  
+
+\coordinate (p) at (90:0.7*\len6);  
+
+\coordinate (d) at ($(p) + (180:0.5*\len6)$);  
+
+\coordinate (m) at (-90:0.7*\len6);  
+
+\coordinate (f) at ($(m) + (0:0.5*\len6)$);  
+
+\node[anchor=south west, inner sep=2pt, rotate=0] (k-label) at (k) {$ K$};
+
+\node[anchor=south, inner sep=2pt, rotate=0] (p-label) at (p) {$ P$};
+
+\node[anchor=east, inner sep=2pt, rotate=0] (d-label) at (d) {$ D$};
+
+\node[anchor=north, inner sep=2pt, rotate=0] (m-label) at (m) {$ M$};
+
+\node[anchor=west, inner sep=2pt, rotate=0] (f-label) at (f) {$ F$};
+
+\draw[line width=0.3mm] (k) -- (p)  -- (d) -- (f) -- (m) -- cycle;  
+
+\coordinate (tick1) at ($(k)!0.5!(p)$) {};  
+
+\coordinate (tick2) at ($(k)!0.5!(m)$) {};  
+
+\tikzset{twotick/.pic={\draw[line width=0.3mm] ($(-0.02*\len6, 0)+(0,0.06*\len6)$) -- ($(-0.02*\len6, 0)-(0,0.06*\len6)$) ($(0.02*\len6, 0)+(0,0.06*\len6)$) -- ($(0.02*\len6, 0)-(0,0.06*\len6)$) ; }}
+
+\pic[rotate=90] at (tick1) [pic type = twotick];
+
+\pic[rotate=90] at (tick2) [pic type = twotick];   
+
+\begin{scope} [rotate=-180]
+\draw[line width=0.3mm] (p) rectangle ++(0.13*\len6,0.13*\len6) node[transform shape]{};
+\end{scope} 
+
+\begin{scope} [rotate=0]
+\draw[line width=0.3mm] (m) rectangle ++(0.13*\len6,0.13*\len6) node[transform shape]{};
+\end{scope} 
+
+\end{tikzpicture} 

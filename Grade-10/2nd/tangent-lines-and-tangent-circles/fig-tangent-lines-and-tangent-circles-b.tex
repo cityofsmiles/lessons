@@ -1,0 +1,42 @@
+\begin{tikzpicture}[remember picture, overlay
+]
+
+\def\rad{1.2cm}
+
+\node[draw,circle,minimum size=2*\rad,inner sep=0pt, line width=0.5mm, outer sep=0] (c1) at (0,0) {}; 
+
+\node(o-label) at ($(c1.center)+(150:0.22*\rad)$) {$  O$};
+
+\coordinate (t) at (0,-3*\rad); 
+
+\node(t-label) at ($(t)+(270:0.22*\rad)$) {$  T$};
+
+\draw[line width=0.3mm] (c1.center) -- (tangent cs:node=c1, point={(t)}, solution=1) -- (t) -- (tangent cs:node=c1, point={(t)}, solution=2) -- cycle; 
+
+\node(e-label) at ($(tangent cs:node=c1, point={(t)}, solution=1)+(-20:0.2*\rad)$) {$  E$};
+
+\node(c-label) at ($(tangent cs:node=c1, point={(t)}, solution=2)+(200:0.2*\rad)$) {$  C$};
+
+\coordinate (n) at (90:\rad); 
+
+\node(n-label) at ($(n)+(90:0.2*\rad)$) {$  N$};
+
+\coordinate (s) at (-90:\rad); 
+
+\node(s-label) at ($(s)+(-90:0.2*\rad)$) {$  S$};
+
+\node[circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt] (i) at ($(s)+(180:\rad)$) {};
+
+\coordinate (l) at ($(s)+(180:1.2*\rad)$); 
+
+\node(i-label) at ($(i)+(90:0.2*\rad)$) {$  I$};
+
+\coordinate (m) at ($(s)+(0:1.2*\rad)$); 
+
+\node(l-label) at ($(m)+(90:0.2*\rad)$) {$m$};
+
+\draw[line width=0.3mm] (n) -- (s); 
+
+\draw[line width=0.3mm, <->, >={Latex[round]}] (l) -- (m); 
+
+\end{tikzpicture}

@@ -1,0 +1,22 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, baseline = (current bounding box.west)]
+
+\node[draw,circle,minimum size=2*\radA, inner sep=0pt, line width=0.5mm, outer sep=0] (circ) at (0,0) {};
+
+\coordinate (a) at ($(circ) + (50: 1.4*\radA)$);
+
+\coordinate (b) at ($(circ) + (215: 1.8*\radA)$);
+
+\coordinate (c) at ($(circ) + (-25: 1.4*\radA)$);
+
+\node(x.label) at ($(b)+(23:0.44*\radA)$) {$  x$};
+
+\node(80.label) at ($(circ)+(5:0.7*\radA)$) {$  80\degree $};
+
+\node(140.label) at ($(circ)+(130:1.25*\radA)$) {$  140\degree $};
+
+\node(130.label) at ($(circ)+(-80:1.2*\radA)$) {$  130\degree $};
+
+\draw[line width=0.3mm, <->, >={Latex[round]}] (a) -- (b) -- (c) ;
+
+\end{tikzpicture} 
+

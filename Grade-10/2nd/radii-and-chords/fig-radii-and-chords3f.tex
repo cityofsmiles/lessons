@@ -1,0 +1,39 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, 
+%dim-label/.style={fill=white, rectangle, inner sep=2pt, outer sep=0pt}, 
+nodot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=0pt}, 
+%remember picture, overlay, 
+baseline = (current bounding box.west)
+] 
+
+\node(c)[dot] at (0,0) {};
+
+\draw[name path=circ, line width=0.5mm] (c) circle (\radfig3a);
+
+\node(c-label) at ($(c)+(225:0.22*\radfig3a)$) {$\  C$};
+
+\coordinate (a) at ($(i) + (0, \radfig3a)$);
+
+\coordinate (b) at ($(i) +(\radfig3a, 0)$);
+
+\coordinate (int) at ($(a)! 0.5!(b)$);
+
+\node(a.label) at ($(a)+(90:0.22*\radfig3a)$) {$\  A$};
+
+\node(b.label) at ($(b)+(0:0.19*\radfig3a)$) {$B$};
+
+\draw[line width=0.3mm] (a) -- (c) node [midway, xshift=-0.12*\radfig3a] (6.label) {$6$} -- (b) ;
+
+\draw[line width=0.3mm] (a) -- (b) node [midway, xshift=0.11*\radfig3a, yshift=0.09*\radfig3a] (x.label) {$x$};
+
+\draw[line width=0.3mm] (c) -- (int) ;
+
+\begin{scope} [rotate=135]
+\draw[line width=0.3mm] (int) rectangle ++(0.22*\radfig3a,0.22*\radfig3a) node[transform shape]{};
+\end{scope}
+
+\begin{scope} [rotate=0]
+\draw[line width=0.3mm] (c) rectangle ++(0.22*\radfig3a,0.22*\radfig3a) node[transform shape]{};
+\end{scope}
+
+\end{tikzpicture}
+

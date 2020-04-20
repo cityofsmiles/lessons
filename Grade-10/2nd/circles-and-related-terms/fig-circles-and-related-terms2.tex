@@ -1,0 +1,32 @@
+%\vspace*{10cm}\hspace*{7cm}
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, 
+dim-label/.style={fill=white, rectangle, inner sep=2pt, outer sep=0pt}, 
+nodot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=0pt}, 
+remember picture, overlay
+]  
+
+
+\def\rad2{2cm}
+
+
+\node(s)[dot] at (0,0) {};
+\node(s-label) at ($(s)+(30:7pt)$) {$S$};
+
+\draw[name path=circ, line width=0.5mm] (s) circle (\rad2); 
+
+\node (t) at (-40:\rad2) [nodot] {}; 
+\node(t-label) at ($(t)+(-40:7pt)$) {$T$};
+
+\node (a) at (90:\rad2) [nodot]{}; 
+\node(a-label) at ($(a)+(90:7pt)$) {$A$};
+
+\node (e) at (-90:\rad2) [nodot]{}; 
+\node(e-label) at ($(e)+(-90:7pt)$) {$E$}; 
+
+\node (m) at (140:\rad2) [nodot]{}; 
+\node(m-label) at ($(m)+(140:7pt)$) {$M$}; 
+
+\draw[line width=0.3mm] (a) -- (e) -- (m) -- (t);  
+
+\end{tikzpicture}
+%\vspace*{-3cm}\hspace*{-5cm}

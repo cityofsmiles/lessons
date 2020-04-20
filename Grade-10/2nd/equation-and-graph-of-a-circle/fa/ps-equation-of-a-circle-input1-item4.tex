@@ -1,0 +1,19 @@
+\begin{tikzpicture}[scale=0.3]
+
+\fill [fill=\drawfill] (3,3) circle (1);
+
+\draw [line width=0.1mm] (-1,-1) grid (7,7);
+ 
+\draw[line width=0.3mm, <->, >={Latex[round]}] (-1.5, 0) -- (7.5, 0);
+
+\draw[line width=0.3mm, <->, >={Latex[round]}] (0, -1.5) -- (0, 7.5);
+
+\draw [black, line width=0.3mm] (3,3) circle (1);
+
+\fill [fill=black] (3,3) circle (4pt);
+
+\node[anchor=south, inner sep=2pt, rotate=0] (x-label) at (7.5,0) {$ x$};  
+
+\node[anchor=west, inner sep=2pt, rotate=0] (y-label) at (0,7.5) {$ y$};  
+
+\end{tikzpicture} 

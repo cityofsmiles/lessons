@@ -1,0 +1,19 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, baseline = (current bounding box.west)]
+
+\node[draw,circle,minimum size=2*\radA, inner sep=0pt, line width=0.5mm, outer sep=0] (circ) at (0,0) {};
+
+\coordinate (a) at ($(circ) + (\radA, 0)$);
+
+\coordinate (b) at ($(circ) + (110:\radA)$);
+
+\coordinate (c) at ($(a) + (0, -\radA)$);
+
+\pic [draw, line width=0.3mm, angle radius=0.4*\radA, "$x$"] {angle=b--a--c};
+
+\draw[line width=0.3mm] (b)--(a);
+
+\draw[line width=0.3mm, <->, >={Latex[round]}] (c)--($(a)!-1!(c) $);
+
+\node(250-label) at ($(circ)+(-120:1.35*\radA)$) {$  250\degree $};
+
+\end{tikzpicture} 

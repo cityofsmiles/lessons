@@ -1,0 +1,37 @@
+
+\begin{tikzpicture}
+
+\coordinate (u) at (0,0); 
+
+\coordinate (d) at ($(u) - (20:\lenA)$); 
+
+\coordinate (v) at ($(u) + (20:\lenA)$); 
+
+\coordinate (o) at ($(u) - (90:1.7*\lenA)$); 
+
+\coordinate (s) at ($(u) + (90:1.7*\lenA)$); 
+
+\node(u-label) at ($(u)-(-40:20pt)$) {$ U$};
+
+\node(d-label) at ($(d)-(20:0.25*\lenA)$) {$ D$};
+
+\node(o-label) at ($(o)-(90:0.25*\lenA)$) {$ O$};
+
+\node(v-label) at ($(v)+(20:0.25*\lenA)$) {$ V$};
+
+\node(s-label) at ($(s)+(90:0.25*\lenA)$) {$ S$}; 
+
+\draw[line width=0.3mm] (u)--(o) node[midway] (tick1) {} --(d)--(v)--(s)--cycle node[midway] (tick2) {} ; 
+
+\tikzset{onetick/.pic={\draw[line width=0.3mm] ($(0,0)+(0,0.1*\lenA)$) -- ($(0,0)-(0,0.1*\lenA)$) ; }}
+
+\pic[rotate=90] at (tick1) [pic type = onetick]; 
+
+\pic[rotate=90] at (tick2) [pic type = onetick]; 
+
+\pic [draw, line width=0.3mm, angle radius=0.2*\lenA] {angle=d--u--o}; 
+
+\pic [draw, line width=0.3mm, angle radius=0.2*\lenA] {angle=v--u--s}; 
+
+\end{tikzpicture} 
+

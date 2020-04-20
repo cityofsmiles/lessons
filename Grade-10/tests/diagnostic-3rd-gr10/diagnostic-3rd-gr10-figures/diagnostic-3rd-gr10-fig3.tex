@@ -1,0 +1,22 @@
+\begin{tikzpicture}[scale=0.28, dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=0pt}, remember picture, overlay]  
+
+\filldraw[fill=black!15!, line width=0.5mm] (0,4) node[dot] (a) {} -- (4,0) node[dot] (b) {} -- (0,-4) node[dot] (n) {} -- (-4,0) node[dot] (m) {} -- cycle; 
+
+\draw[line width=0.3mm, <->, >={Latex[round]}] (-5.5, 0) -- (5.5, 0);
+
+\draw[line width=0.3mm, <->, >={Latex[round]}] (0, -5.5) -- (0,5.5);
+
+\node[anchor=north west, inner sep=3pt, rotate=0] (n-label) at (n) {$\textstyle (0, -n)$}; 
+
+\node[anchor=south west, inner sep=3pt, rotate=0] (b-label) at (b) {$\textstyle B$}; 
+
+\node[anchor=south west, inner sep=3pt, rotate=0] (a-label) at (a) {$\textstyle A$}; 
+
+\node[anchor=south east, inner sep=3pt, rotate=0] (m-label) at (m) {$\textstyle (-m, 0)$}; 
+
+\node[anchor=north, inner sep=3pt, rotate=0] (x-label) at (5.5,0) {$\textstyle x$};  
+
+\node[anchor=east, inner sep=3pt, rotate=0] (y-label) at (0,5.5) {$\textstyle y$};  
+
+
+\end{tikzpicture} 

@@ -1,0 +1,52 @@
+\begin{tikzpicture}[remember picture, overlay] 
+
+\def\len7{1.8*\lenB}
+
+\draw[line width=0.3mm, xshift=0.1*\len7,  yshift=0.2*\len7] (0,0) coordinate (a)  -- (0:\len7) coordinate (r) -- (40:0.8*\len7) coordinate (y) -- cycle; 
+
+\node[anchor=east, inner sep=2pt, rotate=0] (a-label) at (a) {$ A$};
+
+\node[anchor=west, inner sep=2pt, rotate=0] (r-label) at (r) {$ R$};
+
+\node[anchor=south, inner sep=2pt, rotate=0] (y-label) at (y) {$ Y$};
+
+\draw[line width=0.3mm, xshift=1.2*\len7, yshift=0.6*\len7] 
+(0,0) coordinate (x) 
+
+node[anchor=north, inner sep=2pt, rotate=0] (x-label) {$ X$} 
+--
+(40:0.8*\len7) coordinate (z) 
+
+node[anchor=west, inner sep=2pt, rotate=0] (z-label) {$ Z$}  
+--++
+(180:\len7) coordinate (j) 
+
+node[anchor=east, inner sep=2pt, rotate=0] (j-label) {$ J$} 
+
+node[midway] (tick1) {}
+--
+cycle 
+(x) -- (j) node[midway] (tick2) {};  
+
+\pic [draw, line width=0.3mm, angle radius=0.15*\len7] {angle=y--r--a}; 
+
+\pic [draw, line width=0.3mm, angle radius=0.15*\len7] {angle=x--j--z}; 
+
+\coordinate (tick3) at ($(y)!0.5!(r)$) {};
+
+\coordinate (tick4) at ($(a)!0.5!(r)$) {};  
+
+\tikzset{onetick/.pic={\draw[line width=0.3mm] ($(0,0)+(0, 0.08*\len7)$) -- ($(0,0)-(0, 0.08*\len7)$) ; }}
+
+\tikzset{twotick/.pic={\draw[line width=0.3mm] ($(-0.02*\len7, 0)+(0, 0.08*\len7)$) -- ($(-0.02*\len7, 0)-(0, 0.08*\len7)$) ($(0.02*\len7, 0)+(0, 0.08*\len7)$) -- ($(0.02*\len7, 0)-(0, 0.08*\len7)$) ; }}
+
+\pic[rotate=0] at (tick1) [pic type = twotick];   
+
+\pic[rotate=130] at (tick2) [pic type = onetick];   
+
+\pic[rotate=130] at (tick3) [pic type = onetick];   
+
+\pic[rotate=0] at (tick4) [pic type = twotick];   
+
+
+\end{tikzpicture} 

@@ -1,0 +1,30 @@
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-10/posters/king && pdflatex king.tex && termux-open king.pdf
+
+% convert -density 600 king.pdf -quality 100 -verbose king.png 
+%  6600x1440
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-10/posters/king && convert -density 600 king.pdf -crop 734x510 -quality 100 -verbose king%02d.png
+
+\input{../poster-preamble} 
+\usepackage[paperheight=1.7in, paperwidth=11in, margin=1mm]{geometry}
+
+\renewcommand*\rmdefault{pzc} 
+
+\def\framecolor{blue!70!black!70!}
+
+\def\bgpic{../background/nature08.jpg}
+
+
+\begin{document}
+
+\input{../poster-format-landscape} 
+
+%\vspace*{-1ex} 
+
+\centering
+{\fontsize{32}{35}\selectfont {``Intelligence plus character -- that is the goal of true education."
+
+\vspace*{1ex} 
+
+-- Martin Luther King Jr. }}
+
+\end{document}

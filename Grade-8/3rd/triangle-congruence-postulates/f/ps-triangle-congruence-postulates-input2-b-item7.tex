@@ -1,0 +1,43 @@
+\begin{tikzpicture}
+
+\def\len7{\lenB}
+
+\draw[line width=0.3mm] (0,0) coordinate (d)  -- (-55:0.7*\len7) coordinate (e) -- (0:0.7*\len7) coordinate (f) -- cycle; 
+
+\node[anchor=east, inner sep=2pt, rotate=0] (d-label) at (d) {$ D$};
+
+\node[anchor=north, inner sep=2pt, rotate=0] (e-label) at (e) {$ E$};
+
+\node[anchor=west, inner sep=2pt, rotate=0] (f-label) at (f) {$ F$};
+
+\draw[line width=0.3mm, xshift=0.7*\len7, yshift=0.5*\len7, remember picture, overlay]  (0,0) coordinate (l) -- (0:0.7*\len7) coordinate (j) --++ (235:0.7*\len7) coordinate (k) -- cycle; 
+
+\node[anchor=west, inner sep=2pt, rotate=0] (j-label) at (j) {$ J$};
+
+\node[anchor=north, inner sep=2pt, rotate=0] (k-label) at (k) {$ K$};
+
+\node[anchor=east, inner sep=2pt, rotate=0] (l-label) at (l) {$ L$};
+
+\pic [draw, line width=0.3mm, angle radius=0.15*\len7] {angle=e--d--f};
+
+\pic [draw, line width=0.3mm, angle radius=0.15*\len7] {angle=l--j--k};
+
+\pic [draw, line width=0.3mm, angle radius=0.15*\len7] {angle=f--e--d};
+
+\pic [draw, line width=0.3mm, angle radius=0.12*\len7] {angle=f--e--d};
+
+\pic [draw, line width=0.3mm, angle radius=0.15*\len7] {angle=j--k--l};
+
+\pic [draw, line width=0.3mm, angle radius=0.12*\len7] {angle=j--k--l};
+
+\coordinate (tick1) at ($(d)!0.5!(e)$) {};  
+
+\coordinate (tick2) at ($(j)!0.5!(k)$) {};  
+
+\tikzset{onetick/.pic={\draw[line width=0.3mm] ($(0,0)+(0, 0.06*\len7)$) -- ($(0,0)-(0, 0.06*\len7)$) ; }}
+
+\pic[rotate=-55] at (tick1) [pic type = onetick]; 
+
+\pic[rotate=55] at (tick2) [pic type = onetick];   
+
+\end{tikzpicture} 

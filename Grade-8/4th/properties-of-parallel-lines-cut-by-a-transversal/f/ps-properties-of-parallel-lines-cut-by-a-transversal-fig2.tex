@@ -1,0 +1,46 @@
+\begin{center}
+
+\begin{tikzpicture}[remember picture, overlay]  
+
+\def\len1{3.7*\lenA}
+
+\draw[line width=0.3mm, <->, >={Latex[round]}] (0,0) coordinate (a) -- (0:\len1) coordinate (m);  
+
+\draw[line width=0.3mm, <->, >={Latex[round]}, yshift=0.25*\len1] (0,0) coordinate (b) -- (0:\len1) coordinate (n) ;  
+
+\coordinate (int1) at ($(a)!0.4!(m)$); 
+
+\coordinate (int2) at ($(b)!0.6!(n)$); 
+
+\draw[line width=0.3mm, <->, >={Latex[round]}] ($(int1)!-0.6!(int2)$) -- ($(int2)!-0.6!(int1)$); 
+
+\node[anchor=south, inner sep=0.1*\leninnersep, rotate=0] (n-label) at (n) {$ n$}; 
+
+\node[anchor=south, inner sep=0.1*\leninnersep, rotate=0] (m-label) at (m) {$ m$}; 
+
+\node[anchor=north west, inner sep=0.07*\leninnersep, rotate=0] (p-label) at ($(int2)!-0.6!(int1)$) {$ p$}; 
+
+\node[anchor=south, inner sep=0.08*\leninnersep, rotate=0, xshift=-4pt] (1-label) at (int2) {$ 1$};
+
+%4
+\node[anchor=south west, inner sep=0.08*\leninnersep, rotate=0, xshift=0.2*\leninnersep] (4-label) at (int2) {$ 4$};
+
+%2
+\node[anchor=north east, inner sep=0.08*\leninnersep, rotate=0, xshift=-0.2*\leninnersep] (2-label) at (int2) {$ 2$};
+
+%3
+\node[anchor=north, inner sep=0.08*\leninnersep, rotate=0, xshift=4pt] (3-label) at (int2) {$ 3$};
+
+\node[anchor=south, inner sep=0.08*\leninnersep, rotate=0, xshift=-4pt] (5-label) at (int1) {$ 5$};
+
+\node[anchor=south west, inner sep=0.08*\leninnersep, rotate=0, xshift=0.2*\leninnersep] (8-label) at (int1) {$ 8$};
+
+%6
+\node[anchor=north east, inner sep=0.08*\leninnersep, rotate=0, xshift=-0.2*\leninnersep] (6-label) at (int1) {$ 6$};
+
+%7
+\node[anchor=north, inner sep=0.08*\leninnersep, rotate=0, xshift=4pt] (7-label) at (int1) {$ 7$};
+
+\end{tikzpicture} 
+
+\end{center} 

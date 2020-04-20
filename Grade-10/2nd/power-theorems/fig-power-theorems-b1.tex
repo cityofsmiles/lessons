@@ -1,0 +1,44 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, baseline = (current bounding box.west)]
+
+\coordinate (circ) at (0,0); 
+
+\draw[name path=circum, line width=0.5mm] (circ) circle (\radB);
+
+\coordinate (z) at ($(circ) + (170:\radB)$); 
+
+\coordinate (v) at ($(circ) + (275:1.8*\radB)$); 
+
+\coordinate (t) at ($(circ) + (70:\radB)$); 
+
+\draw[line width=0.3mm] (z) -- (v) -- (t) ;
+
+\node(z.label) at ($(z)+(130:0.25*\radB)$) {$ Z$};
+
+\node(t.label) at ($(t)+(80:0.25*\radB)$) {$ T$};
+
+\node(v.label) at ($(v)+(-80:0.25*\radB)$) {$ V$};
+
+
+\path[name path=linezv, line width=0.3mm] (z) -- (v);
+
+\fill[black, name intersections={of=linezv and circum, name=intzv}];
+
+\node(w.label) at ($(intzv-1)+(205:0.25*\radB)$) {$W$};
+
+\node(x-label) at ($(z)!0.5!(intzv-1)+ (0:0.17*\radB)$) {$x$}; 
+
+\node(2x-label) at ($(v)!0.5!(intzv-1) + (190:0.22*\radB)$) {$ 2x$}; 
+
+\path[name path=linetv, line width=0.3mm] (v) -- (t) ;
+
+\fill[black, name intersections={of=linetv and circum, name=inttv}];
+
+\node(h.label) at ($(inttv-1)+(-50:0.22*\radB)$) {$ H$};
+
+\node(5-label) at ($(t)!0.5!(inttv-1) +(0:0.15*\radB)$) {$ 5$}; 
+
+\node(3-label) at ($(v)!0.5!(inttv-1) +(-20:0.17*\radB)$) {$ 3$}; 
+
+
+
+\end{tikzpicture} 

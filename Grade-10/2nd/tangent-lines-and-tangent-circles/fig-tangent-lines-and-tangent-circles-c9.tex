@@ -1,0 +1,25 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, 
+remember picture, overlay, 
+baseline = (current bounding box.south)
+]  
+
+\node[draw,circle,minimum size=2*\myrad,inner sep=0pt, line width=0.5mm, outer sep=0] (o) at (0,0) {};
+
+\node(o-dot)[dot] at (o.center) {};
+
+\coordinate (a) at ($(o.center)+(-90:\myrad) $); 
+
+\coordinate (ext) at ($(a)+(0:2*\myrad) $); 
+
+\node(o-label) at ($(o.center)+(90:0.22*\myrad)$) {$  O$};
+
+\node(5) at ($(o.center)+(250:0.45*\myrad)$) {$  5$};
+
+\node(x) at ($(o.center)+(-20:1.5*\myrad)$) {$x$};
+
+\node(12) at ($(a)+(-10:1.1*\myrad)$) {$  12$};
+
+\draw[line width=0.3mm] (ext) -- (tangent cs:node=o, point={(ext)}, solution=2) -- (o.center) -- cycle; 
+
+\end{tikzpicture}
+

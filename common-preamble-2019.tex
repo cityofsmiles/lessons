@@ -1,0 +1,102 @@
+\usepackage{xcolor}
+\usepackage{anyfontsize}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{amsmath, makecell}
+\usepackage{tabularx} 
+\usepackage{gensymb}
+\usepackage{wasysym} %for checked symbol 
+\usepackage{multirow}
+\usepackage{graphicx, tipa}
+\usepackage{tikz}
+\usetikzlibrary{angles,quotes}
+\usepackage{pgfplots} 
+\usetikzlibrary{calc}
+\pgfplotsset{compat=newest}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{intersections}
+\usetikzlibrary{decorations.pathreplacing}
+\usepackage{flafter}
+%\usepackage{fourier} 
+\usepackage{amsmath,amssymb,cancel,units}
+\usepackage{microtype} % nicer output 
+\usepackage{hfoldsty} % nicer output 
+\usepackage{fixltx2e} 
+\usepackage{mathptmx}
+\usepackage{numprint}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc} 
+\usepackage{stackengine} %to define \pesos 
+\usepackage{lmodern} %scalable font
+\usepackage{booktabs}
+\usepackage{array}
+
+
+\pagenumbering{gobble}
+%\linespread{0.9}
+\newcommand{\vspce}{\vspace{0.75ex}}
+
+\newcommand{\hspce}{\hspace{0.5em}}
+
+\newcommand{\blank}{\underline{\hspace{2em}}}%{\rule{1em}{0.15ex}}
+
+\newcommand{\arc}[1]{{% 
+\setbox9=\hbox{#1}% 
+\ooalign{\resizebox{\wd9}{\height}{\texttoptiebar{\phantom{A}}}\cr#1}}}
+
+
+\newcommand\pesos{\stackengine{-1.4ex}{P}{\stackengine{-1.25ex}{$-$}{$-$}{O}{c}{F}{F}{S}}{O}{c}{F}{T}{S}} 
+
+
+\renewcommand\theadalign{bc} 
+
+\renewcommand\theadfont{\bfseries} 
+
+\renewcommand\theadgape{\Gape[4pt]} 
+
+\renewcommand\cellgape{\Gape[4pt]} 
+
+\pagenumbering{gobble}
+
+\newcolumntype{Y}{>{\centering\arraybackslash}X} %for tabularx
+
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X} %for tabularx
+
+\newcolumntype{Z}{>{\raggedleft\arraybackslash}X} %for tabularx
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}X} %for tabularx
+
+\newcolumntype{A}[1]{>{\raggedright\arraybackslash}p{#1}} %for longtable LEFT
+
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}} %for longtable CENTER
+
+\newcolumntype{B}[1]{>{\raggedleft\arraybackslash}p{#1}} %for longtable RIGHT 
+ 
+\renewcommand{\tabularxcolumn}[1]{>{\small}m{#1}}
+
+\newcolumntype{N}[1]{>{\raggedleft}p{#1}} %for tabular left 
+
+\newcolumntype{M}[1]{>{\raggedright\arraybackslash}p{#1}} %for tabular right 
+
+\newcommand{\myaxis}{xticklabels={}, 
+yticklabels={}, 
+ymin=-10, ymax=10,
+xmin=-10, xmax=10,
+axis lines = center, 
+inner axis line style={Latex-Latex,very thick}, 
+grid=both,
+minor tick num=4, 
+tick align=inside} % grid without labels, origin at the center, 10 units from origin
+
+\newcommand{\axisfive}{xticklabels={}, 
+yticklabels={}, 
+ymin=-5, ymax=5,
+xmin=-5, xmax=5,
+axis lines = center, 
+inner axis line style={Latex-Latex,very thick}, 
+grid=both,
+minor tick num=1, 
+tick align=inside} % grid with labels, origin at the center, 5 units from origin 
+
+\newcommand \redcheck {{\color{red}\checkmark}}
+

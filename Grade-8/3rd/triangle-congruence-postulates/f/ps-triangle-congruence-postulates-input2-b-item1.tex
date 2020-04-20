@@ -1,0 +1,27 @@
+\begin{tikzpicture}
+
+\def\len1{\lenB}
+
+\draw[line width=0.3mm] (0,0) coordinate (u)  -- (40:0.7*\len1) coordinate (d) -- (0:1.2*\len1) coordinate (t) -- (-40:0.7*\len1) coordinate (s) -- cycle -- (t) ;  
+
+\node[anchor=east, inner sep=2pt, rotate=0] (u-label) at (u) {$ U$}; 
+
+\node[anchor=south, inner sep=2pt, rotate=0] (d-label) at (d) {$ D$}; 
+
+\node[anchor=west, inner sep=2pt, rotate=0] (t-label) at (t) {$ T$}; 
+
+\node[anchor=north, inner sep=2pt, rotate=0] (s-label) at (s) {$ S$}; 
+
+\pic [draw, line width=0.3mm, angle radius=0.15*\len1] {angle=d--t--u}; 
+
+\pic [draw, line width=0.3mm, angle radius=0.13*\len1] {angle=u--t--s}; 
+
+\pic [draw, line width=0.3mm, angle radius=0.14*\len1] {angle=s--u--t}; 
+
+\pic [draw, line width=0.3mm, angle radius=0.16*\len1] {angle=s--u--t}; 
+
+\pic [draw, line width=0.3mm, angle radius=0.13*\len1] {angle=t--u--d}; 
+
+\pic [draw, line width=0.3mm, angle radius=0.15*\len1] {angle=t--u--d}; 
+
+\end{tikzpicture} 

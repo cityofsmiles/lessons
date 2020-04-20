@@ -1,0 +1,33 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}]
+
+\node(circ) at (0,0) {};
+
+\draw[line width=0.5mm] (circ) circle (\radA);
+
+\coordinate (d) at ($(circ) + (50:\radA)$); 
+
+\coordinate (c) at ($(circ) + (220:\radA)$);
+
+\coordinate (a) at ($(circ) + (175:\radA)$);
+
+\coordinate (b) at ($(circ) + (-40:\radA)$);
+
+\draw[name path=line1, line width=0.3mm, <->, >={Latex[round]}] ($(a)!-35pt!(b) $) -- ($(b)!-0.66*\radA!(a) $);
+
+\draw[name path=line2, line width=0.3mm, <->, >={Latex[round]}] ($(c)!-35pt!(d) $) -- ($(d)!-0.66*\radA!(c) $);
+
+\fill[black, name intersections={of=line1 and line2, name=point}];
+
+\node[dot] (int) at (point-1){};
+
+\node(t.label) at ($(int)+(90:0.22*\radA)$) {$  T$};
+
+\node(d.label) at ($(d)+(90:0.25*\radA)$) {$  D$};
+
+\node(c.label) at ($(c)+(-100:0.25*\radA)$) {$  C$};
+
+\node(a.label) at ($(a)+(120:0.33*\radA)$) {$  A$};
+
+\node(b.label) at ($(b)+(20:0.33*\radA)$) {$  B$};
+
+\end{tikzpicture} 

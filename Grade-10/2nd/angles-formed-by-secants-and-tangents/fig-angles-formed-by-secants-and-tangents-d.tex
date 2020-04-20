@@ -1,0 +1,30 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}]
+
+\node[draw, circle, minimum size=2*\radB, inner sep=0pt, line width=0.5mm, outer sep=0] (o) at (0,0) {};
+
+\node(o.dot)[dot] at (o.center) {};
+
+\node(o.label) at ($(o)+(270:0.22*\radB)$) {$  O$};
+
+\coordinate (l) at ($(o) + (-\radB, 0)$); 
+
+\node(l.label) at ($(l)+(180:0.18*\radB)$) {$  L$};
+
+\coordinate (p) at ($(o) + (0:2*\radB)$); 
+
+\node(p.label) at ($(p)+(0:0.22*\radB)$) {$  P$};
+
+\node(m.label) at ($(o)+(0:\radB)+(-40:0.3*\radB)$) {$  M$};
+
+\node[dot] (n) at (tangent cs:node=o, point={(p)}, solution=1) {};
+
+\node(n.label) at ($(n)+(60:0.22*\radB)$) {$  N$};
+
+\draw[line width=0.3mm] (l) -- (p) -- (n) -- (o.center) ;
+
+\begin{scope} [rotate=-120]
+\draw[line width=0.3mm] (n) rectangle ++(0.35*\radB,0.35*\radB) node[transform shape]{};
+\end{scope}
+
+\end{tikzpicture} 
+

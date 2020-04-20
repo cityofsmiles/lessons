@@ -1,0 +1,63 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, 
+%dim-label/.style={fill=white, rectangle, inner sep=2pt, outer sep=0pt}, 
+nodot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=0pt}, 
+%remember picture, overlay, 
+baseline = (current bounding box.west)
+] 
+
+\node(y)[dot] at (0,0) {};
+
+\draw[name path=circ, line width=0.5mm] (y) circle (\radfig3a);
+
+\node(y.label) at ($(y)+(90:0.22*\radfig3a)$) {$  Y$};
+
+\coordinate (o) at ($(y) +(50:\radfig3a)$);
+
+\coordinate (e) at ($(y) +(-50:\radfig3a)$);
+
+\coordinate (p) at ($(y) +(130:\radfig3a)$);
+
+\coordinate (t) at ($(y) +(-130:\radfig3a)$);
+
+\coordinate (int1) at ($(o)! 0.5!(e)$);
+
+\coordinate (int2) at ($(p)! 0.5!(t)$);
+
+\node(o.label) at ($(o)+(50:0.22*\radfig3a)$) {$  O$};
+
+\node(e.label) at ($(e)+(-50:0.22*\radfig3a)$) {$  E$};
+
+\node(p.label) at ($(p)+(130:0.22*\radfig3a)$) {$  P$};
+
+\node(t.label) at ($(t)+(230:0.22*\radfig3a)$) {$  T$};
+
+\coordinate (tick1) at ($(y)! 0.5!(int1)$);
+
+\coordinate (tick2) at ($(y)! 0.5!(int2)$);
+
+\draw[ultra thick] ($(tick1)+(0,0.1*\radfig3a)$) -- ($(tick1)-(0,0.1*\radfig3a)$);
+
+\draw[ultra thick] ($(tick2)+(0,0.1*\radfig3a)$) -- ($(tick2)-(0,0.1*\radfig3a)$);
+
+\node(50-label) at ($(e)+(109:0.2*\radfig3a)$) {$  50\degree$};
+
+\node(x.label) at ($(int2)+(150:0.4*\radfig3a)$) {$  x$};
+
+\draw[line width=0.5mm] (int1) -- (int2) ;
+
+\draw[line width=0.5mm] (o) -- (e) ;
+
+\draw[line width=0.5mm] (o) -- (y) -- (e) ;
+
+\draw[line width=0.5mm] (p) -- (t) node [midway, xshift=-0.22*\radfig3a] (r.label) {$  R$};
+
+\begin{scope} [rotate=90]
+\draw[ultra thick] (int1) rectangle ++(0.3,0.3) node[transform shape]{};
+\end{scope}
+
+\begin{scope} [rotate=0]
+\draw[ultra thick] (int2) rectangle ++(0.3,0.3) node[transform shape]{};
+\end{scope}
+
+\end{tikzpicture}
+

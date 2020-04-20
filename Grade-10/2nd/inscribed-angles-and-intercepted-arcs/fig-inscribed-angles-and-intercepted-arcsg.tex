@@ -1,0 +1,24 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, 
+dim-label/.style={fill=white, rectangle, inner sep=2pt, outer sep=0pt}, 
+nodot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=0pt}, 
+%remember picture, overlay
+baseline = (current bounding box.west)
+]  
+
+\coordinate (p) at (0,0); 
+
+\draw[line width=0.5mm] (p) node[circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=0pt] {} circle [radius=\rad2]; 
+
+\node (a) at (80:\rad2) [nodot] {}; 
+
+\node (b) at (190:\rad2) [nodot] {}; 
+
+\node (c) at (-70:\rad2) [nodot] {}; 
+
+\draw[line width=0.3mm] (a)--(b)--(c); 
+
+\node(measure) at ($(b)+(5:0.9*\rad2)$) {${(2x+1)\degree}$};
+ 
+\node(angle) at ($(p)+(0:1.4*\rad2)$) {${150\degree}$};
+ 
+\end{tikzpicture}

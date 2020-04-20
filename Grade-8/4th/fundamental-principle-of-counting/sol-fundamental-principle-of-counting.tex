@@ -1,0 +1,132 @@
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-8/4th/fundamental-principle-of-counting && count-checks sol-fundamental-principle-of-counting.tex && pdflatex sol-fundamental-principle-of-counting.tex && divide 1x2 sol-fundamental-principle-of-counting.pdf  
+
+
+\documentclass[handout]{beamer} 
+
+\usepackage{pgfpages} 
+\mode<handout>{%
+\pgfpagesuselayout{4 on 1}[
+%letterpaper, 
+legalpaper, %landscape, 
+border shrink=1mm] 
+%\setbeameroption{show notes} 
+}
+
+\input{/storage/emulated/0/Documents/documents/latex/1920/common-preamble-2019} 
+%\usetikzlibrary{shadows, trees}
+
+%\newcommand{\vertadjust}{\vspace*{-1.5in}} % for letterpaper
+%\newcommand{\vertadjustb}{\vspace*{-1.5in}} % for letterpaper
+\newcommand{\vertadjust}{\vspace*{-2.5in}} % for legalpaper
+\newcommand{\vertadjustb}{\vspace*{-2.4in}} % for legalpaper
+
+\newsavebox{\treeone}
+\sbox{\treeone}{
+$
+\begin{array}{cccccc}
+\redcheck & 
+\redcheck & 
+\redcheck & 
+\redcheck &  & 
+\redcheck \\ 
+ & \textbf{Style} & & \textbf{Color} & & \textbf{Outcomes} \\
+ &  && White &&  Wall, White\\
+ &  && Black &&  Wall, Black\\
+ & Wall && Red && Wall, Red\\
+ &  && Blue && Wall, Blue\\
+ &  && Orange && Wall, Orange\\
+ &  && White && Desk, White\\
+ &  && Black && Desk, Black\\
+ & Desk && Red && Desk, Red\\
+ &  && Blue && Desk, Blue\\
+ &  && Orange && Desk, Orange\\
+\end{array} 
+$
+  }
+
+\newsavebox{\treetwo}
+\sbox{\treetwo}{
+$
+\begin{array}{cccccc}
+\redcheck 	&	
+\redcheck 	& 
+\redcheck  &	
+\redcheck 	&&	
+\redcheck 	\\
+	&	\textbf{Rank} 	&&	\textbf{Suit} 	&&	\textbf{Outcomes } 	\\
+	&		&&	H	&&	Q, H	\\
+	&	Q	&&	D	&&	Q, D	\\
+	&		&&	C	&&	Q, C	\\
+	&		&&	S	&&	Q, S	\\
+	&		&&	H	&&	K, H	\\
+	&	K	&&	D	&&	K, D	\\
+	&		&&	C	&&	K, C	\\
+	&		&&	S	&&	K, S	\\
+
+\end{array} 
+$
+  }
+  
+\newsavebox{\treet}
+\sbox{\treet}{
+$
+\begin{array}{cccccccc}
+\redcheck 	&	\redcheck 	& \redcheck &	\redcheck 	& \redcheck &	\redcheck 	&&	\redcheck 	\\
+	&	\textbf{1st Toss} 	&&	\textbf{2nd Toss} 	&&	\textbf{3rd Toss } 	&&	\textbf{Outcomes } 	\\
+	&		&&		&&	H	&&	HHH	\\
+	&		&&	H	&&	T	&&	HHT	\\
+	&		&&		&&	H	&&	HTH	\\
+	&	H	&&	T	&&	T	&&	HTT	\\
+	&		&&		&&	H	&&	THH	\\
+	&	T	&&	H	&&	T	&&	THT	\\
+	&		&&		&&	H	&&	TTH	\\
+	&		&&	T	&&	T	&&	TTT	\\
+
+\end{array} 
+$
+  }
+  
+\newsavebox{\treethree}
+\sbox{\treethree}{
+$
+\begin{array}{cccccccc}
+\redcheck 	&	\redcheck 	& \redcheck &	\redcheck 	& \redcheck &	\redcheck 	&&	\redcheck 	\\
+	&	\textbf{1st Toss} 	&&	\textbf{2nd Toss} 	&&	\textbf{3rd Toss } 	&&	\textbf{Outcomes } 	\\
+	\tikz[remember picture]{ \node[anchor=base,inner sep=0pt] (p) {}; } &	\tikz[remember picture, overlay]{ \node[anchor=base,inner sep=0pt] (h) {H}; \draw[line width=1pt] (p) -- (h);} 	&&	\tikz[remember picture, overlay]{ \node[anchor=base,inner sep=0pt] (hh) {H}; \draw[line width=1pt] (h) -- (hh); } 	&&	\tikz[remember picture, overlay]{ \node[anchor=base,inner sep=0pt] (hhh) {H};  \draw[line width=1pt] (hh) -- (hhh); } 	&&	HHH	\\
+	&		&&	 	& &	 \tikz[remember picture, overlay]{ \node[anchor=base,inner sep=0pt] (hht) {T};  \draw[line width=1pt] (hh) -- (hht); } 	&  &	HHT	\\
+	&		&&	\tikz[remember picture, overlay]{ \node[anchor=base,inner sep=0pt] (ht) {T}; \draw[line width=1pt] (h) -- (ht); } 	&&	\tikz[remember picture, overlay]{ \node[anchor=base,inner sep=0pt] (hth) {H};  \draw[line width=1pt] (ht) -- (hth); } 	&&	HTH	\\
+	&		&&		&&	\tikz[remember picture, overlay]{ \node[anchor=base,inner sep=0pt] (htt) {T};  \draw[line width=1pt] (ht) -- (htt); } 	&&	HTT	\\
+	&	\tikz[remember picture, overlay]{ \node[anchor=base,inner sep=0pt] (t) {T}; \draw[line width=1pt] (p) -- (t);} 	&&	\tikz[remember picture, overlay]{ \node[anchor=base,inner sep=0pt] (th) {H}; \draw[line width=1pt] (t) -- (th); } 		&&		\tikz[remember picture, overlay]{ \node[anchor=base,inner sep=0pt] (thh) {H};  \draw[line width=1pt] (th) -- (thh); }	&&	THH	\\
+	&		&&		&&		\tikz[remember picture, overlay]{ \node[anchor=base,inner sep=0pt] (tht) {T};  \draw[line width=1pt] (th) -- (tht); }	&&	THT	\\
+	&		&&	\tikz[remember picture, overlay]{ \node[anchor=base,inner sep=0pt] (tt) {T}; \draw[line width=1pt] (t) -- (tt); }	&&	\tikz[remember picture, overlay]{ \node[anchor=base,inner sep=0pt] (tth) {H}; \draw[line width=1pt] (tt) -- (tth); }	&&	TTH	\\
+	&		&&		&&	\tikz[remember picture, overlay]{ \node[anchor=base,inner sep=0pt] (ttt) {T}; \draw[line width=1pt] (tt) -- (ttt); }	&&	TTT	\\
+
+\end{array} 
+$
+  }
+
+\begin{document} 
+\vertadjust
+\begin{frame} %1
+\input{sol-fundamental-principle-of-counting-input1} 
+\end{frame}
+
+\vertadjust
+\begin{frame} %2
+\input{sol-fundamental-principle-of-counting-input2} 
+\end{frame}
+
+%\vspace*{-2.7in} %legalpaper
+\vertadjustb
+\begin{frame} %3
+\input{sol-fundamental-principle-of-counting-input1} 
+\end{frame}
+
+%\vspace*{-2.7in} %legalpaper
+\vertadjustb
+\begin{frame} %4
+\input{sol-fundamental-principle-of-counting-input2} 
+\end{frame}
+
+\end{document}
+

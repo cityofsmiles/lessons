@@ -1,0 +1,33 @@
+\begin{tikzpicture}
+
+\def\len6{1.1*\lenB}
+
+\draw[line width=0.3mm] (0,0) coordinate (v)  -- (180:0.5*\len6) coordinate (w) -- (90:\len6) coordinate (x) --++ (0:0.5*\len6) coordinate (k) -- cycle -- (x) ; 
+
+\node[anchor=north, inner sep=2pt, rotate=0] (v-label) at (v) {$ V$};
+
+\node[anchor=north east, inner sep=2pt, rotate=0] (w-label) at (w) {$ W$};
+
+\node[anchor=south, inner sep=2pt, rotate=0] (x-label) at (x) {$ X$};
+
+\node[anchor=south west, inner sep=2pt, rotate=0] (k-label) at (k) {$ K$};
+
+\begin{scope} [rotate=90]
+\draw[line width=0.3mm] (v) rectangle ++(0.13*\len6,0.13*\len6) node[transform shape]{};
+\end{scope} 
+
+\begin{scope} [rotate=-90]
+\draw[line width=0.3mm] (x) rectangle ++(0.13*\len6,0.13*\len6) node[transform shape]{};
+\end{scope} 
+
+\coordinate (tick1) at ($(w)!0.5!(v)$) {};  
+
+\coordinate (tick2) at ($(x)!0.5!(k)$) {};  
+
+\tikzset{onetick/.pic={\draw[line width=0.3mm] ($(0,0)+(0, 0.06*\len6)$) -- ($(0,0)-(0, 0.06*\len6)$) ; }}
+
+\pic[rotate=0] at (tick1) [pic type = onetick];
+
+\pic[rotate=0] at (tick2) [pic type = onetick];   
+
+\end{tikzpicture} 

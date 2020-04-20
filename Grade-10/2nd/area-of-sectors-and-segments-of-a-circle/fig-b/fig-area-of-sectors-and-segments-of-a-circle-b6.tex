@@ -1,0 +1,17 @@
+\begin{tikzpicture}[baseline = (current bounding box.west)][dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, dim-label/.style={fill=white, rectangle, inner sep=2pt, outer sep=0pt}%, remember picture, overlay
+]  
+
+\coordinate (center) at (0,0);
+
+\filldraw[fill=\figurefill, name path=circ, line width=0.3mm] (center) circle (\radB); 
+
+\filldraw[fill=white, line width=0.3mm] (center) circle (0.65*\radB); 
+
+\node[anchor=west, inner sep=2pt, rotate=0] (5cm.label) at ($(center)!0.35!(250:\radB)$) {\tiny $ \text{5 cm}$};
+
+\node[anchor=west, inner sep=2pt, rotate=0] (3cm.label) at ($(center)!0.87!(250:\radB)$) {\tiny $ \text{3 cm}$};
+
+\draw[line width=0.3mm] (25:0.65*\radB) -- (center) --(250:\radB); 
+
+\end{tikzpicture} 
+

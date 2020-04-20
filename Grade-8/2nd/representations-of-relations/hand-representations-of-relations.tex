@@ -1,0 +1,63 @@
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-8/2nd/representations-of-relations/ && pdflatex hand-representations-of-relations.tex && divide 2x2 hand-representations-of-relations.pdf
+
+
+\documentclass[handout]{beamer} 
+
+\usepackage{pgfpages} 
+\mode<handout>{%
+\pgfpagesuselayout{4 on 1}[%letterpaper, 
+legalpaper,% landscape, 
+border shrink=1mm] 
+}
+
+\input{/storage/emulated/0/Documents/documents/latex/1920/common-preamble-2019}
+
+%\newcommand{\vertadjust}{\vspace*{-1.5in}} % for letterpaper
+%\newcommand{\vertadjustb}{\vspace*{-1.5in}} % for letterpaper
+\newcommand{\vertadjust}{\vspace*{-2.5in}} % for legalpaper
+\newcommand{\vertadjustb}{\vspace*{-2.5in}} % for legalpaper
+
+
+\begin{document} 
+
+% frame 1
+\vertadjust
+\begin{frame} 
+\input{vs-representations-of-relations-input} 
+\input{ps-representations-of-relations-input1}
+\input{ps-representations-of-relations-input2}
+\input{ps-representations-of-relations-input3}
+\end{frame}
+
+% frame 2
+\vertadjust
+\begin{frame} 
+\input{vs-representations-of-relations-input}% \\
+\input{ps-representations-of-relations-input1}
+\input{ps-representations-of-relations-input2}
+\input{ps-representations-of-relations-input3}
+\end{frame}
+
+% frame 3
+\vertadjustb
+\begin{frame} 
+\input{vs-representations-of-relations-input} 
+\input{ps-representations-of-relations-input1}
+\input{ps-representations-of-relations-input2}
+\input{ps-representations-of-relations-input3}
+\end{frame}
+
+% frame 4
+\vertadjustb
+\begin{frame} 
+\input{vs-representations-of-relations-input}
+\input{ps-representations-of-relations-input1}
+\input{ps-representations-of-relations-input2}
+%\input{hand-representations-of-relations-input2}
+\vspace*{1ex}
+\input{ps-representations-of-relations-input3}
+
+\end{frame}
+
+\end{document}
+

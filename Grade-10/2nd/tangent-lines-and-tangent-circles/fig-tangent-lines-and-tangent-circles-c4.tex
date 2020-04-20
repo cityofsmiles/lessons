@@ -1,0 +1,28 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}]
+
+\node[draw,circle,minimum size=2*\myrad,inner sep=0pt, line width=0.5mm, outer sep=0] (c1) at (0,0) {};
+
+\node(o-dot)[dot] at (o.center) {};
+
+\coordinate (a) at ($(o.center)+(90:\myrad) $); 
+
+\coordinate (b) at ($(o.center)+(-90:\myrad) $); 
+
+\coordinate (c) at ($(o.center)+(180:\myrad) $); 
+
+\coordinate (ext) at ($(b)+(180:2*\myrad) $); 
+
+\node(o-label) at ($(o.center)+(20:0.23*\myrad)$) {$  O$};
+
+\node(x-label) at ($(a)+(-112:0.38*\myrad)$) {$  x$};
+
+\node(y.label) at ($(b)+(150:0.48*\myrad)$) {\tiny $y$};
+
+\node(45-label) at ($(ext)+(20:0.6*\myrad)$) {$  45\degree$};
+
+\draw[line width=0.3mm] (b) -- (c) -- (ext) -- (b) -- (a) ; 
+
+\draw[line width=0.3mm] (a) -- (c) ; 
+
+\end{tikzpicture}
+

@@ -1,0 +1,40 @@
+\begin{tikzpicture}
+
+\def\len3{1.4*\lenB}
+
+\draw[line width=0.3mm] (0,0) coordinate (a) -- (10:0.6*\len3) coordinate (k) -- (95:0.8*\len3) coordinate (t) -- (180:0.6*\len3) coordinate (c) -- cycle --  (t);  
+
+\node[anchor=north, inner sep=2pt, rotate=0] (a-label) at (a) {$ A$};
+
+\node[anchor=south, inner sep=2pt, rotate=0] (t-label) at (t) {$ T$}; 
+
+\node[anchor=east, inner sep=2pt, rotate=0] (c-label) at (c) {$ C$};
+
+\node[anchor=west, inner sep=2pt, rotate=0] (k-label) at (k) {$ K$};
+
+\coordinate (tick1) at ($(a)!0.5!(c)$) {};  
+
+\tikzset{twotick/.pic={\draw[line width=0.3mm] ($(-0.02*\lentick,0)+(0,0.06*\lentick)$) -- ($(-0.02*\lentick,0)-(0,0.06*\lentick)$) ($(0.02*\lentick,0)+(0,0.06*\lentick)$) -- ($(0.02*\lentick,0)-(0,0.06*\lentick)$) ; }}  
+  
+
+\tikzset{threetick/.pic={\draw[line width=0.3mm] ($(-0.03*\len3,0)+(0,0.06*\len3)$) -- ($(-0.03*\len3,0)-(0,0.06*\len3)$) ($(0,0)+(0,0.06*\len3)$) -- ($(0,0)-(0,0.06*\len3)$)  ($(0.03*\len3,0)+(0,0.06*\len3)$) -- ($(0.03*\len3,0)-(0,0.06*\len3)$) ; }}
+
+\pic[rotate=0] at (tick1) [pic type = twotick];  
+
+\coordinate (tick2) at ($(t)!0.5!(c)$) {};
+
+\coordinate (tick3) at ($(a)!0.5!(k)$) {};  
+
+\coordinate (tick4) at ($(t)!0.5!(k)$) {};
+
+\tikzset{onetick/.pic={\draw[line width=0.3mm] ($(0,0)+(0,0.06*\len3)$) -- ($(0,0)-(0,0.06*\len3)$) ; }}
+
+%\pic[rotate=60] at (tick2) [pic type = onetick];
+
+\pic[rotate=55] at (tick2) [pic type = threetick];
+
+\pic[rotate=10] at (tick3) [pic type = twotick];
+
+\pic[rotate=-45] at (tick4) [pic type = threetick];  
+
+\end{tikzpicture} 

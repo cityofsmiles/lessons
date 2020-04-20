@@ -1,0 +1,29 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, baseline = (current bounding box.west)]
+
+
+
+\node[draw, circle, minimum size=2*\radA, inner sep=0pt, line width=0.5mm, outer sep=0] (circ) at (0,0) {};
+
+\node[dot] (circ.dot)  at (circ) {}; 
+
+\coordinate (a) at ($(circ) + (45:\radA)$); 
+
+\coordinate (b) at ($(circ) - (45:\radA)$); 
+
+\coordinate (c) at ($(circ) + (-45:\radA)$); 
+
+\draw[line width=0.3mm] (a) -- (b) (b) -- (c) (c) -- (a) ;
+
+\node[anchor=south, inner sep=2pt] (10cm1-label) at ($(b)!0.5!(c)$) {$ \text{10 cm}$};  
+
+\filldraw[fill=\figurefill, line width=0.3mm]  (45:\radA) arc (45:-45:\radA) -- cycle;
+
+\filldraw[fill=\figurefill, line width=0.3mm]  (-45:\radA) arc (-45:-135:\radA) -- cycle;
+
+\node[anchor=south, inner sep=2pt, rotate=90] (10cm2-label) at ($(a)!0.5!(c)$) {$ \text{10 cm}$};  
+
+\begin{scope} [rotate=90]
+\draw[line width=0.3mm] (c) rectangle ++(0.15*\radA,0.15*\radA) node[transform shape]{};
+\end{scope} 
+
+\end{tikzpicture}  

@@ -1,0 +1,33 @@
+%\vspace*{10cm}\hspace*{7cm}
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, dim-label/.style={fill=white, rectangle, inner sep=2pt, outer sep=0pt}, remember picture, overlay, 
+nodot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=0pt}
+]  
+
+
+\def\rad1{1cm}
+
+
+\node(v)[dot] at (0,0) {};
+\node(v-label) at ($(v)+(180:7pt)$) {$V$};
+
+\draw[name path=circ, line width=0.5mm] (v) circle (\rad1); 
+
+\node (a) at (0:\rad1) [nodot] {}; 
+\node(a-label) at ($(a)+(0:7pt)$) {$A$};
+
+\node (o) at (90:\rad1) [nodot]{}; 
+\node(o-label) at ($(o)+(90:7pt)$) {$O$};
+
+\node (l) at (-90:\rad1) [nodot]{}; 
+\node(l-label) at ($(l)+(-90:7pt)$) {$L$}; 
+
+\node (c) at (65:\rad1) [nodot]{}; 
+\node(c-label) at ($(c)+(65:7pt)$) {$C$}; 
+
+\node (s) at (245:\rad1) [nodot]{}; 
+\node(s-label) at ($(s)+(245:7pt)$) {$S$}; 
+
+\draw[line width=0.3mm] (o) -- (l) (c) -- (s) (a) -- (v);  
+
+\end{tikzpicture}
+%\vspace*{-3cm}\hspace*{-5cm}

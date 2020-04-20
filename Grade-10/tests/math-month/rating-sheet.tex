@@ -1,0 +1,61 @@
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-10/tests/math-month/ && pdflatex rating-sheet.tex && termux-open rating-sheet.pdf
+
+\documentclass[11pt]{article}
+\usepackage[legalpaper, landscape, left=1.5in, right=0.5in, top=0.5in, bottom=0.5in]{geometry}
+
+\input{/storage/emulated/0/Documents/documents/latex/1920/common-preamble-2019} 
+
+\newcolumntype{N}[1]{>{\hsize=#1\hsize\centering\arraybackslash}X}%
+
+
+\pagenumbering{gobble}
+
+\begin{document} 
+%\scalebox{1.4}{
+\begin{center}
+\textbf{\fontsize{16}{19}\selectfont {Rating Sheet for Mathinee Idol Talent Portion}}
+\end{center} %}
+
+\begin{center}
+\scalebox{1.3}{
+\noindent\begin{minipage}{\textwidth}
+\begin{tabular}{|l*{13}{|c}|}
+%
+%{\begin{tabularx}{\textwidth}{*{14}{|Y}|}
+%{\begin{tabularx}{\textwidth}{*{14}{N[1]}}
+
+%|>{\centering\setlength\hsize{3\hsize}}X|>{\centering\setlength\hsize{2\hsize}}X|*{12}{>{\centering\setlength\hsize{0.75\hsize}}X}
+
+\hline 
+\multirow[c]{2}{*}{\thead{Category}} & \multirow[c]{2}{*}{\thead{Percentage}} & \multicolumn{12}{|c|}{\thead{Candidates}} \\
+\cline{3-14}
+& & \thead{1} & \thead{2} & \thead{3} & \thead{4} & \thead{5} & \thead{6} & \thead{7} & \thead{8} & \thead{9} & \thead{10} & \thead{11} & \thead{12} \\
+\hline 
+1. Showmanship & 25\% & & & & & & & & & & & & \\
+\hline 
+2. Sound Quality (for singing) or Fluency of Choreography (for dancing) & 25\% & & & & & & & & & & & & \\
+\hline 
+3. Stage Presence (Appearance, Eye Contact, and Poise) & 25\% & & & & & & & & & & & & \\
+\hline 
+4. Confidence (Personality) & 25\% & & & & & & & & & & & & \\
+\hline 
+Total Score & 100\% & & & & & & & & & & & & \\
+\hline 
+Rank & & & & & & & & & & & & & \\
+\hline 
+\end{tabular} 
+%\end{tabularx}}
+\end{minipage}}
+\end{center} 
+
+\vspace*{2ex}
+
+\begin{flushright}
+\begin{center}
+\underline{\hspace{6cm}} \\
+Judge's Name and Signature 
+\end{center} 
+\end{flushright} 
+\end{document} 
+
+ 

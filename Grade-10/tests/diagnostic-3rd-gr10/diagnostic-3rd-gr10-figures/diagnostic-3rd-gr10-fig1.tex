@@ -1,0 +1,19 @@
+\begin{tikzpicture}[scale=0.3, dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=0pt}, 
+remember picture, overlay ]  
+
+\draw[line width=0.3mm, <->, >={Latex[round]}] (-1.5, 0) -- (9.5, 0);
+
+\draw[line width=0.3mm, <->, >={Latex[round]}] (0, -1.5) -- (0,5.5);
+
+\draw[line width=0.5mm] (0,0) node[dot] (s) {} -- (6,0) node[dot] (r) {} -- (9,5) node[dot] (q) {} -- (3,5) node[dot] (p) {} -- cycle; 
+
+\node[anchor=north east, inner sep=5pt, rotate=0] (s-label) at (s) {$\textstyle S(0, 0)$}; 
+
+\node[anchor=north, inner sep=5pt, rotate=0] (r-label) at (r) {$\textstyle R(b, 0)$}; 
+
+\node[anchor=south west, inner sep=5pt, rotate=0] (q-label) at (q) {$\textstyle Q$}; 
+
+\node[anchor=south, inner sep=5pt, rotate=0] (p-label) at (p) {$\textstyle P(a, c)$}; 
+
+
+\end{tikzpicture} 

@@ -1,0 +1,11 @@
+\begin{tikzpicture}
+
+\def\len5{\lenB}
+
+\draw[line width=0.3mm] (0,0) coordinate (a)  -- (0:\len5) coordinate (b) --++ (105:0.8*\len5) coordinate (c) -- (105:0.8*\len5) coordinate (d) -- cycle; 
+
+\node[anchor=south east, inner sep=1pt, rotate=0, xshift=-0.2em, yshift=0pt] (b-label) at (b) {$ (3x+4)\degree $}; 
+
+\node[anchor=south west, inner sep=1pt, rotate=0, xshift=-0.1em, yshift=0pt] (a-label) at (a) {$ (4x+1)\degree $}; 
+
+\end{tikzpicture} 

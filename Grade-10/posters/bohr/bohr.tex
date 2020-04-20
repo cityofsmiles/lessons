@@ -1,0 +1,34 @@
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-10/posters/bohr && pdflatex bohr.tex && termux-open bohr.pdf
+
+% convert -density 600 bohr.pdf -quality 100 -verbose bohr.png 
+%  5100x6600
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-10/posters/bohr && convert -density 600 bohr.pdf -crop 1700x1320 -quality 100 -verbose bohr%02d.png
+
+\input{../poster-preamble} 
+\usepackage[letterpaper, margin=1mm]{geometry}
+
+\renewcommand*\rmdefault{pzc} 
+
+\definecolor{gold(metallic)}{rgb}{0.83, 0.69, 0.22}
+
+\def\framecolor{gold(metallic)}
+
+\def\bgpic{../background/bohr-colored.jpg}
+
+
+\begin{document}
+
+\input{../poster-format-portrait} 
+
+%\vspace*{-1.5ex} 
+\vfill
+
+\centering
+{\fontsize{30}{32}\selectfont {\color{white} Niels Henrik David Bohr}} \\
+
+{\fontsize{20}{12}\selectfont {\color{white} (October 7, 1885 -- November 18, 1962)  
+}}
+
+\vspace*{0.5in}
+
+\end{document}

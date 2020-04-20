@@ -1,0 +1,13 @@
+\begin{tikzpicture}
+
+\def\len3{\lenA}
+
+\draw[line width=0.3mm] (0,0) coordinate (g)  -- (85:0.7*\len3) coordinate (h) node[midway, anchor=east, inner sep=0.07*\leninnersep, rotate=0] (5) {$ 5$} -- (0:\len3) coordinate (i) node[midway, anchor=south west, inner sep=0.07*\leninnersep, rotate=0] (13) {$ 13$} -- cycle node[midway, anchor=north, inner sep=0.07*\leninnersep, rotate=0] (9) {$ 9$};  
+
+\node[anchor=south, inner sep=0.07*\leninnersep, rotate=0] (h-label) at (h) {$ H$}; 
+
+\node[anchor=east, inner sep=0.07*\leninnersep, rotate=0] (g-label) at (g) {$ G$}; 
+
+\node[anchor=west, inner sep=0.07*\leninnersep, rotate=0] (i-label) at (i) {$ I$};
+
+\end{tikzpicture} 

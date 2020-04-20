@@ -1,0 +1,31 @@
+\def\radA{0.8cm}
+\def\radB{1cm}
+
+\begin{tikzpicture}[remember picture, %overlay,  
+%baseline = (current bounding box.south)
+]  
+
+\coordinate (a) at (0,0); 
+
+\draw[line width=0.5mm] (a) node[circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt] {} circle [radius=\radA];
+
+\node(a-label) at ($(a)+(180:0.27*\radA)$) {$  A$};
+
+\node (b) at ($(a)+(0:\radA+\radB)$) {};
+
+\draw[line width=0.5mm] (b) node[circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt] {} circle [radius=\radB];
+
+\node(b-label) at ($(b)+(180:0.27*\radA)$) {$  B$}; 
+
+\node (int) at ($(a)+(0:\radA)$) {};
+
+\node (c) at ($(int)+(90:0.7*\radA+0.7*\radB)$) {};
+
+\node (d) at ($(int)+(-90:0.7*\radA+0.7*\radB)$) {};
+
+\node (l) at ($(c)+(0:0.1*\radA)$) {$l$};
+
+\draw[line width=0.3mm, <->, >={Latex[round]}] (c)--(d); 
+
+\end{tikzpicture}
+

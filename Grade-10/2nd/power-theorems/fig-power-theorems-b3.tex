@@ -1,0 +1,32 @@
+\begin{tikzpicture}[dot/.style={circle, fill=black, inner sep=0pt, outer sep=0pt, minimum size=3pt}, baseline = (current bounding box.west)]
+
+\node[draw,circle,minimum size=2*\radB,inner sep=0pt, line width=0.5mm, outer sep=0] (circ) at (0,0) {};
+
+\coordinate (g) at ($(circ) + (-80:\radB)$); 
+
+\coordinate (n) at ($(circ) + (0:\radB)$); 
+
+\coordinate (o) at ($(n)!-1!(g)$); 
+
+\coordinate (s) at (tangent cs:node=circ, point={(o)}, solution=1);  
+
+\draw[name path=line1, line width=0.3mm] (g) --(n) node[midway] (tick1) {} -- (o) node[midway] (tick2) {} -- (s) ;
+
+\node(g.label) at ($(g)+(-90:0.25*\radB)$) {$ G$};
+
+\node(s.label) at ($(s)+(90:0.25*\radB)$) {$ S$};
+
+\node(o.label) at ($(o)+(30:0.25*\radB)$) {$ O$};
+
+\tikzset{onetick/.pic={\draw[line width=0.3mm] ($(0,0)+(0,0.1*\radB)$) -- ($(0,0)-(0,0.1*\radB)$) ; }}
+
+\pic[rotate=50] at (tick1) [pic type = onetick];  
+
+\pic[rotate=50] at (tick2) [pic type = onetick];  
+
+\node(x.label) at ($(tick1)+(90:0.28*\radB)$) {$ x$};
+
+\node(10-label) at ($(s)!0.5!(o) +(90:0.25*\radB)$) {$ 10$}; 
+
+\end{tikzpicture} 
+

@@ -1,0 +1,31 @@
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-10/posters/confucius && pdflatex confucius.tex && termux-open confucius.pdf
+
+% convert -density 600 confucius.pdf -quality 100 -verbose confucius.png 
+%  2538x6600
+% cd /storage/emulated/0/Documents/documents/latex/1920/Grade-10/posters/confucius && convert -density 600 confucius.pdf -crop 1269x1320 -quality 100 -verbose confucius%02d.png
+
+\input{../poster-preamble} 
+\usepackage[paperheight=11in, paperwidth=4.23in, margin=1mm]{geometry}
+
+\usepackage{chancery} 
+
+\def\framecolor{red!70!black!70!}
+
+\def\bordercolor{blue!20!black!90!}
+
+\def\bgpic{/storage/emulated/0/Tasker/Wall/pic235.jpg}
+
+
+\begin{document}
+
+\input{../poster-format-landscape-long} 
+
+\centering
+\parbox{3.8in}{\centering\vspace*{0.2in}
+\noindent{\fontsize{45}{54}\selectfont {\hspace*{-0.1em}``By three methods we may learn wisdom: first, by reflection, which is the noblest; second, by imitation, which is the easiest; and third by experience, which is the bitterest." 
+
+\vspace*{1ex} 
+
+-- Confucius }}
+}
+\end{document}
